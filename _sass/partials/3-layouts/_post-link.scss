@@ -1,0 +1,31 @@
+/*
+ * Link post format
+ */
+
+.post-format--link {
+	position: relative;
+}
+
+.post-link--permalink {
+	@extend %link-icon;
+	margin: .75em .5em 0 0;
+	float: left;
+}
+
+
+%link-icon {
+	background-color: $font-color;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: block;
+	text-indent: -999em;
+	width: 24px;
+	height: 24px;
+	@include mask('../img/link-icon.svg', cover, 50%, 50%);
+	transition: all 200ms ease-in-out;
+
+	&:hover {
+		background-color: $accent-color;
+	}
+}

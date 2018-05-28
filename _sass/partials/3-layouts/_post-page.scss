@@ -1,0 +1,46 @@
+/*
+ * Single post layout
+ */
+
+.post-page .post {
+	border-bottom: 1px solid tint($light-background, 70%);
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+
+    .post-date {
+        color: tint($gray, 10%);
+        font-size: .75em;
+        margin-left: .5em;
+    }
+}
+
+.post-page .share {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	padding-left: 0;
+
+	li {
+		margin-left: .5em;
+		margin-right: .5em;
+	}
+}
+
+.share-icon--facebook {
+	@extend %round-icon;
+	@include mask('../img/facebook-icon.svg', cover, 50%, 50%);
+
+	&:hover {
+		background-color: $facebook;
+	}
+}
+.share-icon--twitter {
+	@extend %round-icon;
+	@include mask('../img/twitter-icon.svg', cover, 50%, 50%);
+
+	&:hover {
+		background-color: $twitter;
+	}
+}

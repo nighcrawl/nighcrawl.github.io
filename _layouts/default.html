@@ -1,28 +1,14 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-
-			{{ content }}
-
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:{{ site.email }}">email</a></li>
-	        		<li><a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<!doctype html>
+<html class="no-js" lang="{{ page.lang | default: site.lang | default: "fr" }}">
+	{% include head.html %}
+	<body class="{{ page.body_class  | default: layout.body_class }}">
+		<div class="wrapper">
+			{% include header.html %}
+			<div class="main-content">
+				{{ content }}
+			</div>
+			{% include footer.html %}
+		</div>
+		{% include foot.html %}
+	</body>
+</html>

@@ -1,0 +1,25 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+    <lastmod>{% if post.lastmod == null %}{{ post.date | date_to_xmlschema }}{% else %}{{ post.lastmod | date_to_xmlschema }}{% endif %}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  {% endfor %}
+  {% for page in site.pages %}
+  {% if page.sitemap != null and page.sitemap != empty and page.date != null %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+    <lastmod>{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}</lastmod>
+    <changefreq>{{ page.sitemap.changefreq | default: "weekly" }}</changefreq>
+    <priority>{{ page.sitemap.priority | default: "0.8" }}</priority>
+  </url>
+  {% endif %}
+  {% endfor %}
+</urlset>

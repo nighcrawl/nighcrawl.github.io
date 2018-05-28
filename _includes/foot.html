@@ -1,0 +1,15 @@
+<script src="{{ "assets/js/main.js" | relative_url }}"></script>
+
+{% if jekyll.environment == "production" %}
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-1952233-6','auto');ga('send','pageview');
+</script>
+{% endif %}
+<!-- CodePen Embed -->
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

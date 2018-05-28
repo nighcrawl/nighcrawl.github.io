@@ -1,0 +1,45 @@
+/*
+ * Archives page layout
+ */
+
+.archives-page .posts-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.archives-page .post-summary {
+    border-bottom: 1px solid tint($light-background, 70%);
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    a {
+        color: initial;
+        text-decoration: none;
+
+        .post-title {
+            transition: all 200ms ease-in-out;
+            //@include single-transition(all, 200ms, ease-in-out);
+            font-size: 1em;
+        }
+
+        &:hover .post-title {
+            color: $accent-color;
+        }
+
+        .post-date {
+            color: tint($gray, 10%);
+            font-size: .75em;
+            margin-left: .5em;
+        }
+    }
+}
+
+.archives-page .post-link--permalink {
+    height: 16px;
+    margin: .25em .5em 0 0;
+    width: 16px;
+}
