@@ -104,11 +104,12 @@
 
 	img {
 		max-width: 100%;
+	}
 
-		&.aligncenter {
-			display: block;
-			margin: auto;
-		}
+	.aligncenter {
+		display: block;
+		margin: auto;
+		max-width: 100%
 	}
 }
 
