@@ -7,11 +7,11 @@ image: /contents/uploads/11049531_747517128680491_5685630941615427600_o-825x510.
 ---
 Bonjour, je m’appelle Ange Chierchia. Je suis Webdesigner et développeur full-stack à Luxembourg.
 
-Bien qu’étant diplômé en développement d’applications, le graphisme &mdash;et plus particulièrement le Webdesign&mdash; a toujours été l’un de mes principaux centres d’intérêt.
+Bien qu’étant diplômé en développement d’applications, le graphisme —et plus particulièrement le Webdesign— a toujours été l’un de mes principaux centres d’intérêt.
 
-Passionné par la conception Web depuis plus de 10 ans, je ne cesse de parcourir le Web spécialisé afin de m&rsquo;améliorer et rester à la page en utilisant, dès que possible, les dernières technologies qu&rsquo;offre l&rsquo;Internet (Responsive Webdesign, préprocesseurs CSS, etc.)
+Passionné par la conception Web depuis plus de 10 ans, je ne cesse de parcourir le Web spécialisé afin de m&rsquo;améliorer et rester à la page en utilisant, dès que possible, les dernières technologies qu'offre le Web (Responsive Webdesign, préprocesseurs CSS, etc.)
 
-De 2010 à 2012, j&rsquo;ai rejoint à titre personnel le projet [Webdesign Friday](http://wdfriday.com) et ai notamment collaboré à la conception de l&rsquo;identité graphique du blog avec mes amis [Francis Chouquet](http://fran6art.com "Francis Chouquet, webdesigner spécialiste WordPress") et [Matthieu Bué](http://twikito.com "Matthieu Bué, webdesigner expert SEO à Bordeaux").
+De 2010 à 2012, j'ai rejoint à titre personnel le projet [Webdesign Friday](http://wdfriday.com) et ai notamment collaboré à la conception de l'identité graphique du blog avec mes amis [Francis Chouquet](http://fran6art.com "Francis Chouquet, webdesigner spécialiste WordPress") et [Matthieu Bué](http://twikito.com "Matthieu Bué, webdesigner expert SEO à Bordeaux").
 
 J'ai travaillé pendant presque cinq ans chez CBC Informatique, chez qui je réalisais des site Web pour les clients. J'avais en charge la définition de cahiers des charges répondant aux besoins des clients, la conception de chartes graphiques et leur intégration en HTML et CSS, ainsi que le développement back-end en PHP et MySQL.
 
@@ -23,8 +23,6 @@ Si vous le souhaitez, vous pouvez me suivre sur Twitter via [@nighcrawl](http://
 
 Ce blog est avant tout un moyen pour moi de garder une trace de certaines ressources Web que je découvre au fil de ma veille et de les partager avec qui le voudra.
 
-Le blog n’est ni une publication journalière, ni hebdomadaire et encore moins mensuelle, j&rsquo;ai même parfois (souvent ?) la flemme d&rsquo;écrire un billet. Ne vous attendez pas à trouver un nouvel article tous les jours, vous seriez déçu.
+Le blog n’est ni une publication journalière, ni hebdomadaire et encore moins mensuelle, ne vous attendez donc pas à trouver un nouvel article tous les jours, vous seriez déçu.
 
 Vous y trouverez, en vrac, des morceaux de code, quelques retours d’expériences et des «réflexions» sur le métier de Webdesigner.
-
-Ou pas.
