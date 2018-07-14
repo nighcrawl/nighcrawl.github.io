@@ -5,7 +5,9 @@ layout: page
 permalink: /apropos/
 image: /contents/uploads/11049531_747517128680491_5685630941615427600_o-825x510.jpg
 ---
-Bonjour, je m’appelle Ange Chierchia. Je suis Webdesigner et développeur full-stack à Luxembourg.
+Bonjour, je m’appelle Ange Chierchia. 
+
+Je suis Webdesigner et développeur full-stack à Luxembourg.
 
 Bien qu’étant diplômé en développement d’applications, le graphisme —et plus particulièrement le Webdesign— a toujours été l’un de mes principaux centres d’intérêt.
 
