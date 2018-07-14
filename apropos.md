@@ -5,7 +5,7 @@ layout: page
 permalink: /apropos/
 image: /contents/uploads/11049531_747517128680491_5685630941615427600_o-825x510.jpg
 ---
-Bonjour, je m’appelle Ange Chierchia et suis un jeune Webdesigner et développeur front-end français, travaillant au Luxembourg.
+Bonjour, je m’appelle Ange Chierchia. Je suis Webdesigner et développeur full-stack à Luxembourg.
 
 Bien qu’étant diplômé en développement d’applications, le graphisme &mdash;et plus particulièrement le Webdesign&mdash; a toujours été l’un de mes principaux centres d’intérêt.
 
@@ -13,7 +13,9 @@ Passionné par la conception Web depuis plus de 10 ans, je ne cesse de parcourir
 
 De 2010 à 2012, j&rsquo;ai rejoint à titre personnel le projet [Webdesign Friday](http://wdfriday.com) et ai notamment collaboré à la conception de l&rsquo;identité graphique du blog avec mes amis [Francis Chouquet](http://fran6art.com "Francis Chouquet, webdesigner spécialiste WordPress") et [Matthieu Bué](http://twikito.com "Matthieu Bué, webdesigner expert SEO à Bordeaux").
 
-Maintenant, je passe mes soirées un iPad à la main à faire ma veille Web <del>et draguer sur adopteunmec.com</del>.
+J'ai travaillé pendant presque cinq ans chez CBC Informatique, chez qui je réalisais des site Web pour les clients. J'avais en charge la définition de cahiers des charges répondant aux besoins des clients, la conception de chartes graphiques et leur intégration en HTML et CSS, ainsi que le développement back-end en PHP et MySQL.
+
+Depuis janvier 2015, j'ai rejoins l'équipe d'Ibakus Europe en tant que développeur. Au quotidien, j'utilise des technologies comme Symfony, Sass, Webpack et Git pour nous aider dans la conception d'applications Web destinées aux professionnels du Droit et de la Finance.
 
 Si vous le souhaitez, vous pouvez me suivre sur Twitter via [@nighcrawl](http://twitter.com/nighcrawl), jeter un œil à [mon portfolio]({{site.baseurl}}/portfolio/ "Travaux"), ou consulter [mon CV]({{site.baseurl}}/cv/).
 
