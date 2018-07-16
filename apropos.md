@@ -3,7 +3,7 @@ title: A propos
 date: 2009-05-14T17:17:33+00:00
 layout: page
 permalink: /apropos/
-image: /contents/uploads/11049531_747517128680491_5685630941615427600_o-825x510.jpg
+image: /contents/uploads/11459E5D-0C49-43BF-B18E-AA75EFA1AAA8.jpeg
 ---
 Bonjour, je m’appelle Ange Chierchia. 
 
