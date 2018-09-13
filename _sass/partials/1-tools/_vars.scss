@@ -21,20 +21,16 @@
     -moz-border-radius: $radius;
     -webkit-border-radius: $radius;
 }
-//
-// Some Useful color Vars via http://clrs.cc/
-//
 
-// Cool
+
+// Some Useful colors
 $teal:  #39CCCC;
-
 
 // Gray Scale
 $white:  #fff;
 $silver: #ddd;
 $gray:   #aaa;
 $black:  #111;
-
 
 // Social Networks
 $facebook: #3b5998;
@@ -43,9 +39,6 @@ $twitter: #1da1f2;
 // rss
 $rssfeed: #ffa500;
 
-//
-// Add whatever variables you would like made available to the whole app
-//
 
 $base-font-face: 'Nunito', sans-serif;
 $heading-font-face: 'Nunito', sans-serif;
@@ -56,6 +49,9 @@ $font-color: $black;
 $light-background: $silver;
 $accent-color: shade($teal, 15%);
 $base-radius: 3px;
+
+$medium-breakpoint: 768px;
+$large-breakpoint: 1024px;
 
 
 %round-icon {
