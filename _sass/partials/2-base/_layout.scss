@@ -58,3 +58,22 @@
 		}
 	}
 }
+
+.main-content {
+	padding: 1rem 1.5rem;
+
+	a {
+		color: $accent-color;
+		transition: all 200ms ease-in-out;
+
+		&:hover {
+			color: $font-color;
+			text-decoration: none;
+		}
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
