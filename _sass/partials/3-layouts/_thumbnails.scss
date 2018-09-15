@@ -5,9 +5,9 @@
 .main-content .thumbnail {
 	//border-radius: $base-radius;
 	@include border-radius($base-radius);
-	margin: 0 -1.5em;
-	margin-bottom: 1.5em;
-	width: calc(100% + 3em);
+	margin: 0 -1.5rem;
+	margin-bottom: 1.5rem;
+	width: calc(100% + 3rem);
 	max-height: 200px;
 	overflow: hidden;
 

@@ -49,7 +49,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 1rem 0;
     padding: 0;
 }
 
@@ -91,14 +91,38 @@ kbd,
 pre,
 samp {
   font-family: $code-font-face;
-  font-size: .875em;
+  font-size: .875rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
     font-family: $heading-font-face;
+}
+
+.h1, h1 {
+    font-size: $h1-font-size;
+}
+
+.h2, h2 {
+    font-size: $h2-font-size;
+}
+
+.h3, h3 {
+    font-size: $h3-font-size;
+}
+
+.h4, h4 {
+    font-size: $h4-font-size;
+}
+
+.h5, h5 {
+    font-size: $h5-font-size;
+}
+
+.h6, h6 {
+    font-size: $h6-font-size;
 }
