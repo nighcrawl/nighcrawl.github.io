@@ -77,3 +77,16 @@
 		height: auto;
 	}
 }
+
+pre {
+	@include border-radius($base-radius);
+	background-color: $font-color;
+	color: tint($light-background, 70%);
+	max-width: 100%;
+	padding: 1rem 1.5rem;
+	white-space: pre-wrap;
+}
+
+.cp_embed_wrapper > * {
+	width: 100%;
+}
