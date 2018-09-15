@@ -53,6 +53,13 @@ $base-radius: 3px;
 $medium-breakpoint: 768px;
 $large-breakpoint: 1024px;
 
+$h1-font-size:                $base-font-size * 2.5 !default;
+$h2-font-size:                $base-font-size * 2 !default;
+$h3-font-size:                $base-font-size * 1.75 !default;
+$h4-font-size:                $base-font-size * 1.5 !default;
+$h5-font-size:                $base-font-size * 1.25 !default;
+$h6-font-size:                $base-font-size !default;
+
 
 %round-icon {
 	background-color: tint($light-background, 15%);

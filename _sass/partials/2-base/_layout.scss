@@ -18,7 +18,7 @@
 }
 
 .site-title {
-	font-size: $base-font-size * 1.8;
+	font-size: $h1-font-size;
 	font-weight: bold;
 }
 
@@ -76,6 +76,10 @@
 		max-width: 100%;
 		height: auto;
 	}
+}
+
+.post-title {
+	font-size: $h1-font-size;
 }
 
 pre {
