@@ -9,8 +9,8 @@
 
 .archives-page .post-summary {
     border-bottom: 1px solid tint($light-background, 70%);
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-bottom: 1em;
+    padding-top: 1em;
 
     &:last-child {
         border-bottom: none;
@@ -23,7 +23,7 @@
         .post-title {
             transition: all 200ms ease-in-out;
             //@include single-transition(all, 200ms, ease-in-out);
-            font-size: 1rem;
+            font-size: 1em;
         }
 
         &:hover .post-title {
@@ -32,14 +32,14 @@
 
         .post-date {
             color: tint($gray, 10%);
-            font-size: .75rem;
-            margin-left: .5rem;
+            font-size: .75em;
+            margin-left: .5em;
         }
     }
 }
 
 .archives-page .post-link--permalink {
     height: 16px;
-    margin: .25rem .5rem 0 0;
+    margin: .25em .5em 0 0;
     width: 16px;
 }

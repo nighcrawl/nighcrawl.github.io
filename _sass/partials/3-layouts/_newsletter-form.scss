@@ -3,10 +3,10 @@
  */
 
 .newsletter-form {
-	padding: 0 4rem 2rem;
+	padding: 0 4em 2em;
 
 	p {
-		margin: 1rem 0;
+		margin: 1em 0;
 	}
 
 	label {
@@ -20,7 +20,7 @@
 		box-sizing: border-box;
 		//@include box-sizing(border-box);
 		color: $font-color;
-		padding: .8rem;
+		padding: .8em;
 		width: 100%;
 	}
 
@@ -31,7 +31,7 @@
 		@include border-radius($base-radius);
 		color: tint($light-background, 70%);
 		font-weight: bold;
-		padding: .8rem;
+		padding: .8em;
 		text-decoration: none;
 		transition: all 200ms ease-in-out;
 		//@include single-transition(all, 200ms, ease-in-out);

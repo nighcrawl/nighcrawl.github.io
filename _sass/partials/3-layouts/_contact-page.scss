@@ -13,7 +13,7 @@
 		box-sizing: border-box;
 		//@include box-sizing(border-box);
 		color: $font-color;
-		padding: .8rem;
+		padding: .8em;
 		width: 100%;
 	}
 
@@ -24,7 +24,7 @@
 		@include border-radius($base-radius);
 		color: tint($light-background, 70%);
 		font-weight: bold;
-		padding: .8rem;
+		padding: .8em;
 		text-decoration: none;
 		transition: all 200ms ease-in-out;
 		//@include single-transition(all, 200ms, ease-in-out);

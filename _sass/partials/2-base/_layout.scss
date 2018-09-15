@@ -1,5 +1,5 @@
 .wrapper {
-	max-width: 42rem;
+	max-width: 42em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -7,12 +7,12 @@
 .site-header {
 	display: flex;
 	flex-direction: column;
-	padding: 1rem 1.5rem;
+	padding: 1em 1.5em;
 }
 
 .logo {
 	color: $font-color;
-	margin-bottom: 1rem;
+	margin-bottom: 1em;
 	text-decoration: none;
 	text-align: center;
 }
@@ -41,13 +41,13 @@
 }
 
 .nav-item {
-	margin-left: .5rem;
-	margin-right: .5rem;
+	margin-left: .5em;
+	margin-right: .5em;
 
 	a {
 		@include border-radius($base-radius);
 		color: $font-color;
-		padding: .25rem .5rem;
+		padding: .25em .5em;
 		text-decoration: none;
 		transition: all 200ms ease-in-out;
 
@@ -60,7 +60,7 @@
 }
 
 .main-content {
-	padding: 1rem 1.5rem;
+	padding: 1em 1.5em;
 
 	a {
 		color: $accent-color;
@@ -87,7 +87,7 @@ pre {
 	background-color: $font-color;
 	color: tint($light-background, 70%);
 	max-width: 100%;
-	padding: 1rem 1.5rem;
+	padding: 1em 1.5em;
 	white-space: pre-wrap;
 }
 
@@ -97,12 +97,12 @@ pre {
 
 .pagination{
 	display: flex;
-	margin: 1rem 0 0;
+	margin: 1em 0 0;
 }
 
 .pagination-link {
 	display: block;
-	padding: 1rem;
+	padding: 1em;
 	text-align: center;
 	width: 50%;
 
@@ -119,7 +119,7 @@ pre {
 	border-top: 1px solid tint($light-background, 70%);
 	display: flex;
 	flex-direction: column;
-	font-size: .875rem;
+	font-size: .875em;
 
 	a {
 		color: $accent-color;

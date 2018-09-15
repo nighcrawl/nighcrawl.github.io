@@ -4,13 +4,13 @@
 
 .post-page .post {
 	border-bottom: 1px solid tint($light-background, 70%);
-	margin-bottom: 1rem;
-	padding-bottom: 1rem;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
 
     .post-date {
         color: tint($gray, 10%);
-        font-size: .75rem;
-        //margin-left: .5rem;
+        font-size: .75em;
+        //margin-left: .5em;
     }
 }
 
@@ -18,13 +18,13 @@
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
-	margin-bottom: 1rem;
-	margin-top: 2rem;
+	margin-bottom: 1em;
+	margin-top: 2em;
 	padding-left: 0;
 
 	li {
-		margin-left: .5rem;
-		margin-right: .5rem;
+		margin-left: .5em;
+		margin-right: .5em;
 	}
 }
 
