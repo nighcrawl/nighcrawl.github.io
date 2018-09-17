@@ -1,0 +1,205 @@
+.wrapper {
+	max-width: 42rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.site-header {
+	//border-radius: 0 0 $base-radius $base-radius;
+	@include border-radius(0 0 $base-radius $base-radius);
+	background-color: tint($light-background, 80%);
+	padding: 1rem 1.5rem;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	@media only screen and (min-width: $large-breakpoint) {
+		justify-content: space-between;
+	}
+
+	.logo {
+		display: block;
+		color: $font-color;
+		text-decoration: none;
+		text-align: center;
+
+		@media only screen and (min-width: $large-breakpoint) {
+			text-align: left;
+		}
+	}
+}
+
+.site-title, .site-tagline {
+	margin: 0;
+}
+
+.site-title {
+	font-size: $base-font-size * 1.8;
+	font-weight: bold;
+}
+
+.site-tagline {
+	font-size: $base-font-size * .875;
+}
+
+.site-nav {
+	display: flex;
+	list-style-type: none;
+	margin: 1rem -1.5rem 0;
+	padding: 0;
+
+	@media screen and (min-width: $large-breakpoint) {
+		margin: 0;
+	}
+
+	.nav-item {
+		margin-left: 0;
+		margin-right: 0;
+
+		@media screen and (min-width: $medium-breakpoint) {
+			margin-left: .5rem;
+			margin-right: .5rem;
+		}
+	}
+
+	a {
+		border-radius: $base-radius;
+		@include border-radius($base-radius);
+		color: $font-color;
+		padding: .25rem .5rem;
+		text-decoration: none;
+		transition: all 200ms ease-in-out;
+		//@include single-transition(all, 200ms, ease-in-out);
+
+		@media screen and (min-width: $medium-breakpoint) {
+			padding: .35rem .65rem;
+		}
+
+		&:hover {
+			background-color: $accent-color;
+			color: tint($light-background, 70%);
+		}
+	}
+}
+
+.main-content {
+	margin-top: 1rem;
+	padding: 1rem 1.5rem;
+
+	a {
+		color: $accent-color;
+		transition: all 200ms ease-in-out;
+		//@include single-transition(all, 200ms, ease-in-out);
+
+		&:hover {
+			color: $font-color;
+			text-decoration: none;
+		}
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	.aligncenter {
+		display: block;
+		margin: auto;
+		max-width: 100%
+	}
+}
+
+.post-title {
+	color: initial;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0.67rem 0;
+
+
+	text-decoration: none;
+}
+
+pre {
+	//border-radius: $base-radius;
+	@include border-radius($base-radius);
+	background-color: $font-color;
+	color: tint($light-background, 70%);
+	margin-left: -1.5rem;
+	margin-right: -1.5rem;
+	max-width: 100%;
+	padding: 1rem 1.5rem;
+	white-space: pre-wrap;
+}
+
+.cp_embed_wrapper {
+	margin-left: -1.35rem;
+	margin-right: -1.35rem;
+	/* max-width: 100%;
+	padding: 1rem 1.5rem; */
+
+	& > * {
+		width: 100%;
+	}
+}
+
+.pagination{
+	display: flex;
+	margin: 1rem 0 0;
+}
+
+.pagination-link {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	width: 50%;
+
+	&--next {
+		flex: 1;
+	}
+
+	&--previous {
+		flex: 1;
+	}
+}
+
+
+.site-footer {
+	border-top: 1px solid tint($light-background, 70%);
+	font-size: .875rem;
+	margin-top: 0;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	text-align: center;
+
+	p {
+		margin: 0;
+	}
+
+	a {
+		color: $accent-color;
+		transition: all 200ms ease-in-out;
+		//@include single-transition(all, 200ms, ease-in-out);
+
+		&:hover {
+			color: $font-color;
+			text-decoration: none;
+		}
+	}
+
+	.site-feed {
+		display: flex;
+		justify-content: center;
+		padding: 0;
+	}
+
+	.icon--rss {
+		@extend %round-icon;
+		@include mask('../img/rss-icon.svg', cover, 50%, 50%);
+		height: 24px;
+		width: 24px;
+
+		&:hover {
+			background-color: $rssfeed;
+		}
+	}
+}

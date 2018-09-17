@@ -5,81 +5,53 @@
 }
 
 .site-header {
-	//border-radius: 0 0 $base-radius $base-radius;
-	@include border-radius(0 0 $base-radius $base-radius);
-	background-color: tint($light-background, 80%);
-	padding: 1em 1.5em;
 	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	justify-content: center;
-
-	@media only screen and (min-width: 710px) {
-		justify-content: space-between;
-	}
-
-	.logo {
-		display: block;
-		color: $font-color;
-		text-decoration: none;
-		text-align: center;
-
-		@media only screen and (min-width: 710px) {
-			text-align: left;
-		}
-	}
+	flex-direction: column;
+	padding: 1em 1.5em;
 }
 
-.site-title, .site-tagline {
-	margin: 0;
+.logo {
+	color: $font-color;
+	margin-bottom: 1em;
+	text-decoration: none;
+	text-align: center;
 }
 
 .site-title {
-	font-size: $base-font-size * 1.8;
+	font-size: $h1-font-size;
 	font-weight: bold;
 }
 
 .site-tagline {
-	font-size: $base-font-size * .875;
+	display: block;
+}
+
+.site-title,
+.site-tagline {
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 .site-nav {
 	display: flex;
+	justify-content: center;
 	list-style-type: none;
-	margin: 1em -1.5em 0;
+	margin: 0;
 	padding: 0;
+}
 
-	@media screen and (min-width: 598px) {
-		margin: 1em 0 0;
-	}
-
-	@media screen and (min-width: 726px) {
-		margin: 0;
-	}
-
-	.nav-item {
-		margin-left: 0;
-		margin-right: 0;
-
-		@media screen and (min-width: 726px) {
-			margin-left: .5em;
-			margin-right: .5em;
-		}
-	}
+.nav-item {
+	margin-left: .5em;
+	margin-right: .5em;
 
 	a {
-		border-radius: $base-radius;
 		@include border-radius($base-radius);
 		color: $font-color;
 		padding: .25em .5em;
 		text-decoration: none;
 		transition: all 200ms ease-in-out;
-		//@include single-transition(all, 200ms, ease-in-out);
 
-		@media screen and (min-width: 598px) {
-			padding: .35em .65em;
-		}
-
+		&:focus,
 		&:hover {
 			background-color: $accent-color;
 			color: tint($light-background, 70%);
@@ -88,13 +60,11 @@
 }
 
 .main-content {
-	margin-top: 1em;
 	padding: 1em 1.5em;
 
 	a {
 		color: $accent-color;
 		transition: all 200ms ease-in-out;
-		//@include single-transition(all, 200ms, ease-in-out);
 
 		&:hover {
 			color: $font-color;
@@ -104,46 +74,25 @@
 
 	img {
 		max-width: 100%;
-	}
-
-	.aligncenter {
-		display: block;
-		margin: auto;
-		max-width: 100%
+		height: auto;
 	}
 }
 
 .post-title {
-	color: initial;
-	font-size: 2em;
-	font-weight: bold;
-	margin: 0.67em 0;
-
-
-	text-decoration: none;
+	font-size: $h1-font-size;
 }
 
 pre {
-	//border-radius: $base-radius;
 	@include border-radius($base-radius);
 	background-color: $font-color;
 	color: tint($light-background, 70%);
-	margin-left: -1.5em;
-	margin-right: -1.5em;
 	max-width: 100%;
 	padding: 1em 1.5em;
 	white-space: pre-wrap;
 }
 
-.cp_embed_wrapper {
-	margin-left: -1.35em;
-	margin-right: -1.35em;
-	/* max-width: 100%;
-	padding: 1em 1.5em; */
-
-	& > * {
-		width: 100%;
-	}
+.cp_embed_wrapper > * {
+	width: 100%;
 }
 
 .pagination{
@@ -166,18 +115,11 @@ pre {
 	}
 }
 
-
 .site-footer {
 	border-top: 1px solid tint($light-background, 70%);
+	display: flex;
+	flex-direction: column;
 	font-size: .875em;
-	margin-top: 0;
-	padding-bottom: 2em;
-	padding-top: 2em;
-	text-align: center;
-
-	p {
-		margin: 0;
-	}
 
 	a {
 		color: $accent-color;
@@ -188,6 +130,11 @@ pre {
 			color: $font-color;
 			text-decoration: none;
 		}
+	}
+
+	.site-footnote {
+		align-self: center;
+		text-align: center;
 	}
 
 	.site-feed {
