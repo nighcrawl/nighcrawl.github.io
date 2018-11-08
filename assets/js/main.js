@@ -1,6 +1,6 @@
 var replaceFormspreeEmail = function() {
 	var emailLink = document.querySelector(".contact-form"),
-		emailName = "ange.chierchia+job",
+		emailName = "ange.chierchia+website",
 		emailTLD = "gmail.com";
 
 	emailLink.setAttribute("action", "https://formspree.io/" + emailName + "@" + emailTLD);
