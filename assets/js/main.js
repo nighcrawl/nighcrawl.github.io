@@ -1,9 +1,9 @@
 var replaceFormspreeEmail = function() {
 	var emailLink = document.querySelector(".contact-form"),
-		emailName = "ange.chierchia+website",
-		emailTLD = "gmail.com";
+        emailName = "etisbew+aihcreihc.egna",
+		emailTLD = "moc.liamg";
 
-	emailLink.setAttribute("action", "https://formspree.io/" + emailName + "@" + emailTLD);
+	emailLink.setAttribute("action", "https://formspree.io/" + emailName.split().reverse().join() + "@" + emailTLD.split().reverse().join());
 };
 
 document.addEventListener('DOMContentLoaded', function() {
