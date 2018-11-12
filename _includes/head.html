@@ -2,6 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{% if page.title %}{{ page.title | normalize_whitespace | truncate: 160 | escape }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}</title>
+    <meta name="referrer" content="origin">
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title | normalize_whitespace | truncate: 160 | escape }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
