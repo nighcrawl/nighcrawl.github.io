@@ -3,7 +3,7 @@ var replaceFormspreeEmail = function() {
         emailName = "etisbew+aihcreihc.egna",
 		emailTLD = "moc.liamg";
 
-	emailLink.setAttribute("action", "https://formspree.io/" + emailName.split('').reverse().join('') + "@" + emailTLD.split().reverse().join());
+	emailLink.setAttribute("action", "https://formspree.io/" + emailName.split('').reverse().join('') + "@" + emailTLD.split('').reverse().join(''));
 };
 
 document.addEventListener('DOMContentLoaded', function() {
