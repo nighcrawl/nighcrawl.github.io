@@ -12,7 +12,7 @@ body_class: "home-page"
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.image and post.image != "" %}
             <figure class="thumbnail">
-                <img src="{{ post.image }}" alt="{{ post.title }}" />
+                  <img src="{{ post.image }}" alt="{{ post.title }}" class="{{ post.image_class | default: '' }}" />
             </figure>
             {% endif %}
             {% assign m = post.date | date: "%-m" %}
