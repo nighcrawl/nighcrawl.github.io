@@ -29,4 +29,12 @@
 		height: 100%;
 		object-fit: cover;
 	}
+
+	.thumbnail-viewbox--top {
+		object-position: top;
+	}
+
+	.thumbnail-viewbox--bottom {
+		object-position: bottom;
+	}
 }
