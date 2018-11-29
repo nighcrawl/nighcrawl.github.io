@@ -1,0 +1,24 @@
+$primary: #39CCCC;
+$font-size-base: 1rem * 1.125; // 18px;
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$headings-font-family: 'Nunito', sans-serif;
+$headings-font-weight: 700;
+$display1-weight: $headings-font-weight;
+$display2-weight: $headings-font-weight;
+$display3-weight: $headings-font-weight;
+$display4-weight: $headings-font-weight;
+
+
+// Type display classes
+.display-1 {
+    font-family: $headings-font-family;
+}
+.display-2 {
+    font-family: $headings-font-family;
+}
+.display-3 {
+    font-family: $headings-font-family;
+}
+.display-4 {
+    font-family: $headings-font-family;
+}
