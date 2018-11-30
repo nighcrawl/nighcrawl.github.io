@@ -3,6 +3,14 @@
 	padding-left: 0;
 }
 
+.post-title {
+	font-size: $h1-font-size;
+}
+
+.post-format--link .post-title {
+	font-size: $h2-font-size;
+}
+
 .post-summary {
 
     .post-date {
