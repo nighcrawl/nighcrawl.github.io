@@ -1,0 +1,65 @@
+.posts-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.post-summary {
+
+    .post-date {
+		display: block;
+        font-size: .75em;
+		margin-bottom: 1.5em;
+        //margin-left: .5em;
+    }
+
+	a {
+		color: initial;
+		text-decoration: none;
+
+		.post-title {
+			transition: all 200ms ease-in-out;
+		}
+
+		&:hover .post-title {
+			color: $primary;
+		}
+	}
+}
+
+.post {
+
+    .post-date {
+		display: block;
+        font-size: .75em;
+		margin-bottom: 1.5em;
+    }
+}
+
+.share {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	padding-left: 0;
+
+	li {
+		margin-left: .5em;
+		margin-right: .5em;
+	}
+}
+
+.share-icon--facebook {
+	@include round-icon('../img/facebook-icon.svg', $light);
+
+	&:hover {
+		background-color: $facebook;
+	}
+}
+.share-icon--twitter {
+	@include round-icon('../img/twitter-icon.svg', $light);
+
+	&:hover {
+		background-color: $twitter;
+	}
+}

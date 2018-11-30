@@ -1,0 +1,34 @@
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+
+@mixin mask($url, $size_type, $top, $left) {
+  mask: url($url) no-repeat $top $left;
+  -webkit-mask: url($url) no-repeat $top $left;
+  mask-size: $size_type;
+  -webkit-mask-size: $size_type;
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+@mixin round-icon($icon, $background) {
+	background-color: $background;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: block;
+	text-indent: -999em;
+	width: 48px;
+	height: 48px;
+	transition: all 200ms ease-in-out;
+    @include mask($icon, cover, 50%, 50%);
+}
