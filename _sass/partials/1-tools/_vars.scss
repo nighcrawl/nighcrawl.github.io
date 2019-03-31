@@ -23,8 +23,12 @@
 }
 
 
-// Some Useful colors
-$teal:  #39CCCC;
+// Color palette
+$blue: #3CB9FC;
+$purple: #B537F2;
+$darkpurple: #8A2BE2;
+$darkblue: #120052;
+
 
 // Gray Scale
 $white:  #fff;
@@ -47,18 +51,20 @@ $base-font-size: 18px;
 $base-line-height: 1.6;
 $font-color: $black;
 $light-background: $silver;
-$accent-color: shade($teal, 15%);
 $base-radius: 3px;
+
+$link-color: $purple;
+$link-hover-color: $darkpurple;
 
 $medium-breakpoint: 768px;
 $large-breakpoint: 1024px;
 
-$h1-font-size:                $base-font-size * 2.5 !default;
-$h2-font-size:                $base-font-size * 2 !default;
-$h3-font-size:                $base-font-size * 1.75 !default;
-$h4-font-size:                $base-font-size * 1.5 !default;
-$h5-font-size:                $base-font-size * 1.25 !default;
-$h6-font-size:                $base-font-size !default;
+$h1-font-size:                $base-font-size * 2 !default;
+$h2-font-size:                $base-font-size * 1.6818 !default;
+$h3-font-size:                $base-font-size * 1.4142 !default;
+$h4-font-size:                $base-font-size * 1.1892 !default;
+$h5-font-size:                $base-font-size * 1 !default;
+$h6-font-size:                $base-font-size * .8409 !default;
 
 
 %round-icon {

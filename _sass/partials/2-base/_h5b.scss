@@ -29,13 +29,13 @@ html {
  */
 
 ::-moz-selection {
-    background: $accent-color;
+    background: $link-color;
     color: $white;
     text-shadow: none;
 }
 
 ::selection {
-    background: $accent-color;
+    background: $link-color;
     color: $white;
     text-shadow: none;
 }

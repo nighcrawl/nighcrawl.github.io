@@ -14,7 +14,6 @@
     .post-date {
         color: tint($gray, 10%);
         font-size: .75em;
-        //margin-left: .5em;
     }
 
 	a {
@@ -23,11 +22,10 @@
 
 		.post-title {
 			transition: all 200ms ease-in-out;
-			//@include single-transition(all, 200ms, ease-in-out);
 		}
 
 		&:hover .post-title {
-			color: $accent-color;
+			color: $link-hover-color;
 		}
 	}
 }
