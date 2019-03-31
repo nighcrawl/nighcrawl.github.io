@@ -1,0 +1,24 @@
+[data-animate] {
+  opacity: 0;
+  will-change: transform;
+  transition-timing-function: ease-out;
+  transition-duration: 300ms;
+
+  &.inview {
+    opacity: 1;
+  }
+}
+
+[data-animate="slideup"] {
+  transform: translateY(100px);
+  &.inview {
+    transform: translateY(0);
+  }
+}
+
+[data-animate="slidedown"] {
+  transform: translateY(-100px);
+  &.inview {
+    transform: translateY(0);
+  }
+}

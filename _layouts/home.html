@@ -4,7 +4,7 @@ body_class: "home-page"
 ---
 <ul class="posts-list">
 	{% for post in paginator.posts %}
-    <li class="post-summary {% if post.format and post.format == "link" and post.link != "" %}post-format--link{% endif %}">
+    <li data-animate="slideup" class="post-summary {% if post.format and post.format == "link" and post.link != "" %}post-format--link{% endif %}">
         {% if post.format and post.format == "link" and post.link != "" %}
         <a href="{{ post.url }}" class="post-link--permalink">{{ post.url }}</a>
         {% endif %}

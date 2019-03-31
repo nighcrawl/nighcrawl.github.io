@@ -1,5 +1,5 @@
 <header class="site-header">
-    <a href="{{ "/" | relative_url}}" class="logo">
+    <a data-animate="slidedown" href="{{ "/" | relative_url}}" class="logo">
         {% if layout.body_class == "home-page" %}
             <h1 class="site-title">{{ site.title }}</h1>
         {% else %}
@@ -8,11 +8,11 @@
         <span class="site-tagline">{{ site.tagline }}</span>
     </a>
     <ul class="site-nav">
-        <li class="nav-item"><a href="{{ "/blog/" | relative_url}}">blog</a></li>
+        <li data-animate="slidedown" class="nav-item"><a href="{{ "/blog/" | relative_url}}">blog</a></li>
         {% for nav  in site.pages %}
           {% unless nav.exclude %}
               {% if nav.title && nav.url %}
-              <li class="nav-item"><a href="{{ nav.url }}">{{ nav.title | downcase | escape }}</a></li>
+              <li data-animate="slidedown" class="nav-item"><a href="{{ nav.url }}">{{ nav.title | downcase | escape }}</a></li>
               {% endif %}
           {% endunless %}
         {% endfor %}
