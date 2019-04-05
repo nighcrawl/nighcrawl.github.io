@@ -7,6 +7,17 @@ var replaceFormspreeEmail = function() {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-	if (document.querySelector(".contact-form"))
+	if (document.querySelector(".contact-form")) {
 		replaceFormspreeEmail();
+	}
+
+	inView('[data-animate]').on('enter', function(selector) {
+		//setTimeout(function() {
+			selector.classList.add('inview');
+		//}, 200);
+	});
+
+	document.querySelector('.site-nav-toggle').addEventListener('click', function() {
+		document.querySelector('body').classList.toggle('no-scroll');
+	});
 });

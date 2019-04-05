@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>{% if page.title %}{{ page.title | normalize_whitespace | truncate: 160 | escape }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}</title>
     <meta name="referrer" content="origin">
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
@@ -17,4 +18,5 @@
     <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
     <link rel="me" href="https://twitter.com/{{ site.twitter_username }}">
     <script src="{{ "assets/js/vendor/modernizr-2.8.3.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/in-view.min.js" | relative_url }}"></script>
 </head>

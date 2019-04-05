@@ -3,7 +3,7 @@
  */
 
 .newsletter-form {
-	padding: 0 4em 2em;
+	padding: 0 0 2em;
 
 	p {
 		margin: 1em 0;
@@ -15,29 +15,25 @@
 
 	input, textarea {
 		border: 1px solid tint($gray, 10%);
-		//border-radius: $base-radius;
 		@include border-radius($base-radius);
 		box-sizing: border-box;
-		//@include box-sizing(border-box);
 		color: $font-color;
-		padding: .8em;
+		padding: 1em;
 		width: 100%;
 	}
 
 	[type="submit"] {
-		background-color: $accent-color;
+		background-color: $link-color;
 		border: none;
-		//border-radius: $base-radius;
 		@include border-radius($base-radius);
 		color: tint($light-background, 70%);
 		font-weight: bold;
-		padding: .8em;
+		padding: 1em;
 		text-decoration: none;
 		transition: all 200ms ease-in-out;
-		//@include single-transition(all, 200ms, ease-in-out);
 
 		&:focus, &:hover {
-			background-color: $font-color;
+			background-color: $link-hover-color;
 		}
 	}
 }

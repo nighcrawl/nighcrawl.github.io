@@ -1,3 +1,7 @@
+.no-scroll {
+	overflow: hidden;
+}
+
 .wrapper {
 	max-width: 42em;
 	margin-left: auto;
@@ -33,11 +37,105 @@
 }
 
 .site-nav {
-	display: flex;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	flex-direction: column;
 	justify-content: center;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba($link-hover-color, .98);
+
+	.no-scroll & {
+		display: flex;
+	}
+
+	@media (min-width: 641px) {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		top: initial;
+		left: initial;
+		position: relative;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+	}
+}
+
+.site-nav-toggle {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 24px;
+    right: 24px;
+		z-index: 3;
+		cursor: pointer;
+
+		@media (min-width: 641px) {
+			display: none;
+		}
+}
+
+.site-nav-toggle--close { opacity: 0; }
+.no-scroll .site-nav-toggle--open { opacity: 0; }
+.no-scroll .site-nav-toggle--close { opacity: 1; }
+
+.site-nav-toggle--open {
+    background-color: $link-hover-color;
+    height: 4px;
+		@include border-radius(3px);
+    top: 24px;
+
+		&:after {
+		    position: relative;
+		    display: block;
+		    content: "";
+		    width: 100%;
+		    height: 4px;
+				@include border-radius(3px);
+		    background-color: $link-hover-color;
+		    top: 5px;
+		}
+
+		&:before {
+		    position: relative;
+		    display: block;
+		    content: "";
+		    width: 100%;
+		    height: 4px;
+				@include border-radius(3px);
+		    background-color: $link-hover-color;
+		    top: -9px;
+		}
+}
+
+.site-nav-toggle--close {
+	&:before,
+	&:after {
+		position: relative;
+		display: block;
+		content: "";
+		width: 100%;
+		height: 4px;
+		@include border-radius(3px);
+		background-color: $white;
+		top: 10px;
+	}
+
+	&:before {
+		transform: rotate(45deg);
+		top: 14px;
+	}
+
+	&:after {
+		transform: rotate(-45deg);
+	}
 }
 
 .nav-item {
@@ -46,14 +144,20 @@
 
 	a {
 		@include border-radius($base-radius);
-		color: $font-color;
+		display: block;
+		color: tint($light-background, 70%);
 		padding: .25em .5em;
 		text-decoration: none;
+		text-align: center;
 		transition: all 200ms ease-in-out;
+
+		@media (min-width: 641px) {
+			color: $font-color;
+		}
 
 		&:focus,
 		&:hover {
-			background-color: $accent-color;
+			background-color: $link-hover-color;
 			color: tint($light-background, 70%);
 		}
 	}
@@ -63,11 +167,11 @@
 	padding: 1em 1.5em;
 
 	a {
-		color: $accent-color;
+		color: $link-color;
 		transition: all 200ms ease-in-out;
 
 		&:hover {
-			color: $font-color;
+			color: $link-hover-color;
 			text-decoration: none;
 		}
 	}
@@ -97,21 +201,23 @@ pre {
 
 .pagination{
 	display: flex;
+	justify-content: space-around;
 	margin: 1em 0 0;
 }
 
-.pagination-link {
+.main-content .pagination-link {
 	display: block;
 	padding: 1em;
 	text-align: center;
-	width: 50%;
+	background-color: $link-color;
+	@include border-radius($base-radius);
+	color: tint($light-background, 70%);
+	text-decoration: none;
+	font-weight: bold;
 
-	&--next {
-		flex: 1;
-	}
-
-	&--previous {
-		flex: 1;
+	&:hover {
+		color: tint($light-background, 70%);
+		background-color: $link-hover-color;
 	}
 }
 
@@ -120,14 +226,15 @@ pre {
 	display: flex;
 	flex-direction: column;
 	font-size: .875em;
+	padding: 1em 1.5em;
 
 	a {
-		color: $accent-color;
+		color: $link-color;
 		transition: all 200ms ease-in-out;
 		//@include single-transition(all, 200ms, ease-in-out);
 
 		&:hover {
-			color: $font-color;
+			color: $link-hover-color;
 			text-decoration: none;
 		}
 	}

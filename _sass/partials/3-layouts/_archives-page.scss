@@ -22,12 +22,11 @@
 
         .post-title {
             transition: all 200ms ease-in-out;
-            //@include single-transition(all, 200ms, ease-in-out);
             font-size: 1em;
         }
 
         &:hover .post-title {
-            color: $accent-color;
+            color: $link-hover-color;
         }
 
         .post-date {
