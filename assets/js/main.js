@@ -16,4 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			selector.classList.add('inview');
 		//}, 200);
 	});
+
+	document.querySelector('.site-nav-toggle').addEventListener('click', function() {
+		document.querySelector('body').classList.toggle('no-scroll');
+	});
 });
