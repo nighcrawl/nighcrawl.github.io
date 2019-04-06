@@ -18,7 +18,9 @@ De 2010 à 2012, j'ai contribué au [Webdesign Friday](http://wdfriday.com) nota
 
 J'ai travaillé pendant presque cinq ans chez CBC Informatique, au sein de laquelle je réalisais les sites Web des clients, de la définition du cahier des charges jusqu'au développement back et front-end.
 
-Depuis janvier 2015, j'ai rejoins l'équipe d'Ibakus Europe en tant que développeur. Au quotidien, j'utilise des technologies comme Symfony, Sass, Webpack et Git pour nous aider dans la conception d'applications Web destinées aux professionnels du Droit et de la Finance.
+En janvier 2015, j'ai rejoins l'équipe d'Ibakus Europe en tant que développeur. Au quotidien, j'ai utilisé des technologies comme Symfony, Sass, Webpack et Git pour nous aider dans la conception d'applications Web destinées aux professionnels du Droit et de la Finance.
+
+Depuis décembre 2018, j'ai intégré le département Digital Creativity de Concept Factory, au sein duquel je fais de l'intégration de sites Web, de newsletters, et de bannières Web animées en CSS et Javascript pour divers clients.
 
 Si vous le souhaitez, vous pouvez me suivre sur Twitter via [@nighcrawl](http://twitter.com/nighcrawl), jeter un œil à [mon portfolio]({{site.baseurl}}/portfolio/ "Travaux"), ou consulter [mon CV]({{site.baseurl}}/cv/).
 
