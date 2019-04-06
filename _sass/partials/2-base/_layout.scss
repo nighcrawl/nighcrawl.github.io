@@ -1,5 +1,6 @@
 .no-scroll {
 	overflow: hidden;
+	position: fixed;
 }
 
 .wrapper {
@@ -53,6 +54,7 @@
 
 	.no-scroll & {
 		display: flex;
+		overflow-y: auto;
 	}
 
 	@media (min-width: 641px) {
@@ -69,78 +71,65 @@
 }
 
 .site-nav-toggle {
-    position: absolute;
+  cursor: pointer;
+  width: 32px;
+  margin: 10px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 3;
+
+	&.open {
+		position: fixed;
+	}
+
+	@media (min-width: 641px) {
+		display: none;
+	}
+
+  span {
+    display: block;
     width: 32px;
-    height: 32px;
-    top: 24px;
-    right: 24px;
-		z-index: 3;
-		cursor: pointer;
-
-		@media (min-width: 641px) {
-			display: none;
-		}
-}
-
-.site-nav-toggle--close { opacity: 0; }
-.no-scroll .site-nav-toggle--open { opacity: 0; }
-.no-scroll .site-nav-toggle--close { opacity: 1; }
-
-.site-nav-toggle--open {
+    height: 5px;
+    margin-bottom: 8px;
+    border-radius: 10px;
     background-color: $link-hover-color;
-    height: 4px;
-		@include border-radius(3px);
-    top: 24px;
+    position: relative;
+    top: 0;
+    transition: all .3s ease-in-out;
 
-		&:after {
-		    position: relative;
-		    display: block;
-		    content: "";
-		    width: 100%;
-		    height: 4px;
-				@include border-radius(3px);
-		    background-color: $link-hover-color;
-		    top: 5px;
-		}
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 
-		&:before {
-		    position: relative;
-		    display: block;
-		    content: "";
-		    width: 100%;
-		    height: 4px;
-				@include border-radius(3px);
-		    background-color: $link-hover-color;
-		    top: -9px;
-		}
-}
-
-.site-nav-toggle--close {
-	&:before,
-	&:after {
-		position: relative;
-		display: block;
-		content: "";
-		width: 100%;
-		height: 4px;
-		@include border-radius(3px);
+	&.open span {
 		background-color: $white;
-		top: 10px;
-	}
 
-	&:before {
-		transform: rotate(45deg);
-		top: 14px;
-	}
+		&:nth-child(2) {
+	    opacity: 0;
+	  }
 
-	&:after {
-		transform: rotate(-45deg);
+		&:nth-child(1) {
+	    transform: rotate(45deg);
+	    top: 13px;
+	  }
+
+		&:nth-child(3) {
+	    transform: rotate(-45deg);
+	    top: -13px;
+	  }
+
 	}
 }
 
 .nav-item {
 	margin-left: .5em;
 	margin-right: .5em;
+
+	.no-scroll & {
+		font-size: 1.3rem;
+	}
 
 	a {
 		@include border-radius($base-radius);
