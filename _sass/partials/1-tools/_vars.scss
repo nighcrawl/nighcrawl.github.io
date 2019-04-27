@@ -22,19 +22,39 @@
     -webkit-border-radius: $radius;
 }
 
+@mixin single-transition($transition, $duration, $effect) {
+	-moz-transition: $transition $duration $effect;
+	-o-transition: $transition $duration $effect;
+	-webkit-transition: $transition $duration $effect;
+	transition: $transition $duration $effect;
+}
+
+@mixin btn($bg: $link-hover-color, $bg-hover: $link-color, $color: $white) {
+	background-color: $bg;
+	border: none;
+	@include border-radius($base-radius);
+	color: $color;
+	font-weight: bold;
+	padding: 1em;
+	text-decoration: none;
+	transition: all 200ms ease-in-out;
+
+	&:focus, &:hover {
+		color: $color;
+		background-color: $bg-hover;
+	}
+}
+
 
 // Color palette
-$blue: #3CB9FC;
-$purple: #B537F2;
-$darkpurple: #8A2BE2;
-$darkblue: #120052;
-
+$blue: #0000b5;
+$red: #b50055;
 
 // Gray Scale
 $white:  #fff;
 $silver: #ddd;
 $gray:   #aaa;
-$black:  #111;
+$black:  #222;
 
 // Social Networks
 $facebook: #3b5998;
@@ -54,7 +74,7 @@ $light-background: $silver;
 $base-radius: 3px;
 
 $link-color: $blue;
-$link-hover-color: $darkblue;
+$link-hover-color: $red;
 
 $medium-breakpoint: 768px;
 $large-breakpoint: 1024px;

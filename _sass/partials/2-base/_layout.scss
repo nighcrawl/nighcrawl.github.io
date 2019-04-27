@@ -211,19 +211,7 @@ pre {
 }
 
 .main-content .pagination-link {
-	display: block;
-	padding: 1em;
-	text-align: center;
-	background-color: $link-color;
-	@include border-radius($base-radius);
-	color: tint($light-background, 70%);
-	text-decoration: none;
-	font-weight: bold;
-
-	&:hover {
-		color: tint($light-background, 70%);
-		background-color: $link-hover-color;
-	}
+	@include btn;
 }
 
 .site-footer {
@@ -235,12 +223,11 @@ pre {
 
 	a {
 		color: $link-color;
+		text-decoration: none;
 		transition: all 200ms ease-in-out;
-		//@include single-transition(all, 200ms, ease-in-out);
 
 		&:hover {
 			color: $link-hover-color;
-			text-decoration: none;
 		}
 	}
 

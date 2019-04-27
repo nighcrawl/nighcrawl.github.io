@@ -1,5 +1,6 @@
 var navToggle = document.querySelector('.site-nav-toggle');
 var body = document.querySelector('body');
+var nav = document.querySelector('.site-nav');
 
 var replaceFormspreeEmail = function() {
 	var emailLink = document.querySelector(".contact-form");

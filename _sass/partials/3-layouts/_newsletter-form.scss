@@ -23,17 +23,6 @@
 	}
 
 	[type="submit"] {
-		background-color: $link-color;
-		border: none;
-		@include border-radius($base-radius);
-		color: tint($light-background, 70%);
-		font-weight: bold;
-		padding: 1em;
-		text-decoration: none;
-		transition: all 200ms ease-in-out;
-
-		&:focus, &:hover {
-			background-color: $link-hover-color;
-		}
+		@include btn;
 	}
 }
