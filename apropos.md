@@ -20,7 +20,7 @@ J'ai travaillé pendant presque cinq ans chez CBC Informatique, au sein de laque
 
 En janvier 2015, j'ai rejoins l'équipe d'Ibakus Europe en tant que développeur. Au quotidien, j'ai utilisé des technologies comme Symfony, Sass, Webpack et Git pour nous aider dans la conception d'applications Web destinées aux professionnels du Droit et de la Finance.
 
-Depuis décembre 2018, j'ai intégré le département Digital Creativity de Concept Factory, au sein duquel je fais de l'intégration de sites Web, de newsletters, et de bannières Web animées en CSS et Javascript pour divers clients.
+Depuis décembre 2018, j'ai intégré le département Digital Creativity de Concept Factory, au sein duquel je fais de l'intégration de sites Web, de newsletters, et de bannières Web animées en CSS et Javascript pour divers clients. J'ai notamment collaboré à l'intégration du nouveau site Web de [Flex, le carsharing par CFL](https://flex.lu) et au site évenementiel [#MVOS2019](https://mvos.lu) qui promeut l'utilisation du vélo pour se rendre au travail ou à l'école.
 
 Si vous le souhaitez, vous pouvez me suivre sur Twitter via [@nighcrawl](http://twitter.com/nighcrawl), jeter un œil à [mon portfolio]({{site.baseurl}}/portfolio/ "Travaux"), ou consulter [mon CV]({{site.baseurl}}/cv/).
 
