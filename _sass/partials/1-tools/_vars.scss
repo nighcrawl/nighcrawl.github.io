@@ -9,6 +9,10 @@
   @return mix(black, $color, $percentage);
 }
 
+@function getColor($color, $theme: 'light') {
+	@return map-get(map-get($themes, $theme), $color);
+}
+
 @mixin mask($url, $size_type, $top, $left) {
   mask: url($url) no-repeat $top $left;
   -webkit-mask: url($url) no-repeat $top $left;
@@ -45,16 +49,35 @@
 	}
 }
 
-
 // Color palette
 $blue: #0000b5;
 $red: #b50055;
-
-// Gray Scale
 $white:  #fff;
 $silver: #ddd;
 $gray:   #aaa;
 $black:  #222;
+$dark-purple: rgb(19, 0, 32);
+$darker-purple: #10001c;
+
+$themes: (
+	'light': (
+		'link': $blue,
+		'link-hover': $red,
+		'background': $white,
+		'ligth-background': $silver,
+		'text': $black,
+		'pre': $black
+
+	),
+	'dark': (
+		'link': $red,
+		'link-hover': shade($red, 20%),
+		'background': $dark-purple,
+		'light-background': tint($dark-purple, 20%),
+		'text': $white,
+		'pre': $darker-purple
+	)
+);
 
 // Social Networks
 $facebook: #3b5998;
