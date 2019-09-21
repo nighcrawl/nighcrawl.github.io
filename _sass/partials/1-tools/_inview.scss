@@ -1,7 +1,7 @@
 [data-animate] {
   opacity: 0;
   will-change: transform;
-  transition-timing-function: ease-out;
+  transition-timing-function: ease-in-out;
   transition-duration: 300ms;
 
   &.inview {
@@ -21,4 +21,8 @@
   &.inview {
     transform: translateY(0);
   }
+}
+
+[data-animate] + [data-animate] {
+  transition-delay: 300ms;
 }

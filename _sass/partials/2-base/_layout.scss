@@ -99,17 +99,13 @@
 		position: fixed;
 	}
 
-	/*@media (min-width: 641px) {
-		display: none;
-	}*/
-
 	span {
 		display: block;
 		width: 32px;
 		height: 5px;
 		margin-bottom: 8px;
 		border-radius: 10px;
-		background-color: $link-color;
+		background-color: $link-hover-color;
 		position: relative;
 		top: 0;
 		transition: all .3s ease-in-out;
@@ -120,7 +116,7 @@
 	}
 
 	&:not(.open):hover span {
-		background-color: $link-hover-color;
+		background-color: darken($link-hover-color, 15%);
 
 		&:nth-child(3) {
 			width: 30px;
@@ -173,13 +169,9 @@
 		text-align: center;
 		transition: all 200ms ease-in-out;
 
-		/*@media (min-width: 641px) {
-			color: $font-color;
-		}*/
-
 		&:focus,
 		&:hover {
-			background-color: $link-hover-color;
+			background-color: darken($link-hover-color, 10%);
 			color: tint($light-background, 70%);
 		}
 	}
