@@ -10,7 +10,7 @@
 	height: 300px;
 	overflow: hidden;
 	position: relative;
-	transition: all .5s ease-in-out;
+	transition: all 300ms ease-in-out;
 
 	@media only screen and (min-width: 710px) {
 		height: 500px;
@@ -27,6 +27,7 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		transition: all 300ms ease-in-out;
 	}
 
 	.thumbnail-viewbox--top {
@@ -35,5 +36,11 @@
 
 	.thumbnail-viewbox--bottom {
 		object-position: bottom;
+	}
+
+	&:focus, &:hover {
+		img {
+			transform: scale(1.075);
+		}
 	}
 }

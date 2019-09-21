@@ -14,18 +14,25 @@
     .post-date {
         color: tint($gray, 10%);
         font-size: .75em;
-    }
+	}
 
 	a {
+		text-decoration: underline;
+
+		&:focus, &:hover {
+			color: $link-hover-color;
+			text-decoration: none;
+		}
+	}
+
+	.post-title a {
 		color: initial;
 		text-decoration: none;
+		transition: all 200ms ease-in-out;
 
-		.post-title {
-			transition: all 200ms ease-in-out;
-		}
-
-		&:hover .post-title {
+		&:focus, &:hover {
 			color: $link-hover-color;
+			text-decoration: none;
 		}
 	}
 }
