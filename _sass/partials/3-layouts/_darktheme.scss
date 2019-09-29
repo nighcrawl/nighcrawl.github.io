@@ -1,0 +1,7 @@
+html[data-theme="dark"] {
+    body {
+        background-color: getColor('background', 'dark');
+        color: getColor('text', 'dark');
+    }
+    
+}

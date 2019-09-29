@@ -7,15 +7,24 @@
 	}
 
 	input, textarea {
-		border: 1px solid tint($gray, 10%);
+		border: 1px solid getColor('border');
 		@include border-radius($base-radius);
 		box-sizing: border-box;
-		color: $font-color;
+		color: getColor('text');
 		padding: 1em;
 		width: 100%;
+
+		[data-theme="dark"] & {
+			color: getColor('text', 'dark');
+			border-color: getColor('border', 'dark');
+			background-color: getColor('pre', 'dark');
+		}
 	}
 
 	[type="submit"] {
 		@include btn;
+		[data-theme="dark"] & {
+			@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
+		}
 	}
 }

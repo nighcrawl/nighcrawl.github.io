@@ -3,13 +3,21 @@
  */
 
 .post-page .post {
-	border-bottom: 1px solid tint($light-background, 70%);
+	border-bottom: 1px solid getColor('border');
 	margin-bottom: 1em;
 	padding-bottom: 1em;
 
+	[data-theme="dark"] & {
+		border-bottom-color: getColor('border', 'dark');
+	}
+
     .post-date {
-        color: tint($gray, 10%);
-        font-size: .75em;
+        color: getColor('text-light');
+		font-size: .75em;
+		
+		[data-theme="dark"] & {
+			color: getColor('text-light', 'dark');
+		}
     }
 }
 

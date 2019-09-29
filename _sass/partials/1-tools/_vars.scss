@@ -9,6 +9,10 @@
   @return mix(black, $color, $percentage);
 }
 
+@function getColor($color, $theme: 'light') {
+	@return map-get(map-get($themes, $theme), $color);
+}
+
 @mixin mask($url, $size_type, $top, $left) {
   mask: url($url) no-repeat $top $left;
   -webkit-mask: url($url) no-repeat $top $left;
@@ -29,7 +33,7 @@
 	transition: $transition $duration $effect;
 }
 
-@mixin btn($bg: $link-hover-color, $bg-hover: $link-color, $color: $white) {
+@mixin btn($bg: getColor('accent'), $bg-hover: getColor('accent-dark'), $color: getColor('background')) {
 	background-color: $bg;
 	border: none;
 	@include border-radius($base-radius);
@@ -45,16 +49,39 @@
 	}
 }
 
-
 // Color palette
 $blue: #0000b5;
 $red: #b50055;
-
-// Gray Scale
 $white:  #fff;
 $silver: #ddd;
 $gray:   #aaa;
 $black:  #222;
+$dark-purple: rgb(19, 0, 32);
+$darker-purple: #10001c;
+
+
+$themes: (
+	'light': (
+		'text-light': tint($black, 40%),
+		'text': $black,
+		'accent-light': tint($red, 20%),
+		'accent': $red,
+		'accent-dark': shade($red, 20%),
+		'background': $white,
+		'pre': $black,
+		'border': tint($gray,70%)
+	),
+	'dark': (
+		'text-light': shade($white, 40%),
+		'text': $white,
+		'accent-light': tint($red, 20%),
+		'accent': $red,
+		'accent-dark': shade($red, 20%),
+		'background': $dark-purple,
+		'pre': shade($dark-purple, 20%), 
+		'border': tint($dark-purple, 20%)
+	)
+);
 
 // Social Networks
 $facebook: #3b5998;
@@ -73,9 +100,6 @@ $font-color: $black;
 $light-background: $silver;
 $base-radius: 3px;
 
-$link-color: $blue;
-$link-hover-color: $red;
-
 $medium-breakpoint: 768px;
 $large-breakpoint: 1024px;
 
@@ -88,7 +112,7 @@ $h6-font-size:                $base-font-size * .8409 !default;
 
 
 %round-icon {
-	background-color: tint($light-background, 15%);
+	background-color: getColor('border');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
