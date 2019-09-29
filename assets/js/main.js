@@ -1,6 +1,7 @@
 var navToggle = document.querySelector('.site-nav-toggle');
 var body = document.querySelector('body');
 var nav = document.querySelector('.site-nav');
+var themeToggle = document.querySelector('.site-theme-switcher');
 
 var replaceFormspreeEmail = function() {
 	var emailLink = document.querySelector(".contact-form");
@@ -17,7 +18,28 @@ var navItemAnimDelay = function() {
 	});
 }
 
+var switchTheme = function(theme) {
+	if (theme == 'dark') {
+		document.querySelector('html').setAttribute('data-theme', 'dark');
+		document.querySelector('.site-theme-switcher i').classList.remove('far');
+		document.querySelector('.site-theme-switcher i').classList.add('fas');
+		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'light');
+	} else {
+		document.querySelector('html').setAttribute('data-theme', 'light');
+		document.querySelector('.site-theme-switcher i').classList.remove('fas');
+		document.querySelector('.site-theme-switcher i').classList.add('far');
+		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'dark');
+	}
+
+	localStorage.setItem('theme', document.querySelector('html').getAttribute('data-theme'));
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+
+	if (localStorage.getItem('theme') !== '') {
+		switchTheme(localStorage.getItem('theme'));
+	}
+
 	if (document.querySelector(".contact-form")) {
 		replaceFormspreeEmail();
 	}
@@ -39,5 +61,9 @@ document.addEventListener('DOMContentLoaded', function() {
 				selector.classList.remove('inview');
 			});
 		}
+	});
+
+	themeToggle.addEventListener('click', function() {
+		switchTheme(themeToggle.getAttribute('data-switch-theme'));
 	});
 });

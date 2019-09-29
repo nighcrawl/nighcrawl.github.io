@@ -14,7 +14,7 @@
 
 
 %link-icon {
-	background-color: $font-color;
+	background-color: getColor('text');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -25,7 +25,15 @@
 	@include mask('../img/link-icon.svg', cover, 50%, 50%);
 	transition: all 200ms ease-in-out;
 
+	[data-theme="dark"] & {
+		background-color: getColor('text', 'dark');
+	}
+
 	&:hover {
-		background-color: $link-hover-color;
+		background-color: getColor('accent-dark');
+
+		[data-theme="dark"] & {
+			background-color: getColor('accent-dark', 'dark');
+		}
 	}
 }

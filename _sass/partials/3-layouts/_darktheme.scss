@@ -1,53 +1,7 @@
-.dark-theme {
+html[data-theme="dark"] {
     body {
         background-color: getColor('background', 'dark');
         color: getColor('text', 'dark');
     }
-
-    pre {
-        background-color: getColor('pre', 'dark');
-    }
-
-    a {
-        color: getColor('link', 'dark');
-
-        &:focus, &:hover {
-            color: getColor('link-hover', 'dark');
-        }
-    }
-
-    .logo {
-        color: getColor('text', 'dark');
-        &:focus, &:hover {
-            color: getColor('text', 'dark');
-        }
-    }
-
-    .site-nav-toggle {
-        span {
-            background-color: getColor('text', 'dark');
-        }
-
-        &:not(.open):hover span {
-            background-color: getColor('link', 'dark');
-        }
-    }
-
-    .site-nav {
-        background-color: getColor('background', 'dark');
-    }
-
-    .nav-item a {
-        color: getColor('text', 'dark');
-
-        &:focus, &:hover {
-            background-color: getColor('link', 'dark');
-        }
-    }
-
-    .post-summary,
-    .post-page .post,
-    .archives-page .post-summary {
-        border-bottom: 1px solid getColor('light-background', 'dark');
-    }
+    
 }
