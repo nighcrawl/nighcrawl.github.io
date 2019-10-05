@@ -39,9 +39,6 @@
 	[data-theme="dark"] & {
 		color: getColor('text', 'dark');
 	}
-	@media (prefers-color-scheme: dark) {
-		color: getColor('text', 'dark');
-	}
 }
 
 .site-title {
@@ -75,10 +72,6 @@
 	background-color: getColor('accent');
 
 	[data-theme="dark"] & {
-		background-color: getColor('background', 'dark');
-	}
-
-	@media (prefers-color-scheme: dark) {
 		background-color: getColor('background', 'dark');
 	}
 
@@ -130,10 +123,6 @@
 			background-color: getColor('accent-dark', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
-			background-color: getColor('accent-dark', 'dark');
-		}
-
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -143,10 +132,6 @@
 		background-color: getColor('accent-dark');
 
 		[data-theme="dark"] & {
-			background-color: getColor('accent-dark', 'dark');
-		}
-
-		@media (prefers-color-scheme: dark) {
 			background-color: getColor('accent-dark', 'dark');
 		}
 
@@ -220,19 +205,11 @@
 			color: getColor('accent', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
-			color: getColor('accent', 'dark');
-		}
-
 		&:hover {
 			color: getColor('accent-dark');
 			text-decoration: none;
 
 			[data-theme="dark"] & {
-				color: getColor('accent-dark', 'dark');
-			}
-
-			@media (prefers-color-scheme: dark) {
 				color: getColor('accent-dark', 'dark');
 			}
 		}
@@ -261,11 +238,6 @@ pre {
 		background-color: getColor('pre', 'dark');
 		color: getColor('text', 'dark');
 	}
-
-	@media (prefers-color-scheme: dark) {
-		background-color: getColor('pre', 'dark');
-		color: getColor('text', 'dark');
-	}
 }
 
 .cp_embed_wrapper>* {
@@ -285,11 +257,6 @@ pre {
 		color: getColor('accent', 'dark');
 		@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
 	}
-
-	@media (prefers-color-scheme: dark) {
-		color: getColor('accent', 'dark');
-		@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
-	}
 }
 
 .site-footer {
@@ -303,10 +270,6 @@ pre {
 		border-top-color: getColor('border', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
-		border-top-color: getColor('border', 'dark');
-	}
-
 	a {
 		color: getColor('accent');
 		text-decoration: none;
@@ -316,18 +279,10 @@ pre {
 			color: getColor('accent', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
-			color: getColor('accent', 'dark');
-		}
-
 		&:hover {
 			color: getColor('accent-dark');
 
 			[data-theme="dark"] & {
-				color: getColor('accent-dark', 'dark');
-			}
-
-			@media (prefers-color-scheme: dark) {
 				color: getColor('accent-dark', 'dark');
 			}
 		}

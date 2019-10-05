@@ -15,19 +15,11 @@
 		border-bottom-color: getColor('border', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
-		border-bottom-color: getColor('border', 'dark');
-	}
-
     .post-date {
         color: getColor('text-light');
 		font-size: .75em;
 		
 		[data-theme="dark"] & {
-			color: getColor('text-light', 'dark');
-		}
-
-		@media (prefers-color-scheme: dark) {
 			color: getColor('text-light', 'dark');
 		}
 	}
@@ -40,10 +32,6 @@
 			text-decoration: none;
 
 			[data-theme="dark"] & {
-				color: getColor('accent-dark', 'dark');
-			}
-
-			@media (prefers-color-scheme: dark) {
 				color: getColor('accent-dark', 'dark');
 			}
 		}
@@ -59,10 +47,6 @@
 			text-decoration: none;
 
 			[data-theme="dark"] & {
-				color: getColor('accent-dark', 'dark');
-			}
-
-			@media (prefers-color-scheme: dark) {
 				color: getColor('accent-dark', 'dark');
 			}
 		}

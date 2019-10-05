@@ -21,7 +21,7 @@ html {
     content: 'light';
 
     @media (prefers-color-scheme: dark) {
-        content: 'dark';
+        content: "dark"; /* (ab)using the content property */
     }
 }
 

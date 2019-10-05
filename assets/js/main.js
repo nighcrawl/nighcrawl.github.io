@@ -38,6 +38,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	if (localStorage.getItem('theme') !== '') {
 		switchTheme(localStorage.getItem('theme'));
+	} else {
+		const mode = getComputedStyle(document.documentElement).getPropertyValue('content');
+		switchTheme(mode);
 	}
 
 	if (document.querySelector(".contact-form")) {
