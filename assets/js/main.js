@@ -25,7 +25,7 @@ var switchTheme = function(theme) {
 		document.querySelector('.site-theme-switcher i').classList.add('fas');
 		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'light');
 	} else {
-		document.querySelector('html').setAttribute('data-theme', 'light');
+		document.querySelector('html').removeAttribute('data-theme');
 		document.querySelector('.site-theme-switcher i').classList.remove('fas');
 		document.querySelector('.site-theme-switcher i').classList.add('far');
 		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'dark');
