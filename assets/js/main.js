@@ -39,6 +39,8 @@ var switchTheme = function(theme, save) {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
+	const mode = getComputedStyle(document.documentElement).getPropertyValue('content');
+	switchTheme(mode);
 
 	if (isDarkMode && document.querySelector('html').getAttribute('data-theme') == 'dark') {
 		document.querySelector('.site-theme-switcher i').classList.remove('far');
