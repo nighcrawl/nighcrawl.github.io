@@ -18,7 +18,10 @@ var navItemAnimDelay = function() {
 	});
 }
 
-var switchTheme = function(theme) {
+var switchTheme = function(theme, onToggle) {
+
+	onToggle = typeof(onToggle) === 'undefined' ? false : onToggle;
+
 	if (theme == 'dark') {
 		document.querySelector('html').setAttribute('data-theme', 'dark');
 		document.querySelector('.site-theme-switcher i').classList.remove('far');
@@ -31,17 +34,14 @@ var switchTheme = function(theme) {
 		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'dark');
 	}
 
-	localStorage.setItem('theme', document.querySelector('html').getAttribute('data-theme'));
+	if (onToggle) {
+		localStorage.setItem('theme', document.querySelector('html').getAttribute('data-theme'));
+	}
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-
-	if (localStorage.getItem('theme') !== '') {
-		switchTheme(localStorage.getItem('theme'));
-	} else {
-		const mode = getComputedStyle(document.documentElement).getPropertyValue('content');
-		switchTheme(mode);
-	}
+	const mode = getComputedStyle(document.documentElement).getPropertyValue('content');
+	switchTheme(mode);
 
 	if (document.querySelector(".contact-form")) {
 		replaceFormspreeEmail();
@@ -67,6 +67,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 
 	themeToggle.addEventListener('click', function() {
-		switchTheme(themeToggle.getAttribute('data-switch-theme'));
+		switchTheme(themeToggle.getAttribute('data-switch-theme'), true);
 	});
 });
