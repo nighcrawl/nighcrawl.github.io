@@ -18,7 +18,7 @@ var navItemAnimDelay = function() {
 	});
 }
 
-var switchTheme = function(theme) {
+var switchTheme = function(theme, save) {
 	if (theme == 'dark') {
 		document.querySelector('html').setAttribute('data-theme', 'dark');
 		document.querySelector('.site-theme-switcher i').classList.remove('far');
@@ -31,7 +31,10 @@ var switchTheme = function(theme) {
 		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'dark');
 	}
 
-	localStorage.setItem('theme', document.querySelector('html').getAttribute('data-theme'));
+	save = typeof(save) == 'undefined' ? false : true;
+	if (save) {
+		localStorage.setItem('theme', document.querySelector('html').getAttribute('data-theme'));
+	}
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -67,6 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 
 	themeToggle.addEventListener('click', function() {
-		switchTheme(themeToggle.getAttribute('data-switch-theme'));
+		switchTheme(themeToggle.getAttribute('data-switch-theme'), true);
 	});
 });
