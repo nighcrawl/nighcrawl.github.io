@@ -18,6 +18,11 @@ html {
     font-family: $base-font-face;
     font-size: $base-font-size;
     line-height: $base-line-height;
+    content: 'light';
+
+    @media (prefers-color-scheme: dark) {
+        content: 'dark';
+    }
 }
 
 /*
