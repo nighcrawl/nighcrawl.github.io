@@ -19,11 +19,21 @@
 			border-color: getColor('border', 'dark');
 			background-color: getColor('pre', 'dark');
 		}
+
+		@media (prefers-color-scheme: dark) {
+			color: getColor('text', 'dark');
+			border-color: getColor('border', 'dark');
+			background-color: getColor('pre', 'dark');
+		}
 	}
 
 	[type="submit"] {
 		@include btn;
 		[data-theme="dark"] & {
+			@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
+		}
+
+		@media (prefers-color-scheme: dark) {
 			@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
 		}
 	}

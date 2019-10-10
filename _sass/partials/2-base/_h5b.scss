@@ -37,12 +37,20 @@ html {
     background: getColor('accent');
     color: $white;
     text-shadow: none;
+
+    @media (prefers-color-scheme: dark) {
+        background: getColor('accent', 'dark');
+    }
 }
 
 ::selection {
     background: getColor('accent');
     color: $white;
     text-shadow: none;
+
+    @media (prefers-color-scheme: dark) {
+        background: getColor('accent', 'dark');
+    }
 }
 
 /*

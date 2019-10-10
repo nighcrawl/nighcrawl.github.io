@@ -16,6 +16,10 @@
         border-bottom-color: getColor('border', 'dark');
     }
 
+    @media (prefers-color-scheme: dark) {
+        border-bottom-color: getColor('border', 'dark');
+    }
+
     &:last-child {
         border-bottom: none;
     }
@@ -35,6 +39,10 @@
             [data-theme="dark"] & {
                 color: getColor('accent', 'dark');
             }
+
+            @media (prefers-color-scheme: dark) {
+                color: getColor('accent', 'dark');
+            }
         }
 
         .post-date {
@@ -43,6 +51,10 @@
             margin-left: .5em;
 
             [data-theme="dark"] & {
+                color: getColor('text-light', 'dark');
+            }
+
+            @media (prefers-color-scheme: dark) {
                 color: getColor('text-light', 'dark');
             }
         }
