@@ -206,6 +206,16 @@
 		&:hover {
 			background-color: getColor('accent-dark');
 			color: getColor('background');
+
+			[data-theme="dark"] & {
+				background-color: getColor('accent-dark', 'dark');
+				color: getColor('background', 'dark');
+			}
+	
+			@media (prefers-color-scheme: dark) {
+				background-color: getColor('accent-dark', 'dark');
+				color: getColor('background', 'dark');
+			}
 		}
 	}
 }
