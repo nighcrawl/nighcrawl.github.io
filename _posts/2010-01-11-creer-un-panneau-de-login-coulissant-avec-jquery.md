@@ -76,7 +76,7 @@ Maintenant qu&rsquo;on a définit notre marquage HTML et les styles à lui appli
     jQuery(document).ready(function($){
         $(".slide").on("click", function(event) {
             event.preventDefault();
-            $(".panel").slideToggle("slow");
+            $(this).prev(".panel").slideToggle("slow");
             $(this).toggleClass("active");
         });
     });
