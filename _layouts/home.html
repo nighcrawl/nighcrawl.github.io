@@ -14,7 +14,7 @@ body_class: "home-page"
         {% if post.image and post.image != "" %}
 				<a href="{{ post.url }}">
         <figure class="thumbnail">
-          <img src="{{ post.image }}" alt="{{ post.title }}" class="{{ post.image_class | default: '' }}" />
+          <img src="{{ site.placeholder }}" data-echo="{{ post.image }}" alt="{{ post.title }}" class="{{ post.image_class | default: '' }}" />
         </figure>
 				</a>
         {% endif %}

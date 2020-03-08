@@ -15,7 +15,7 @@ sitemap:
 
     {% if page.image and page.image != "" %}
     <figure class="thumbnail">
-        <img src="{{ page.image }}" alt="{{ page.title }}" class="{{ page.image_class | default: '' }}" />
+        <img src="{{ site.placeholder }}" data-echo="{{ page.image }}" alt="{{ page.title }}" class="{{ page.image_class | default: '' }}" />
     </figure>
     {% endif %}
 

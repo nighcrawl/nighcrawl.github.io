@@ -8,6 +8,8 @@ url: "https://chierchia.fr" # the base hostname & protocol for your site, e.g. h
 twitter_username: nighcrawl
 github_username:  nighcrawl
 
+placeholder: "/assets/img/placeholder.png"
+
 paginate: 10
 paginate_path: "/blog/page/:num/"
 

@@ -9,7 +9,7 @@ sitemap:
 
 {% if page.image %}
 <figure class="thumbnail" data-animate="slideup">
-  <img src="{{ page.image }}" alt="{{ page.title }}" class="{{ page.image_class | default: '' }}" />
+  <img src="{{ site.placeholder }}" data-echo="{{ page.image }}" alt="{{ page.title }}" class="{{ page.image_class | default: '' }}" />
 </figure>
 {% endif %}
 
