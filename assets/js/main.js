@@ -17,7 +17,7 @@ var navItemAnimDelay = function() {
 	needAnimation.forEach(function(elem, idx) {
 		elem.style.transitionDelay = 100 * (idx+1) + 'ms';
 	});
-}
+};
 
 var switchTheme = function(theme, save) {
 	if (theme == 'dark') {
@@ -36,7 +36,7 @@ var switchTheme = function(theme, save) {
 	if (save) {
 		localStorage.setItem('theme', document.querySelector('html').getAttribute('data-theme'));
 	}
-}
+};
 
 document.addEventListener('DOMContentLoaded', function() {
 
