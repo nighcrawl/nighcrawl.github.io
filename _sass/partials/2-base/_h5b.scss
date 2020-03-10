@@ -144,3 +144,14 @@ samp {
 img {
     max-width: 100%;
 }
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    figcaption {
+        font-size: .75rem;
+        color: getColor('light-text');
+    }
+}
