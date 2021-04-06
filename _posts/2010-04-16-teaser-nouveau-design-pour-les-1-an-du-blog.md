@@ -1,20 +1,14 @@
 ---
-id: 699
+
 title: 'Teaser : nouveau design pour les 1 an du blog'
 date: 2010-04-16T13:18:09+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=699
+
 permalink: /blog/teaser-nouveau-design-pour-les-1-an-du-blog/
 img_article:
   - /contents/uploads/teaserv3-200x200.jpg
-dsq_thread_id:
-  - "918763985"
 image: /contents/uploads/2010/04/teaserv3-390x288.jpg
-categories:
-  - Vis ma vie
-tags:
-  - refonte graphique
 ---
 Pour le premier anniversaire du blog, vous aurez droit à un tout nouveau design, très simple mais vraiment sympa (c&rsquo;est en tout cas mon avis).<!--more-->
 

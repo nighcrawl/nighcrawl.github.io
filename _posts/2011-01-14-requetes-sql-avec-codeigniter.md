@@ -1,19 +1,12 @@
 ---
-id: 1090
+
 title: Exécuter des requêtes SQL avec CodeIgniter
 date: 2011-01-14T22:36:57+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1090
+
 permalink: /blog/requetes-sql-avec-codeigniter/
-dsq_thread_id:
-  - "917539234"
 image: /contents/uploads/2010/06/ci_cms.jpg
-categories:
-  - PHP/MySQL
-tags:
-  - CodeIgniter
-  - MySQL
 ---
 Pour continuer à parler CodeIgniter, on va aujourd&rsquo;hui s&rsquo;intéresser à la construction de requêtes SQL via les fonctions disponibles avec CodeIgniter et voir l&rsquo;intêret d&rsquo;utiliser ces fonctions lorsqu&rsquo;on interroge une base de données.<!--more-->
 

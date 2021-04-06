@@ -1,17 +1,12 @@
 ---
-id: 1604
+
 title: 'Le changement, c&rsquo;est maintenant. Ou pas.'
 date: 2013-01-23T22:01:12+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1604
+
 permalink: /blog/le-changement-cest-maintenant-ou-pas/
-dsq_thread_id:
-  - "1043044737"
-categories:
-  - Non classé
-tags:
-  - vis ma vie
+
 ---
 Lorsque j&rsquo;ai acheté le domaine chierchia.fr pour y transférer le blog il y a trois mois, je m&rsquo;étais dit que ça serait une bonne occasion de repartir à zéro et d&rsquo;écrire plus. Pas forcement des billets longs ou même très techniques, mais toujours en suivant un peu l&rsquo;actualité, les nouveautés du Web. Faire ma veille, quoi.
 

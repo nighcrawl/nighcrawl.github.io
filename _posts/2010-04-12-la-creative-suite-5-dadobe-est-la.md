@@ -1,21 +1,14 @@
 ---
-id: 654
+
 title: 'La Creative Suite 5 d&#039;Adobe est là!'
 date: 2010-04-12T20:37:12+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=654
+
 permalink: /blog/la-creative-suite-5-dadobe-est-la/
 img_article:
   - /contents/uploads/cs5launch.jpg
-dsq_thread_id:
-  - "954015460"
 image: /contents/uploads/2010/04/cs5launch.jpg
-categories:
-  - News
-tags:
-  - Adobe
-  - creative suite
 ---
 Ayez, la nouvelle mouture de la suite de logiciels de création d&rsquo;Adobe est là! Au programme, pas mal de nouveauté pour un prix toujours aussi énorme (malheureusement)!<!--more-->
 

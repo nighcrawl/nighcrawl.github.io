@@ -3,7 +3,6 @@ title: Scraper un site Web en Python
 layout: post
 permalink: /blog/scraper-web-python/
 image: /contents/uploads/python.jpg
-tags: web scraping, python
 ---
 Aujourd'hui on va voir comment utiliser Python afin de scraper une page ou un site Web afin de récupérer les informations qui nous intéressent et ainsi se constituer une base de données.
 

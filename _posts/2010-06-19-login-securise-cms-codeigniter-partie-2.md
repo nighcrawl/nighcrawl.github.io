@@ -1,21 +1,12 @@
 ---
-id: 912
+
 title: 'Système de login sécurisé &#8211; CMS CodeIgniter, partie 2'
 date: 2010-06-19T13:58:15+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=912
+
 permalink: /blog/login-securise-cms-codeigniter-partie-2/
-dsq_thread_id:
-  - "917346033"
 image: /contents/uploads/2010/06/ci_cms.jpg
-categories:
-  - PHP/MySQL
-tags:
-  - CMS
-  - CodeIgniter
-  - MySQL
-  - PHP
 ---
 [Dans mon article précédent](http://chierchia.fr/php-mysql/moteur-site-web-developper-cms-codeigniter/ "Développer un moteur de site Web avec CodeIgniter"), on a vu comment installer et configurer le framework PHP CodeIgniter. Aujourd&rsquo;hui, on commence le développement de notre moteur de site Web. Au programme, la base de données et le système de login sécurisé.<!--more-->
 

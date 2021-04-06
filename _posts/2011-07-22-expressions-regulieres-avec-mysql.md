@@ -1,23 +1,15 @@
 ---
-id: 1252
+
 title: Expressions régulières avec MySQL
 date: 2011-07-22T21:08:08+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1252
+
 permalink: /blog/expressions-regulieres-avec-mysql/
 more-link-text:
   - "Regarde comme c'est beautiful!"
-dsq_thread_id:
-  - "917756809"
+
 image: /contents/uploads/2012/01/thumb-sql-regex.jpg
-categories:
-  - PHP/MySQL
-tags:
-  - astuce
-  - expression reguliere
-  - MySQL
-  - regexp
 ---
 Petite trouvaille du vendredi: Exécuter des requêtes MySQL pleine d&rsquo;expressions régulières. Cette après midi, en faisant un petit tour dans la base de données des inscrits à la newsletter de CBC qui avait bien besoin d&rsquo;un clean up afin de supprimer les adresses e-mails invalides.<!--more-->
 

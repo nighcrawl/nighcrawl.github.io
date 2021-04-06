@@ -1,20 +1,12 @@
 ---
-id: 808
+
 title: 'Ressource: 4 solutions de CMS en ligne'
 date: 2010-05-28T16:20:19+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=808
+
 permalink: /blog/ressource-cms-en-ligne/
-dsq_thread_id:
-  - "919506578"
 image: /contents/uploads/2010/05/screenshot-2010-05-28_-15.28.05-1000x288.jpg
-categories:
-  - Tweets
-tags:
-  - CMS
-  - gratuit
-  - ressources
 ---
 Lorsque un CMS n’est pas utile à un projet de site vitrine de quelque page, il arrive parfois que le client veuille quand même pouvoir modifier son contenu après coup, par lui même. Pour répondre à ce besoin, il existe quelques outils en ligne permettant de répondre à ce besoin.<!--more-->
 

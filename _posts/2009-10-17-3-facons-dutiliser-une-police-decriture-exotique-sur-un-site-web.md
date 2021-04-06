@@ -1,22 +1,13 @@
 ---
-id: 427
+
 title: '3 façons d&#039;utiliser une police d&#039;écriture &quot;exotique&quot; sur un site Web'
 date: 2009-10-17T18:04:13+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=427
+
 permalink: /blog/3-facons-dutiliser-une-police-decriture-exotique-sur-un-site-web/
 img_article:
   - /contents/uploads/fontsthumb.jpg
-dsq_thread_id:
-  - "917375918"
-categories:
-  - Webdesign
-tags:
-  - Cufon
-  - sIFR
-  - typographie
-  - Webdesign
 ---
 Dans ce nouvel article, nous allons voir comment utiliser une police d&rsquo;écriture dite éxotique, c&rsquo;est à dire qui n&rsquo;est normalement pas destinée à une utilisation sur le Web.<!--more-->
 

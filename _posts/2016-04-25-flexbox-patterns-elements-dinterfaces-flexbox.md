@@ -1,10 +1,10 @@
 ---
-id: 2019
+
 title: 'Flexbox Patterns &#8211; éléments d&rsquo;interfaces avec flexbox'
 date: 2016-04-25T07:31:47+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=2019
+
 permalink: /blog/flexbox-patterns-elements-dinterfaces-flexbox/
 format: link
 link: http://www.flexboxpatterns.com

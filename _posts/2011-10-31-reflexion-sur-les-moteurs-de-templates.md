@@ -1,30 +1,18 @@
 ---
-id: 1338
+
 title: 'Moteurs de templates : fausse bonne idée ?'
 date: 2011-10-31T09:24:56+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1338
+
 permalink: /blog/reflexion-sur-les-moteurs-de-templates/
-Hide SexyBookmarks:
-  - "0"
-Hide OgTags:
-  - "0"
 more-link-text:
   - Je lui laisse donc la place !
-dsq_thread_id:
-  - "917558583"
+
 guest_author:
   - Nicolas Torres
 guest_url:
   - ntorres.me
-categories:
-  - PHP/MySQL
-tags:
-  - CodeIgniter
-  - framework
-  - PHP
-  - template
 ---
 <span class="author_note">Aujourd&rsquo;hui, j&rsquo;inaugure le &laquo;&nbsp;Guest blogging&nbsp;&raquo; avec un article vraiment très intéressant de <a title="Nicolas Torres, élève ingénieur passionné de Web design" href="http://ntorres.me" target="_blank">Nicolas Torres</a> (@noclat) sur l&rsquo;intérêt mais aussi et surtout les &laquo;&nbsp;pièges&nbsp;&raquo; à éviter lorsqu&rsquo;on utilise un moteur de templates (comme Smarty par exemple).</span>
 

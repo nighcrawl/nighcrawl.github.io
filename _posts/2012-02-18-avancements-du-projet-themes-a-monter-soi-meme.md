@@ -1,26 +1,11 @@
 ---
-id: 1476
+
 title: 'Avancements du projet &quot;Thèmes à monter soi-même&quot;'
 date: 2012-02-18T18:32:37+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1424
+
 permalink: /blog/avancements-du-projet-themes-a-monter-soi-meme/
-aside-show-title:
-  - "1"
-Hide SexyBookmarks:
-  - "0"
-Hide OgTags:
-  - "0"
-dsq_thread_id:
-  - "917291877"
-categories:
-  - Vis ma vie
-tags:
-  - CSS
-  - HTML
-  - ressources
-  - Webdesign
 ---
 Mi-octobre je lançais l’idée de proposer des templates HTML5/CSS3 à télécharger gratuitement ici sur le blog, je ne reviendrai pas sur [les raisons qui m’ont poussées à entamer cette démarche](http://chierchia.fr/xhtml-css/template-html5-css3-gratuit/ "Des templates HTML5/CSS3 gratuits, ça vous intéresse ?"), ici j’ai envie de vous parler de comment ce présente l’enfant.<!--more-->
 

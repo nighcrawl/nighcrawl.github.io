@@ -1,26 +1,11 @@
 ---
-id: 168
 title: Créer des info-bulles attractives avec jQuery
 date: 2009-05-28T23:05:02+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=168
 permalink: /blog/creer-des-info-bulles-attractives-avec-jquery/
-syntaxhighlighter_encoded:
-  - "1"
 img_article:
   - /contents/uploads/jquerytooltip_thumb.jpg
-dsq_thread_id:
-  - "917311673"
-categories:
-  - Ajax/JavaScript
-tags:
-  - CSS
-  - HTML
-  - info-bulle
-  - Javascript
-  - jQuery
-  - plugin
 ---
 Dans cet article nous allons créer un plugin jQuery afin de générer à la volée des info-bulles stylisée en utilisant l&rsquo;attribut _title_.
   

@@ -1,21 +1,13 @@
 ---
-id: 363
+
 title: 'Pourquoi le design de mon blog n&#039;est pas top?'
 date: 2009-08-27T20:31:28+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=363
+
 permalink: /blog/pourquoi-le-design-de-mon-blog-nest-pas-top/
 img_article:
   - /contents/uploads/thumb_newdesigntease.jpg
-dsq_thread_id:
-  - "918763942"
-categories:
-  - Vis ma vie
-tags:
-  - accessibilité web
-  - refonte graphique
-  - Webdesign
 ---
 Le titre de mon billet est un peu barbare, mais au moins, cela montre que j&rsquo;ai un esprit critique sur mon propre travail &#8212; est-ce un avantage? mouais, pourquoi pas? Bref, le but de ce billet est enfait un moyen pour moi de porter un regard critique sur le design actuel, et sur la direction qu&rsquo;est entrain de prendre mon portfolio.<!--more-->
 

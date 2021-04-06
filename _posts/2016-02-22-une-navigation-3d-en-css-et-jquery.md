@@ -1,19 +1,12 @@
 ---
-id: 1976
+
 title: Une navigation 3D en CSS et jQuery
 date: 2016-02-22T21:06:38+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1976
+
 permalink: /blog/une-navigation-3d-en-css-et-jquery/
 image: /contents/uploads/img_2986.jpg
-categories:
-  - Non classé
-tags:
-  - CSS
-  - jQuery
-  - navigation
-  - responsive design
 format: link
 link: https://codyhouse.co/gem/3d-bold-navigation/
 ---

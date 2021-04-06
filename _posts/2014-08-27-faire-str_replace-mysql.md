@@ -1,18 +1,12 @@
 ---
-id: 1733
+
 title: 'Faire un <code>str_replace()</code> avec MySQL'
 date: 2014-08-27T09:46:49+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1733
+
 permalink: /blog/faire-str_replace-mysql/
-dsq_thread_id:
-  - "2963099059"
-categories:
-  - Non classé
-tags:
-  - astuce
-  - MySQL
+
 ---
 Lorsque je conçois les sites Web de nos clients, une fois mon travail terminé, je le met en ligne sur un domaine temporaire afin que le client puisse voir, utiliser et surtout alimenter le site Web en contenu avant de l&rsquo;installer sur son domaine définitif.
 

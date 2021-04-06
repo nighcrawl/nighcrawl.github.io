@@ -1,19 +1,13 @@
 ---
-id: 398
+
 title: Stage chez CBC Informatique terminé
 date: 2009-09-11T19:14:59+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=398
+
 permalink: /blog/stage-chez-cbc-informatique-termine/
 img_article:
   - /contents/uploads/thumb_cbc.jpg
-dsq_thread_id:
-  - "970885536"
-categories:
-  - Vis ma vie
-tags:
-  - vis ma vie
 ---
 Eh bien voilà, j&rsquo;ai terminé aujourd&rsquo;hui mon stage de développeur Web au sein de l&rsquo;entreprise [CBC Informatique](http://www.cbc.lu/shop/ "CBC Informatique Shop online"). Ces trois mois de stage passés au sein de l&rsquo;entreprise, m&rsquo;ont permit de mettre enfin à profit mes compétences dans le développement Web et le Web design dans une structure de plus de cinquante employés, ce qui n&rsquo;avait jamais été le cas lors de mes précédents stages.<!--more-->
 

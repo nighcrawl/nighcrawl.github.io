@@ -1,23 +1,15 @@
 ---
-id: 591
+
 title: 'iPad : La tablette Apple est là'
 date: 2010-01-28T20:55:11+00:00
 author: Ange Chierchia
 excerpt: "Après de nombreuses rumeurs ces derniers temps sur la possible sortie d'un tablette estampillé Apple et sur ces fonctionnalités, Steve Jobs, le PDG de la firme de Cupertino, a présenté  hier lors de la Keynote son nouveau joujou: l'iPad, à mis chemin entre iPhone et MacBook Pro."
 layout: post
-guid: http://chierchia.fr/?p=591
+
 permalink: /blog/ipad-la-tablette-apple-est-la/
 img_article:
   - /contents/uploads/hardware-04-20100127-e1264708286153-150x150.jpg
-dsq_thread_id:
-  - "930745853"
 image: /contents/uploads/2010/01/hardware-04-20100127-944x288.jpg
-categories:
-  - News
-tags:
-  - Apple
-  - Hi-Tech
-  - iPad
 ---
 Après de nombreuses rumeurs ces derniers temps sur la possible sortie d&rsquo;un tablette estampillé Apple et sur ses fonctionnalités, Steve Jobs, le PDG de la firme de Cupertino, a présenté  hier lors de la Keynote son nouveau joujou: l&rsquo;**iPad**, à mis chemin entre iPhone et MacBook Pro.<!--more-->
 
