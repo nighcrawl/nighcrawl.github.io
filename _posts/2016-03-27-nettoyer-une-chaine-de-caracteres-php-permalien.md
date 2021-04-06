@@ -4,8 +4,8 @@ title: Nettoyer une chaîne de caractères avec PHP
 date: 2016-03-27T15:10:26+00:00
 author: Ange Chierchia
 layout: post
-
 permalink: /blog/nettoyer-une-chaine-de-caracteres-php-permalien/
+category: "Back-End"
 ---
 Quoi de plus simple que de nettoyer une chaîne de caractères pour l&rsquo;utiliser comme URL vers une page, un article ou tout autre contenu publié sur Internet en général ? Et pourtant&#8230;
 

@@ -7,6 +7,7 @@ layout: post
 
 permalink: /blog/astuce-jquery-fonction-resize/
 image: /contents/uploads/2010/05/1205101927.jpg
+category: "Front-End"
 ---
 Aujourd&rsquo;hui en bossant sur le nouveau design j&rsquo;ai voulu adapter mon design selon la taille de la fenêtre du navigateur, je vais donc partager cette petite astuce avec vous. Ici je vais utiliser un petit bout de Javascript, et plus précisement du jQuery.<!--more-->
 

@@ -4,9 +4,9 @@ title: Créer son framework PHP Objet
 date: 2016-01-11T08:40:21+00:00
 author: Ange Chierchia
 layout: post
-
 permalink: /blog/creer-son-framework-php-objet/
 image: /contents/uploads/technology-programming-code-wallpaper-hd-1920x1080-825x510.jpg
+category: "Back-End"
 ---
 Pour faire suite à un article que j&rsquo;avais écrit il y a un peu plus de quatre ans maintenant sur la [création d&rsquo;un framework PHP](http://chierchia.fr/blog/creer-son-framework-php/), je vous propose de créer un framework PHP Objet en utilisant les principes MVC.<!--more-->
 

@@ -10,6 +10,7 @@ link:
   - http://instafeedjs.com/
 
 format: link
+category: "Ressource"
 ---
 Aujourd&rsquo;hui, je suis tombé sur [Instafeed.js](http://instafeedjs.com "Instafeed.js - a simple Instagram javascript plugin"), un plugin JavaScript permettant d&rsquo;afficher des flux de photos Instagram n&rsquo;importe où.
 

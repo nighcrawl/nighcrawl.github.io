@@ -10,6 +10,7 @@ more-link-text:
   - "Regarde comme c'est beautiful!"
 
 image: /contents/uploads/2012/01/thumb-sql-regex.jpg
+category: "Back-End"
 ---
 Petite trouvaille du vendredi: Exécuter des requêtes MySQL pleine d&rsquo;expressions régulières. Cette après midi, en faisant un petit tour dans la base de données des inscrits à la newsletter de CBC qui avait bien besoin d&rsquo;un clean up afin de supprimer les adresses e-mails invalides.<!--more-->
 

@@ -9,6 +9,7 @@ permalink: /blog/flexslider-vos-diaporamas-responsive/
 link:
   - http://flex.madebymufffin.com/
 format: link
+category: "Ressource"
 ---
 Aujourd&rsquo;hui, avec HTML5, CSS3 et les Media Queries, on fait de très jolies choses côté webdesign. Mais le must-have, hormis les rubans et autres joyeuseté bien rétro, c&rsquo;est un design complètement &laquo;&nbsp;responsive&nbsp;&raquo;, adaptatif, afin de servir une mise en page différente de l&rsquo;informations suivant le support (desktop, mobile, tablette, etc&#8230;).
 

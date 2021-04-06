@@ -4,9 +4,9 @@ title: 'Pré-processeur CSS : nos feuilles de styles faciles'
 date: 2015-10-23T08:45:08+00:00
 author: Ange Chierchia
 layout: post
-
 permalink: /blog/pre-processeur-css-feuilles-de-styles-faciles/
 image: /contents/uploads/image-825x510.png
+category: "Front-End"
 ---
 Il y a déjà <del>plusieurs mois</del> trois ans (trois ans !!), j&rsquo;avais écris un billet d&rsquo;humeur à propos tout le foin que l&rsquo;on faisait sur [les pré-processeurs CSS](http://chierchia.fr/blog/preprocesseur-css-pourquoi/ "Quel intérêt à utiliser un préprocesseur CSS ?") et leur utilisation que je trouvais abusive.
 

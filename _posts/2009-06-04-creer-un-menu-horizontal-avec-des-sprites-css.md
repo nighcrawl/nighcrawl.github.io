@@ -6,6 +6,7 @@ layout: post
 permalink: /blog/creer-un-menu-horizontal-avec-des-sprites-css/
 img_article:
   - /contents/uploads/thumb_sprites.jpg
+category: "Front-End"
 ---
 Dans ce nouvel article, on va voir comment grâce aux CSS et à la technique des Sprites, on va pouvoir créer un menu horizontal, ou tout autre élément, avec un effet de rollover sans utiliser un nombre incalculable d&rsquo;images. Ici, une seule image sera nécessaire!<!--more-->
 

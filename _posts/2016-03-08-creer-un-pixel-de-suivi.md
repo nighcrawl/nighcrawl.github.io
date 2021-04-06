@@ -4,9 +4,9 @@ title: Créer un pixel de suivi
 date: 2016-03-08T19:10:44+00:00
 author: Ange Chierchia
 layout: post
-
 permalink: /blog/creer-un-pixel-de-suivi/
 image: /contents/uploads/0851180c82edcb207c0f6a706700d56c_c413-0-2587-1268_s885x516-825x510.jpg
+category: "Back-End"
 ---
 Ces dernières semaines, j&rsquo;ai essentiellement travaillé sur la conception d&rsquo;un cookie/pixel de suivi et le traitement des informations récupérées, pour en faire des tableaux statistiques et autres graphiques de fréquentation par la suite. Je vous parlerai peut-être de mon expérience avec <a href="http://c3js.org/" target="_blank">la librairie JavaScript C3.js</a> dans un prochain article.
 

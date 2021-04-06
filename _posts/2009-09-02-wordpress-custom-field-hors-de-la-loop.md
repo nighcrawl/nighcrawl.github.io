@@ -8,6 +8,7 @@ layout: post
 permalink: /blog/wordpress-custom-field-hors-de-la-loop/
 img_article:
   - /contents/uploads/wploopthumb.jpg
+category: "Back-End"
 ---
 Aujourd&rsquo;hui je vais vous faire partager une petite astuce que j&rsquo;ai dut utiliser pour l&rsquo;un de mes projets en cours. La problématique : Comment afficher un custom field lorsqu&rsquo;on est hors de la loop wordpress?<!--more-->
 

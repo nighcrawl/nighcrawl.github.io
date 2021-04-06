@@ -4,10 +4,10 @@ title: 'Ajuster <code>text-color</code> en fonction de <code>background</code> a
 date: 2015-10-23T18:23:13+00:00
 author: Ange Chierchia
 layout: post
-
 permalink: /blog/sass-modifier-text-color-en-fonction-de-background/
 link: http://thesassway.com/intermediate/dynamically-change-text-color-based-on-its-background-with-sass
 format: link
+category: "Front-End"
 ---
 Dans un article de The Sass Way, Sebastian Ekström nous montre comment, avec Sass, garantir la meilleure lisibilité possible à vos textes pour une couleur de fond donnée.
 

@@ -7,6 +7,7 @@ layout: post
 
 permalink: /blog/ressource-cms-en-ligne/
 image: /contents/uploads/2010/05/screenshot-2010-05-28_-15.28.05-1000x288.jpg
+category: "Ressource"
 ---
 Lorsque un CMS n’est pas utile à un projet de site vitrine de quelque page, il arrive parfois que le client veuille quand même pouvoir modifier son contenu après coup, par lui même. Pour répondre à ce besoin, il existe quelques outils en ligne permettant de répondre à ce besoin.<!--more-->
 

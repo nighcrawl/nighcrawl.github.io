@@ -9,6 +9,7 @@ permalink: /blog/responsive-design-adaptez-vos-videos/
 link:
   - http://fitvidsjs.com/
 format: link
+category: "Ressource"
 ---
 Vendredi dernier, on a parlé du Responsive Web design (RWD) pendant le #wdfr sur Twitter, vous aurez d&rsquo;ailleurs un résumé de la sessions du 2 septembre sur le blog du WDfriday, une fois celui-ci en ligne.
 

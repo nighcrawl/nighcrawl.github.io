@@ -7,6 +7,7 @@ layout: post
 
 permalink: /blog/creer-son-framework-php/
 image: /contents/uploads/2011/12/framework-perso-php.jpg
+category: "Back-End"
 ---
 Cela fait maintenant presque deux ans que je suis entré dans la vie active en tant que développeur et designer Web. Et en tant que tel, je suis souvent (comprenez : tout le temps) amené à faire quasiment les mêmes choses, bien que chaque projet soit différent.
 
