@@ -4,7 +4,7 @@ title: Un blog plus clean et épuré
 date: 2011-06-26T13:24:25+00:00
 author: Ange Chierchia
 layout: post
-
+category: "Vis ma vie"
 permalink: /blog/un-blog-plus-clean-et-epure/
 ---
 Hello vous, petite note rapide. Cette semaine je suis tombé sur une font vraiment trop top en cherchant un service permettant de générer rapidement une font-stack (pile de polices) ayant les mêmes caractéristiques (oui je m&rsquo;intéresse à la typo maintenant, mais de loin).

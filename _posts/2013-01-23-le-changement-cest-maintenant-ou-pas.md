@@ -4,7 +4,7 @@ title: 'Le changement, c&rsquo;est maintenant. Ou pas.'
 date: 2013-01-23T22:01:12+00:00
 author: Ange Chierchia
 layout: post
-
+category: "Vis ma vie"
 permalink: /blog/le-changement-cest-maintenant-ou-pas/
 
 ---

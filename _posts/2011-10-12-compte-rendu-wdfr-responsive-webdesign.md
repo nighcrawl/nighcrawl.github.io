@@ -4,7 +4,7 @@ title: '#wdfr S02E01 &#8211; Responsive Web Design'
 date: 2011-10-12T15:30:53+00:00
 author: Ange Chierchia
 layout: post
-
+category: "Front-End"
 permalink: /blog/compte-rendu-wdfr-responsive-webdesign/
 link:
   - http://wdfriday.com/blog/2011/10/s02e01-responsive-web-design/
