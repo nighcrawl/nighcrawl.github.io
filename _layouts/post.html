@@ -33,7 +33,7 @@ sitemap:
         {% when '10' %}octobre
         {% when '11' %}novembre
         {% when '12' %}décembre
-    {% endcase %} {{ page.date | date: "%Y" }}</time>
+    {% endcase %} {{ page.date | date: "%Y" }} dans <a href="{{site.baseurl}}/category/{{page.category|slugize}}">{{page.category}}</a></time>
 
     {{ content }}
 

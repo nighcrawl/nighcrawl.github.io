@@ -32,7 +32,7 @@ body_class: "home-page"
             {% when '10' %}octobre
             {% when '11' %}novembre
             {% when '12' %}décembre
-        {% endcase %} {{ post.date | date: "%Y" }}</time>
+        {% endcase %} {{ post.date | date: "%Y" }} dans <a href="{{site.baseurl}}/category/{{post.category|slugize}}">{{post.category}}</a></time>
         {% if post.format and post.format =="link" and post.link != "" %}
             <p>{{ post.content }}</p>
         {% else if post.content contains "<!--more-->" %}
