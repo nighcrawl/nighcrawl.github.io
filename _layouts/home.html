@@ -37,6 +37,7 @@ body_class: "home-page"
             <p>{{ post.content }}</p>
         {% else if post.content contains "<!--more-->" %}
             <p>{{ post.excerpt  | split : "<!--more-->" | first }}</p>
+            <a href="{{ post.url | relative_url }}">Lire la suite</a>
         {% else %}
         	<p>{{ post.excerpt }}</p>
         {% endif %}
