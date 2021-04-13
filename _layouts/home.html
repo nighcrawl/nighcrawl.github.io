@@ -40,6 +40,7 @@ body_class: "home-page"
             <a href="{{ post.url | relative_url }}">Lire la suite</a>
         {% else %}
         	<p>{{ post.excerpt }}</p>
+          <a href="{{ post.url | relative_url }}">Lire la suite</a>
         {% endif %}
     </li>
     {% endfor %}
