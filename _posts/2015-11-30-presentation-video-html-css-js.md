@@ -1,18 +1,12 @@
 ---
-id: 1878
+
 title: Une présentation vidéo en HTML, CSS et JS
 date: 2015-11-30T08:15:07+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1878
 permalink: /blog/presentation-video-html-css-js/
 image: /contents/uploads/html5-topper-825x510.png
-categories:
-  - Non classé
-tags:
-  - CSS
-  - HTML
-  - Javascript
+category: "Front-End"
 ---
 Il y a déjà quelques mois, j&rsquo;ai eu la tâche de trouver un moyen de présenter différent aspects d&rsquo;une application que mes collègues et moi développons chez [Ibakus Europe](https://www.ibakus.com).
 

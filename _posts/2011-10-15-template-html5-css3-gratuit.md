@@ -1,28 +1,13 @@
 ---
-id: 1325
+
 title: Des templates HTML5/CSS3 gratuits, ça vous intéresse ?
 date: 2011-10-15T16:54:00+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1325
+category: "Vis ma vie"
 permalink: /blog/template-html5-css3-gratuit/
-aside-show-title:
-  - "1"
 more-link-text:
   - Lis la suite, tu comprendras pourquoi je dis çà
-Hide SexyBookmarks:
-  - "0"
-Hide OgTags:
-  - "0"
-dsq_thread_id:
-  - "917395822"
-categories:
-  - XHTML/CSS
-tags:
-  - CSS
-  - HTML
-  - responsive
-  - ressources
 ---
 Ça viens de me tomber sur le bout du nez à l&rsquo;instant. Malgré un cursus de développeur Web, j&rsquo;ai toujours été attiré par le design Web, et encore plus ces deux dernières années, à tel point que je manque quelques fois de motivations quand vient le moment du développement pur est dur, préférant m&rsquo;attarder sur le design dans Photoshop et son intégration HTML CSS. Mon poste actuel ne me permet pas de passer tout mon temps à concevoir des maquettes fonctionnelles, ergonomiques et jolies, et c&rsquo;est dommage.<!--more-->
 

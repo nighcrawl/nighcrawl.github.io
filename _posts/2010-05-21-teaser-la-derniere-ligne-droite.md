@@ -1,18 +1,12 @@
 ---
-id: 776
+
 title: 'Teaser: la dernière ligne droite!'
 date: 2010-05-21T15:51:45+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=776
+category: "Vis ma vie"
 permalink: /blog/teaser-la-derniere-ligne-droite/
-dsq_thread_id:
-  - "988404582"
 image: /chierchia/blog/wp-content/uploads/2010/05/teaserv3-d-21-05-10-390x288.jpg
-categories:
-  - Vis ma vie
-tags:
-  - refonte graphique
 ---
 Vendredi dernier vous avez pu découvrir à quoi allait ressembler la page consacrée à mon portfolio. Aujourdhui, à quelques jours de la mise en ligne, découvrez la nouvelle page d&rsquo;acceuil!<!--more-->
 

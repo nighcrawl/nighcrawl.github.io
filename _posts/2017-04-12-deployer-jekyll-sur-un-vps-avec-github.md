@@ -5,7 +5,7 @@ author: Ange Chierchia
 layout: post
 permalink: /blog/deployer-jekyll-sur-un-vps-avec-github/
 image: /contents/uploads/git.jpg
-tags: Jekyll, Migration, git
+category: "Back-End"
 ---
 
 Il y a deux mois [j'ai totalement abandonné WordPress][1] pour passer à Jekyll, une solution beaucoup moins lourde et plus en phase avec ma façon actuelle de publier sur mon blog. Dans mon précédent billet, j'avais évoqué la possibilité pour moi d'abandonner mon mutualisé OVH en faveur de GitHub Pages.

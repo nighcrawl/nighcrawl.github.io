@@ -1,20 +1,14 @@
 ---
-id: 729
+
 title: 'Teaser: le blog en version 3'
 date: 2010-05-07T16:13:46+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=729
+category: "Vis ma vie"
 permalink: /blog/teaser-le-blog-en-version-3/
 img_article:
   - http://blog.angechierchia.com/wp-content/uploads/teaserv3-b-200x200.jpg
-dsq_thread_id:
-  - "918763998"
 image: /contents/uploads/2010/05/teaserv3-b-390x288.jpg
-categories:
-  - Vis ma vie
-tags:
-  - refonte graphique
 ---
 Aujourd&rsquo;hui je vous présente encore un petit avant goût de la prochaine version du blog. En vedette ici, l&rsquo;affichage des commentaires.<!--more-->
 

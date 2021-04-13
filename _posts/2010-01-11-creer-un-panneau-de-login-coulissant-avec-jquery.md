@@ -1,22 +1,15 @@
 ---
-id: 562
+
 title: Créer un panneau de Login coulissant avec jQuery
 date: 2010-01-11T17:45:18+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=562
+
 permalink: /blog/creer-un-panneau-de-login-coulissant-avec-jquery/
 img_article:
   - /contents/uploads/loginpaneljquery.jpg
-dsq_thread_id:
-  - "921825862"
 image: /contents/uploads/2010/04/loginpanel.jpg
-categories:
-  - Ajax/JavaScript
-tags:
-  - Javascript
-  - jQuery
-  - Webdesign
+category: "Front-End"
 ---
 Comme premier article pour cette nouvelle année 2010 (bonne année à tous d&rsquo;ailleurs!), j&rsquo;ai décidé de vous proposer un tutoriel très simple pour créer une zone de login coulissante grâce à la librairie javascript jQuery.
 

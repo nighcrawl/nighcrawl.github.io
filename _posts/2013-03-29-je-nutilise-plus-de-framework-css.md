@@ -1,19 +1,12 @@
 ---
-id: 1647
+
 title: 'Je n&rsquo;utilise plus de framework CSS'
 date: 2013-03-29T19:21:33+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1647
+category: "Vis ma vie"
 permalink: /blog/je-nutilise-plus-de-framework-css/
-dsq_thread_id:
-  - "1173473758"
-categories:
-  - Non classé
-tags:
-  - CSS
-  - framework
-  - vis ma vie
+
 ---
 Il y a maintenant presque 3 ans, j&rsquo;entrais dans la vie active, j&rsquo;avais un peu &laquo;&nbsp;d&rsquo;expérience&nbsp;&raquo; en intégration HTML/CSS et pour gagner du temps j&rsquo;utilisais le fameux framework CSS 960.gs. Pourquoi était-ce une mauvaise idée ?
 

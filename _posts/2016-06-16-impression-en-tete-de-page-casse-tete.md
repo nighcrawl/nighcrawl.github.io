@@ -1,18 +1,12 @@
 ---
-id: 2046
+
 title: 'Impression et en-tête de page : casse-tête'
 date: 2016-06-16T19:59:11+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=2046
 permalink: /blog/impression-en-tete-de-page-casse-tete/
 image: /contents/uploads/pexels-photo-825x510.jpg
-categories:
-  - Non classé
-tags:
-  - HTML
-  - impression
-  - table
+category: "Front-End"
 ---
 Il y a quelques semaines, je travaillais sur un template de bilan comptable, destiné a être imprimé via notre application IBAKUS®COMPTA, dans lequel l&rsquo;en-tête de page devait se répéter sur chaque pages du document.
 

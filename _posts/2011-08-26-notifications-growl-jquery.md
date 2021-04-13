@@ -1,25 +1,13 @@
 ---
-id: 1260
+
 title: Notifications à la Growl avec jQuery
 date: 2011-08-26T21:04:51+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1260
+
 permalink: /blog/notifications-growl-jquery/
-dsq_thread_id:
-  - "919611787"
-Hide SexyBookmarks:
-  - "0"
-Hide OgTags:
-  - "0"
 image: /contents/uploads/2012/01/thumb-growl-notification.jpg
-categories:
-  - Ajax/JavaScript
-tags:
-  - growl
-  - jQuery
-  - notification
-  - snippet
+category: "Front-End"
 ---
 Aujourd&rsquo;hui, on va voir comment mettre en place facilement des notifications utilisateur un peu à la façon de Growl, très connu des Mac users.<!--more-->
 

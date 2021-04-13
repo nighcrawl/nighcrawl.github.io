@@ -1,20 +1,13 @@
 ---
-id: 417
+
 title: 'AngeChierchia.com v2, c&#039;est maintenant!'
 date: 2009-10-15T17:30:25+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=417
+category: "Vis ma vie"
 permalink: /blog/angechierchia-com-v2-cest-maintenant/
 img_article:
   - /contents/uploads/thumb_acv2.jpg
-dsq_thread_id:
-  - "918763956"
-categories:
-  - News
-tags:
-  - refonte graphique
-  - Wordpress
 ---
 Ayez! Après plusieurs mois de conception, le nouveau design du blog est enfin terminé! Pour ce nouvelle habillage, je l&rsquo;avais déjà dis, je ne souhaitais pas modifier toute la charte graphique car je la trouvais très bien, mais en même temps, quelques petits changements devaient être fait. Voyons voir ce qu&rsquo;il y a de neuf dans cette refonte graphique.<!--more-->
 

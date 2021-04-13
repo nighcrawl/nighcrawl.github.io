@@ -1,19 +1,13 @@
 ---
-id: 646
+
 title: Afficher une date relative en PHP
 date: 2010-04-12T13:28:52+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=646
+
 permalink: /blog/afficher-une-date-relative-en-php/
-dsq_thread_id:
-  - "918763973"
 image: /contents/uploads/2010/04/phpcutetime.jpg
-categories:
-  - PHP/MySQL
-tags:
-  - date
-  - PHP
+category: "Back-End"
 ---
 Hier, je vous présentais le [plugin jQuery CuteTime](http://chierchia.fr/ajax-javascript/plugin-jquery-cutetime-affichez-vos-dates-comme-sur-twitter/ "Afficher de jolies dates en jQuery grâce à CuteTime"), aujourd&rsquo;hui, je vous propose de faire la même chose, mais cette fois en PHP, grâce à une fonction qu&rsquo;a proposé <a title="Temps relatif en PHP" href="http://blog.jaysalvat.com/articles/temps-relatif-en-php.php" target="_blank">Jay Salvat sur son blog</a>.<!--more-->
 

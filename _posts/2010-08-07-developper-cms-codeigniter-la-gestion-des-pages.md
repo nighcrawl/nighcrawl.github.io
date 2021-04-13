@@ -1,23 +1,13 @@
 ---
-id: 984
+
 title: 'Développer un CMS avec CodeIgniter #3 : la gestion des pages'
 date: 2010-08-07T17:09:15+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=984
+
 permalink: /blog/developper-cms-codeigniter-la-gestion-des-pages/
-dsq_thread_id:
-  - "917283706"
-dsq_needs_sync:
-  - "1"
 image: /contents/uploads/2010/06/ci_cms.jpg
-categories:
-  - PHP/MySQL
-tags:
-  - CMS
-  - CodeIgniter
-  - MySQL
-  - PHP
+category: "Back-End"
 ---
 Dans ce nouvel article qui fait suite à &laquo;&nbsp;[Développer un moteur de site Web avec CodeIgniter](http://chierchia.fr/php-mysql/moteur-site-web-developper-cms-codeigniter/)&nbsp;&raquo; et &laquo;&nbsp;[Système de login sécurisé &#8212; CMS CodeIgniter, partie 2](http://chierchia.fr/php-mysql/login-securise-cms-codeigniter-partie-2/)&nbsp;&raquo; nous allons nous intéresser au module de gestion des pages de contenu, le coeur du moteur de site web en somme.<!--more-->
 

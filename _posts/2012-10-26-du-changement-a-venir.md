@@ -1,20 +1,11 @@
 ---
-id: 1512
+
 title: 'Du changement  à venir&#8230;'
 date: 2012-10-26T12:48:53+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1512
+category: "Vis ma vie"
 permalink: /blog/du-changement-a-venir/
-aside-show-title:
-  - "1"
-  - "1"
-dsq_thread_id:
-  - "917584195"
-categories:
-  - Vis ma vie
-tags:
-  - vis ma vie
 ---
 Il y a de cela 4 ans j&rsquo;ai commencé à écrire sur ce blog. Et puis à l&rsquo;été 2009 je me suis déclaré comme auto-entrepreneur, ayant le besoin de travailler et donc rester actif pendant ma recherche de premier emploi.
 

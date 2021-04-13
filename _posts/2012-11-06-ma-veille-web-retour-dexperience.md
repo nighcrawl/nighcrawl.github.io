@@ -1,18 +1,12 @@
 ---
-id: 1519
+
 title: 'Ma veille Web : retour d&rsquo;expérience'
 date: 2012-11-06T13:27:22+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/w/?p=1519
+category: "Vis ma vie"
 permalink: /blog/ma-veille-web-retour-dexperience/
-dsq_thread_id:
-  - "917277117"
-categories:
-  - Non classé
-tags:
-  - veille
-  - vis ma vie
+
 ---
 Cela fait quelques semaines que je voulais faire un article similaire à ceux de mon ami [Francis Chouquet](http://www.fran6art.com/la-vie-20/ma-veille-en-details-historique-et-outils-utilises/ "Retour d'expérience de Francis") et celui d&rsquo;[Aurélien Foutoyet](http://all-for-design.com/web-design/les-outils-de-ma-veille/ "La veille selon Aurélien Foutoyet") dans lesquels ils partagent leur expérience de la veille mais aussi les outils qu&rsquo;ils utilisent au quotidien. À mon tour.<!--more-->
 

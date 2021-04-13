@@ -1,26 +1,16 @@
 ---
-id: 1240
+
 title: Générer un mot de passe aléatoirement
 date: 2011-07-08T18:47:47+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1240
+
 permalink: /blog/generer-un-mot-de-passe-aleatoirement/
 more-link-text:
   - "Clique pour voir comme c'est beau!"
-dsq_thread_id:
-  - "917390754"
+
 image: /contents/uploads/2012/01/1159613_851208571.jpg
-categories:
-  - PHP/MySQL
-tags:
-  - chaine aléatoire
-  - function
-  - mot de passe
-  - PHP
-  - rand()
-  - sécurité
-  - shuffle()
+category: "Back-End"
 ---
 Pour commencer le week-end (ou les vacances pour certains), voici une petite fonction, très simple permettant de générer un mot de passe aléatoire, par exemple pour un accès à une zone de gestion. C&rsquo;est d&rsquo;ailleurs ce à quoi ce petit bout de code fait maison m&rsquo;a servi. <!--more-->
 

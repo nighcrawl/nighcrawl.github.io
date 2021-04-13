@@ -1,23 +1,14 @@
 ---
-id: 294
+
 title: Sécuriser ses formulaires avec une clé unique
 date: 2009-06-20T16:02:31+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=294
+
 permalink: /blog/securiser-ses-formulaires-avec-une-cle-unique/
-syntaxhighlighter_encoded:
-  - "1"
 img_article:
   - /contents/uploads/formkeyphp_thumb.jpg
-dsq_thread_id:
-  - "917311585"
-categories:
-  - PHP/MySQL
-tags:
-  - PHP
-  - POO
-  - sécurité php
+category: "Back-End"
 ---
 Il y a quelques jours je suis tombé sur un article très intéressant de <a title="Lire l'article en anglais" href="http://www.behindtheview.com/2009/11/23/securing-forms-with-form-keys/" target="_blank">Wouter Bulten</a> concernant la sécurité lors de la soumission de formulaire web.<!--more-->
 

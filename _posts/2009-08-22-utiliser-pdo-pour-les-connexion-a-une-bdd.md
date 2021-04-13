@@ -1,24 +1,14 @@
 ---
-id: 331
+
 title: 'Comment utiliser l&#039;objet PDO de PHP pour les connexions à une base de données?'
 date: 2009-08-22T19:12:21+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=331
+
 permalink: /blog/utiliser-pdo-pour-les-connexion-a-une-bdd/
-syntaxhighlighter_encoded:
-  - "1"
 img_article:
   - /contents/uploads/phppod.jpg
-dsq_thread_id:
-  - "919817609"
-categories:
-  - PHP/MySQL
-tags:
-  - MySQL
-  - PDO
-  - PHP
-  - POO
+category: "Back-End"
 ---
 Aujourd&rsquo;hui, je vais vous parler de ce qui va bientôt être la seule façon d&rsquo;inititier une &laquo;&nbsp;discussion&nbsp;&raquo; entre un script PHP et une base de donnée, en effet la version 6 de PHP ne supportera plus des fonction comme mysql\_select\_db() , mysql_query() et autres fonctions du même genre permettant l&rsquo;interation avec une base de donnée jusqu&rsquo;à la version 5.x de PHP.<!--more-->
 

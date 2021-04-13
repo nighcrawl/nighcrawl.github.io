@@ -1,19 +1,13 @@
 ---
-id: 788
+
 title: Des boutons qui ont du style (CSS)!
 date: 2010-05-27T17:56:06+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=788
+
 permalink: /blog/boutons-glossy-css3/
-dsq_thread_id:
-  - "917365159"
 image: /contents/uploads/2010/05/css3button.jpg
-categories:
-  - XHTML/CSS
-tags:
-  - bouton
-  - CSS
+category: "Front-End"
 ---
 Aujourd&rsquo;hui pour fêter l&rsquo;anniversaire du blog, voilà un tutoriel qui vous montrera comment créer des boutons super clean et sympa en full CSS (cf. ici sur le blog), grâce notamment aux nouvelles propriétés introduites dans CSS3.<!--more-->
 

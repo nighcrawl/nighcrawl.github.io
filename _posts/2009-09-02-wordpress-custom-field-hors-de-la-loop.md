@@ -1,27 +1,14 @@
 ---
-id: 386
+
 title: 'Récupérer la valeur d&#039;un champ personnalisé dans WordPress hors de la Boucle'
 date: 2009-09-02T22:26:46+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=386
+
 permalink: /blog/wordpress-custom-field-hors-de-la-loop/
 img_article:
   - /contents/uploads/wploopthumb.jpg
-dsq_thread_id:
-  - "917787450"
-Hide SexyBookmarks:
-  - "0"
-Hide OgTags:
-  - "0"
-categories:
-  - PHP/MySQL
-tags:
-  - custom field
-  - MySQL
-  - PDO
-  - PHP
-  - Wordpress
+category: "Back-End"
 ---
 Aujourd&rsquo;hui je vais vous faire partager une petite astuce que j&rsquo;ai dut utiliser pour l&rsquo;un de mes projets en cours. La problématique : Comment afficher un custom field lorsqu&rsquo;on est hors de la loop wordpress?<!--more-->
 

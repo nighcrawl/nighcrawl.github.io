@@ -1,23 +1,13 @@
 ---
-id: 1372
+
 title: Créer son propre framework PHP, pourquoi ?
 date: 2011-12-12T08:15:50+00:00
 author: Ange Chierchia
 layout: post
-guid: http://chierchia.fr/?p=1372
+
 permalink: /blog/creer-son-framework-php/
-Hide SexyBookmarks:
-  - "0"
-Hide OgTags:
-  - "0"
-dsq_thread_id:
-  - "917332417"
 image: /contents/uploads/2011/12/framework-perso-php.jpg
-categories:
-  - PHP/MySQL
-tags:
-  - framework
-  - PHP
+category: "Back-End"
 ---
 Cela fait maintenant presque deux ans que je suis entré dans la vie active en tant que développeur et designer Web. Et en tant que tel, je suis souvent (comprenez : tout le temps) amené à faire quasiment les mêmes choses, bien que chaque projet soit différent.
 
