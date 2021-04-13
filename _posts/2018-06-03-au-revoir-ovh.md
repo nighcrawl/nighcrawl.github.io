@@ -3,7 +3,7 @@ title: Au revoir OVH
 layout: post
 permalink: /blog/au-revoir-ovh/
 tags: git, Migration
-category: "Vis ma vie"
+categories: "Vis ma vie"
 ---
 Il y a déjà plus d'un an j'avais expliqué les raisons qui m'avaient poussées à [migrer mon site sur Jekyll]({{ site.base_url }}{% post_url 2017-02-12-jekyll %}). J'y avais déjà exprimé mon intérêt pour GitHub Pages et pourquoi je ne voulais pas [me séparer d'OVH]({{ site.base_url}}{% post_url 2017-04-12-deployer-jekyll-sur-un-vps-avec-github %}) pour le moment.
 

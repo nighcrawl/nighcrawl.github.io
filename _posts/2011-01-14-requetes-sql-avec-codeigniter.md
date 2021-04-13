@@ -7,7 +7,7 @@ layout: post
 
 permalink: /blog/requetes-sql-avec-codeigniter/
 image: /contents/uploads/2010/06/ci_cms.jpg
-category: "Back-End"
+categories: "Back-End"
 ---
 Pour continuer à parler CodeIgniter, on va aujourd&rsquo;hui s&rsquo;intéresser à la construction de requêtes SQL via les fonctions disponibles avec CodeIgniter et voir l&rsquo;intêret d&rsquo;utiliser ces fonctions lorsqu&rsquo;on interroge une base de données.<!--more-->
 

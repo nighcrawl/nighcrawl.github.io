@@ -4,7 +4,7 @@ title: AC.com victime de son succès
 date: 2009-07-14T13:58:12+00:00
 author: Ange Chierchia
 layout: post
-category: "Vis ma vie"
+categories: "Vis ma vie"
 permalink: /blog/ac-com-victime-de-son-succes/
 img_article:
   - /contents/uploads/hackthumb.jpg

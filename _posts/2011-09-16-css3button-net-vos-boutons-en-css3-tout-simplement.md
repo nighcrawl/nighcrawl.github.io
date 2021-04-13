@@ -9,7 +9,7 @@ permalink: /blog/css3button-net-vos-boutons-en-css3-tout-simplement/
 link:
   - http://css3button.net
 format: link
-category: "Ressource"
+categories: "Ressource"
 ---
 Encore une petite trouvaille en cette fin de semaine (je vais finir par en faire une habitude si ça continue) : au programme aujourd&rsquo;hui une ressource bien sympa pour créer nos joli <a href="http://css3button.net" target="_blank">bouton d&rsquo;interface en CSS3</a>, comme les fameux boutons &laquo;&nbsp;Submit&nbsp;&raquo; de nos bon amis les formulaires Web.
 

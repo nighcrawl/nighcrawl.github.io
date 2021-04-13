@@ -7,7 +7,7 @@ layout: post
 
 permalink: /blog/afficher-instagram-via-jquery-et-json/
 image: /contents/uploads/2011/02/instagram1-512x288.jpg
-category: "Front-End"
+categories: "Front-End"
 ---
 Vous connaissez cette surement Instagram, cette application iPhone au succès grandissant qui vous permet de partager vos clichés comme un Twitter-like, et en plus de ça leur donner un petit effet digne de Photoshop en a peine quelques minutes? Alors je vais vous donner un petit bout de code qui vous permettra d&rsquo;afficher vos dernières photos n&rsquo;importe où!<!--more-->
 

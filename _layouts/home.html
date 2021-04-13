@@ -32,7 +32,15 @@ body_class: "home-page"
             {% when '10' %}octobre
             {% when '11' %}novembre
             {% when '12' %}décembre
-        {% endcase %} {{ post.date | date: "%Y" }} dans <a href="{{site.baseurl}}/category/{{post.category|slugize}}">{{post.category}}</a></time>
+        {% endcase %} {{ post.date | date: "%Y" }} dans {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}</time>
         {% if post.format and post.format =="link" and post.link != "" %}
             <p>{{ post.content }}</p>
         {% else if post.content contains "<!--more-->" %}

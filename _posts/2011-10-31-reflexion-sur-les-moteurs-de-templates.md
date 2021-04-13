@@ -13,7 +13,7 @@ guest_author:
   - Nicolas Torres
 guest_url:
   - ntorres.me
-category: "Front-End"
+categories: "Front-End"
 ---
 <span class="author_note">Aujourd&rsquo;hui, j&rsquo;inaugure le &laquo;&nbsp;Guest blogging&nbsp;&raquo; avec un article vraiment très intéressant de <a title="Nicolas Torres, élève ingénieur passionné de Web design" href="http://ntorres.me" target="_blank">Nicolas Torres</a> (@noclat) sur l&rsquo;intérêt mais aussi et surtout les &laquo;&nbsp;pièges&nbsp;&raquo; à éviter lorsqu&rsquo;on utilise un moteur de templates (comme Smarty par exemple).</span>
 

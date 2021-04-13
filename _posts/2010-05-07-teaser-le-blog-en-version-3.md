@@ -4,7 +4,7 @@ title: 'Teaser: le blog en version 3'
 date: 2010-05-07T16:13:46+00:00
 author: Ange Chierchia
 layout: post
-category: "Vis ma vie"
+categories: "Vis ma vie"
 permalink: /blog/teaser-le-blog-en-version-3/
 img_article:
   - http://blog.angechierchia.com/wp-content/uploads/teaserv3-b-200x200.jpg

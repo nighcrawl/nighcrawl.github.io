@@ -4,7 +4,7 @@ title: 'Teaser : nouveau design pour les 1 an du blog'
 date: 2010-04-16T13:18:09+00:00
 author: Ange Chierchia
 layout: post
-category: "Vis ma vie"
+categories: "Vis ma vie"
 permalink: /blog/teaser-nouveau-design-pour-les-1-an-du-blog/
 img_article:
   - /contents/uploads/teaserv3-200x200.jpg

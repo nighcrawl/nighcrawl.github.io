@@ -4,7 +4,7 @@ title: Le nouveau design bientôt en ligne
 date: 2009-09-09T00:35:53+00:00
 author: Ange Chierchia
 layout: post
-category: "Vis ma vie"
+categories: "Vis ma vie"
 permalink: /blog/le-nouveau-design-bientot-en-ligne/
 img_article:
   - /contents/uploads/thumb_ac.comv2.jpg

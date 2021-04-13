@@ -4,7 +4,7 @@ title: 'Teaser: le portfolio passe en v3'
 date: 2010-05-14T17:55:33+00:00
 author: Ange Chierchia
 layout: post
-category: "Vis ma vie"
+categories: "Vis ma vie"
 permalink: /blog/teaser-le-portfolio-passe-en-v3/
 image: /contents/uploads/2010/05/teaserv3-c-14-05-10-390x288.jpg
 ---
