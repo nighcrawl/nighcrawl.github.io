@@ -76,8 +76,8 @@ $themes: (
 		'text-light': shade($white, 40%),
 		'text': $white,
 		'accent-light': tint($red, 20%),
-		'accent': $teal,
-		'accent-dark': shade($teal, 20%),
+		'accent': $red,
+		'accent-dark': shade($red, 20%),
 		'background': $dark-purple,
 		'pre': shade($dark-purple, 20%), 
 		'border': tint($dark-purple, 20%)
