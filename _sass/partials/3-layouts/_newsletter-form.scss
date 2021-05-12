@@ -43,6 +43,12 @@
     margin-bottom: 1em;
     flex-basis: 100%;
 
+    label:after {
+      content: " (requis)";
+      font-size: .75em;
+      opacity: .7;
+    }
+
     .mce_inline_error {
       margin-bottom: 0;
     }
