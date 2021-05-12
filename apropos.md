@@ -14,7 +14,7 @@ Bien qu’étant diplômé en développement d’applications, le Web et particu
 
 Passionné par la conception Web depuis plus de 15 ans, je ne cesse de parcourir les sites et blogs spécialisés afin de m&rsquo;améliorer et rester à la page en utilisant les dernières technologies et technique qu'offre le Web (Responsive Webdesign, préprocesseurs CSS, etc.), dès que l'ocassion se présente.
 
-De 2010 à 2012, j'ai contribué au [Webdesign Friday](http://wdfriday.com) notamment à la conception de l'identité graphique du blog en collaboration avec [Francis Chouquet](http://fran6art.com "Francis Chouquet, webdesigner spécialiste WordPress") et [Matthieu Bué](http://twikito.com "Matthieu Bué, webdesigner expert SEO à Bordeaux").
+De 2010 à 2012, j'ai contribué au [Webdesign Friday](https://twitter.com/WDfriday) notamment à la conception de l'identité graphique du blog en collaboration avec [Francis Chouquet](http://fran6art.com "Francis Chouquet, webdesigner spécialiste WordPress") et [Matthieu Bué](http://twikito.com "Matthieu Bué, webdesigner expert SEO à Bordeaux").
 
 J'ai travaillé pendant presque cinq ans chez CBC Informatique, au sein de laquelle je réalisais les sites Web des clients, de la définition du cahier des charges jusqu'au développement back et front-end.
 
