@@ -3,83 +3,91 @@
  */
 
 .home-page .posts-list {
-	list-style-type: none;
-	padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .post-summary {
-	border-bottom: 1px solid getColor('border');
-	padding-bottom: 1em;
+  border-bottom: 1px solid getColor('border');
+  padding-bottom: 1em;
 
-	[data-theme="dark"] & {
-		border-bottom-color: getColor('border', 'dark');
-	}
+  [data-theme="dark"] & {
+    border-bottom-color: getColor('border', 'dark');
+  }
 
-	@media (prefers-color-scheme: dark) {
-        border-bottom-color: getColor('border', 'dark');
+  @media (prefers-color-scheme: dark) {
+    border-bottom-color: getColor('border', 'dark');
+  }
+
+  .post-category:before {
+    content: "|";
+    margin-left: .5em;
+  }
+
+  .post-date,
+  .post-category {
+    color: getColor('text-light');
+    font-size: .75em;
+
+    [data-theme="dark"] & {
+      color: getColor('text-light', 'dark');
     }
 
-    .post-date, .post-category {
-        color: getColor('text-light');
-		font-size: .75em;
-		
-		[data-theme="dark"] & {
-			color: getColor('text-light', 'dark');
-		}
+    @media (prefers-color-scheme: dark) {
+      color: getColor('text-light', 'dark');
+    }
+  }
 
-		@media (prefers-color-scheme: dark) {
-			color: getColor('text-light', 'dark');
-		}
-	}
+  a {
+    text-decoration: underline;
 
-	a {
-		text-decoration: underline;
+    &:focus,
+    &:hover {
+      color: getColor('accent-dark');
+      text-decoration: none;
 
-		&:focus, &:hover {
-			color: getColor('accent-dark');
-			text-decoration: none;
+      [data-theme="dark"] & {
+        color: getColor('accent-dark', 'dark');
+      }
 
-			[data-theme="dark"] & {
-				color: getColor('accent-dark', 'dark');
-			}
+      @media (prefers-color-scheme: dark) {
+        color: getColor('accent-dark', 'dark');
+      }
+    }
+  }
 
-			@media (prefers-color-scheme: dark) {
-				color: getColor('accent-dark', 'dark');
-			}
-		}
-	}
+  .post-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
 
-	.post-title a {
-		color: inherit;
-		text-decoration: none;
-		transition: all 200ms ease-in-out;
+    &:focus,
+    &:hover {
+      color: getColor('accent-dark');
+      text-decoration: none;
 
-		&:focus, &:hover {
-			color: getColor('accent-dark');
-			text-decoration: none;
+      [data-theme="dark"] & {
+        color: getColor('accent-dark', 'dark');
+      }
 
-			[data-theme="dark"] & {
-				color: getColor('accent-dark', 'dark');
-			}
-
-			@media (prefers-color-scheme: dark) {
-				color: getColor('accent-dark', 'dark');
-			}
-		}
-	}
+      @media (prefers-color-scheme: dark) {
+        color: getColor('accent-dark', 'dark');
+      }
+    }
+  }
 
   .post-readmore-link {
     @include btn;
     display: inline-block;
-  
+
     [data-theme="dark"] & {
       color: getColor('accent', 'dark');
       @include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
     }
-  
+
     @media (prefers-color-scheme: dark) {
       color: getColor('accent', 'dark');
-      @include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));		
-      }
+      @include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
+    }
   }
 }
