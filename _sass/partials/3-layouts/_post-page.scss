@@ -15,7 +15,7 @@
         border-bottom-color: getColor('border', 'dark');
     }
 
-    .post-date {
+    .post-date, .post-category {
         color: getColor('text-light');
 		font-size: .75em;
 		

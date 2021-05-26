@@ -33,6 +33,9 @@ body_class: "home-page"
             {% when '11' %}novembre
             {% when '12' %}décembre
         {% endcase %} {{ post.date | date: "%Y" }}</time>
+
+        <span class="post-category">{{ page.category }}</span>
+        
         {% if post.format and post.format =="link" and post.link != "" %}
             <p>{{ post.content }}</p>
         {% else if post.content contains "<!--more-->" %}
