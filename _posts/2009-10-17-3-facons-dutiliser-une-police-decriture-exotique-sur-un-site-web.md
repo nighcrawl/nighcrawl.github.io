@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/3-facons-dutiliser-une-police-decriture-exotique-sur-un-site-web/
 img_article:
   - /contents/uploads/fontsthumb.jpg
-categories: "Front-End"
+category: "Front-End"
 ---
 Dans ce nouvel article, nous allons voir comment utiliser une police d&rsquo;écriture dite éxotique, c&rsquo;est à dire qui n&rsquo;est normalement pas destinée à une utilisation sur le Web.<!--more-->
 

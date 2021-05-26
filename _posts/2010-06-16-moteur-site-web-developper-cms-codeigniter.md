@@ -7,7 +7,7 @@ layout: post
 
 permalink: /blog/moteur-site-web-developper-cms-codeigniter/
 image: /contents/uploads/2010/06/ci_cms.jpg
-categories: "Back-End"
+category: "Back-End"
 ---
 Aujourd&rsquo;hui, on va voir comment créer un moteur de site Web, aussi appelé système de gestion de contenu, en utilisant le très bon (est facile à utiliser) Framework CodeIgniter. Comme la tâche va être longue, j&rsquo;ai prévu d&rsquo;étaler cet article en plusieurs parties. On commence donc aujourd&rsquo;hui avec la première partie du développement de notre CMS utilisant CodeIgniter.<!--more-->
 

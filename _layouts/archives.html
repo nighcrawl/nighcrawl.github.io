@@ -26,6 +26,8 @@ body_class: "archives-page"
                 {% when '11' %}novembre
                 {% when '12' %}décembre
             {% endcase %} {{ post.date | date: "%Y" }}</time>
+
+            <span class="post-category">{{ post.category }}</span>
         </a>
     </li>
     {% endfor %}

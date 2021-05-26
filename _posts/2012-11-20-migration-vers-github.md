@@ -4,7 +4,7 @@ title: Migration vers GitHub ?
 date: 2012-11-20T11:41:03+00:00
 author: Ange Chierchia
 layout: post
-categories: "Vis ma vie"
+category: "Vis ma vie"
 permalink: /blog/migration-vers-github/
 
 ---

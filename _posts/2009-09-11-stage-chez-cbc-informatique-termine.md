@@ -4,7 +4,7 @@ title: Stage chez CBC Informatique terminé
 date: 2009-09-11T19:14:59+00:00
 author: Ange Chierchia
 layout: post
-categories: "Vis ma vie"
+category: "Vis ma vie"
 permalink: /blog/stage-chez-cbc-informatique-termine/
 img_article:
   - /contents/uploads/thumb_cbc.jpg

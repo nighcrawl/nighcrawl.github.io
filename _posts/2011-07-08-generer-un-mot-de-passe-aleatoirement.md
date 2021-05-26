@@ -10,7 +10,7 @@ more-link-text:
   - "Clique pour voir comme c'est beau!"
 
 image: /contents/uploads/2012/01/1159613_851208571.jpg
-categories: "Back-End"
+category: "Back-End"
 ---
 Pour commencer le week-end (ou les vacances pour certains), voici une petite fonction, très simple permettant de générer un mot de passe aléatoire, par exemple pour un accès à une zone de gestion. C&rsquo;est d&rsquo;ailleurs ce à quoi ce petit bout de code fait maison m&rsquo;a servi. <!--more-->
 

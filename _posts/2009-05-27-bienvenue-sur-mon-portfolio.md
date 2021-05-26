@@ -4,7 +4,7 @@ date: 2009-05-27T00:11:41+00:00
 layout: post
 permalink: /blog/bienvenue-sur-mon-portfolio/
 image: /contents/uploads/thumb_openingfolio.jpg
-categories: "Vis ma vie"
+category: "Vis ma vie"
 ---
 Ayez, mon portfolio est enfin en ligne! Ce site à pour but de présenter mes travaux dans le monde du Web, de vous proposer mes services pour vos projets Web.<!--more-->
 

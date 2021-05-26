@@ -9,7 +9,7 @@ permalink: /blog/utiliser-une-fonte-personnalisee-avec-cufon/
 img_article:
   - /contents/uploads/cufon-thumb.jpg
 image: /contents/uploads/2010/04/cufonfonts.jpg
-categories: "Front-End"
+category: "Front-End"
 ---
 Dans un [précédent billet](http://chierchia.fr/webdesign/3-facons-dutiliser-une-police-decriture-exotique-sur-un-site-web/ "3 façons d’utiliser une police d’écriture “exotique” sur un site Web") j&rsquo;avais mentionné Cufón et sIFR, comme moyen d&rsquo;utiliser des polices personnalisées sur nos sites Internet, de bonnes alternatives à la propriété CSS3 @font-face qui n&rsquo;est pas prise en compte par tout les navigateurs web. Aujourd&rsquo;hui je vais vous montrer comment utilisé vos polices d&rsquo;écriture préférées sur votre site Web en utilisant Cufón.<!--more-->
 

@@ -45,10 +45,15 @@
             }
         }
 
-        .post-date {
+        .post-category:before {
+          content: "|";
+          margin-right: .5em;
+        }
+
+        .post-date, .post-category {
             color: getColor('text-light');
             font-size: .75em;
-            margin-left: .5em;
+            //margin-left: .5em;
 
             [data-theme="dark"] & {
                 color: getColor('text-light', 'dark');
