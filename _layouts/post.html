@@ -35,6 +35,8 @@ sitemap:
         {% when '12' %}décembre
     {% endcase %} {{ page.date | date: "%Y" }}</time>
 
+    {{ page.categories }}
+
     {{ content }}
 
 </div>
