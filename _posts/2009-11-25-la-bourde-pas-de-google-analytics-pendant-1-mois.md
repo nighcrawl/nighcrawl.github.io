@@ -4,7 +4,7 @@ title: 'La bourde: pas de Google Analytics pendant 1 mois'
 date: 2009-11-25T14:11:10+00:00
 author: Ange Chierchia
 layout: post
-categories: "Vis ma vie"
+category: "Vis ma vie"
 permalink: /blog/la-bourde-pas-de-google-analytics-pendant-1-mois/
 img_article:
   - /contents/uploads/stats.jpg

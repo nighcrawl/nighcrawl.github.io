@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/securiser-ses-formulaires-avec-une-cle-unique/
 img_article:
   - /contents/uploads/formkeyphp_thumb.jpg
-categories: "Back-End"
+category: "Back-End"
 ---
 Il y a quelques jours je suis tombé sur un article très intéressant de <a title="Lire l'article en anglais" href="http://www.behindtheview.com/2009/11/23/securing-forms-with-form-keys/" target="_blank">Wouter Bulten</a> concernant la sécurité lors de la soumission de formulaire web.<!--more-->
 

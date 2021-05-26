@@ -7,7 +7,7 @@ layout: post
 
 permalink: /blog/boutons-glossy-css3/
 image: /contents/uploads/2010/05/css3button.jpg
-categories: "Front-End"
+category: "Front-End"
 ---
 Aujourd&rsquo;hui pour fêter l&rsquo;anniversaire du blog, voilà un tutoriel qui vous montrera comment créer des boutons super clean et sympa en full CSS (cf. ici sur le blog), grâce notamment aux nouvelles propriétés introduites dans CSS3.<!--more-->
 

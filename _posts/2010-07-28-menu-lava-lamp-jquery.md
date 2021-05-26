@@ -7,7 +7,7 @@ layout: post
 
 permalink: /blog/menu-lava-lamp-jquery/
 image: /contents/uploads/2010/07/lavalampmenu.png
-categories: "Front-End"
+category: "Front-End"
 ---
 Aujourd&rsquo;hui je vais partager avec vous un petit effet sympa pour rendre un menu de navigation plus attractif. L&rsquo;effet que l&rsquo;on va réaliser ici s&rsquo;appelle &laquo;&nbsp;LavaLamp&nbsp;&raquo;, ou &laquo;&nbsp;lampe à lave&nbsp;&raquo; en français&#8230; Moins sexy du coup&#8230; :S<!--more-->
 

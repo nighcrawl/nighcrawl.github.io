@@ -6,7 +6,7 @@ author: Ange Chierchia
 layout: post
 permalink: /blog/presentation-video-html-css-js/
 image: /contents/uploads/html5-topper-825x510.png
-categories: "Front-End"
+category: "Front-End"
 ---
 Il y a déjà quelques mois, j&rsquo;ai eu la tâche de trouver un moyen de présenter différent aspects d&rsquo;une application que mes collègues et moi développons chez [Ibakus Europe](https://www.ibakus.com).
 

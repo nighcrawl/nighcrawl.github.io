@@ -7,7 +7,7 @@ layout: post
 
 permalink: /blog/login-securise-cms-codeigniter-partie-2/
 image: /contents/uploads/2010/06/ci_cms.jpg
-categories: "Back-End"
+category: "Back-End"
 ---
 [Dans mon article précédent](http://chierchia.fr/php-mysql/moteur-site-web-developper-cms-codeigniter/ "Développer un moteur de site Web avec CodeIgniter"), on a vu comment installer et configurer le framework PHP CodeIgniter. Aujourd&rsquo;hui, on commence le développement de notre moteur de site Web. Au programme, la base de données et le système de login sécurisé.<!--more-->
 

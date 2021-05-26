@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/flexbox-patterns-elements-dinterfaces-flexbox/
 format: link
 link: http://www.flexboxpatterns.com
-categories: "Ressource"
+category: "Ressource"
 ---
 Utiliser les Flexbox CSS pour le design d&rsquo;interfaces utilisateurs est devenu de plus en plus courant , d&rsquo;une part parce que réaliser des mises en pages complexes est beaucoup moins casse-tête en utilisant les Flexbox CSS qu&rsquo;en utilisant la vieille technique des boîtes flottantes (`float: left`, `float: right`) et bénéficie d&rsquo;un meilleur support des navigateurs Web actuels. Pourquoi s&rsquo;en privé !
 
