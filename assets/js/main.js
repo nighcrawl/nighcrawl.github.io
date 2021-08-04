@@ -38,6 +38,15 @@ var switchTheme = function(theme, save) {
 	}
 };
 
+
+var timeSince = function(date) {
+	var timestamp = new Date(Date.parse(date));
+	var now = new Date(),
+	secondsPast = (now.getTime() - timestamp) / 1000;
+	
+	return parseInt(secondsPast / (60 * 60 * 24 * 365)) + ' ans';
+} 
+
 document.addEventListener('DOMContentLoaded', function() {
 	const mode = getComputedStyle(document.documentElement).getPropertyValue('content');
 	switchTheme(mode);
@@ -78,4 +87,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	themeToggle.addEventListener('click', function() {
 		switchTheme(themeToggle.getAttribute('data-switch-theme'), true);
 	});
+
+	if (document.querySelector('#js-career-start')) {
+		var careerStart = document.querySelector('#js-career-start');
+		var careerStartedSince = timeSince(careerStart.getAttribute('datetime'));
+
+		careerStart.innerHTML(careerStartedSince);
+	}
 });

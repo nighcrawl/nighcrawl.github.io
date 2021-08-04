@@ -1,8 +1,8 @@
 title: "Ange Chierchia"
-tagline: "Webdesigner & développeur Web full-stack"
+tagline: "Développeur Web full-stack"
 email: ange.chierchia@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Webdesigner & développeur Web full-stack à Luxembourg
+  Développeur Web full-stack à Luxembourg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chierchia.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nighcrawl

@@ -8,11 +8,11 @@ image_class: thumbnail-viewbox--top
 ---
 Bonjour, je m’appelle Ange Chierchia.
 
-Je suis Webdesigner et développeur Web full-stack à Luxembourg.
+Je suis développeur Web à Luxembourg depuis <time id="js-career-start" datetime="2010-06-01T08:30:00">juin 2010</time>.
 
 Bien qu’étant diplômé en développement d’applications, le Web et particulièrement le design d'interface utilisateur a toujours été l’un de mes principaux centres d’intérêt.
 
-Passionné par la conception Web depuis plus de 15 ans, je ne cesse de parcourir les sites et blogs spécialisés afin de m&rsquo;améliorer et rester à la page en utilisant les dernières technologies et technique qu'offre le Web (Responsive Webdesign, préprocesseurs CSS, etc.), dès que l'ocassion se présente.
+Passionné par la conception Web depuis l'âge de 15 ans, je ne cesse de parcourir les sites et blogs spécialisés afin de m&rsquo;améliorer et rester à la page en utilisant les dernières technologies et technique qu'offre le Web (Responsive Webdesign, préprocesseurs CSS, etc.), dès que l'ocassion se présente.
 
 De 2010 à 2012, j'ai contribué au [Webdesign Friday](https://twitter.com/WDfriday) notamment à la conception de l'identité graphique du blog en collaboration avec [Francis Chouquet](http://fran6art.com "Francis Chouquet, webdesigner spécialiste WordPress") et [Matthieu Bué](http://twikito.com "Matthieu Bué, webdesigner expert SEO à Bordeaux").
 
