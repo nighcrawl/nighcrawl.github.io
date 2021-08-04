@@ -44,7 +44,7 @@ var timeSince = function(date) {
 	var now = new Date(),
 	secondsPast = (now.getTime() - timestamp) / 1000;
 	
-	return parseInt(secondsPast / (60 * 60 * 24 * 365)) + ' ans';
+	return 'déjà ' + parseInt(secondsPast / (60 * 60 * 24 * 365)) + ' ans';
 } 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -92,6 +92,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		var careerStart = document.querySelector('#js-career-start');
 		var careerStartedSince = timeSince(careerStart.getAttribute('datetime'));
 
-		careerStart.innerHTML(careerStartedSince);
+		careerStart.innerHTML = careerStartedSince;
 	}
 });
