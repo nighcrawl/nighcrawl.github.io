@@ -39,7 +39,8 @@
 	@include border-radius($base-radius);
 	color: $color;
 	font-weight: bold;
-	padding: 1em;
+	line-height: 1;
+	padding: 1em 1.5em;
 	text-decoration: none;
 	transition: all 200ms ease-in-out;
 
