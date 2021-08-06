@@ -2,7 +2,10 @@ var navToggle = document.querySelector('.site-nav-toggle');
 var body = document.querySelector('body');
 var nav = document.querySelector('.site-nav');
 var themeToggle = document.querySelector('.site-theme-switcher');
-var isDarkMode = getComputedStyle(document.documentElement).getPropertyValue('content') == 'dark' ? true : false;
+var useDark = window.matchMedia("(prefers-color-scheme: dark)");
+var isDarkMode = useDark.matches || document.querySelector('html').getAttribute('data-theme') === "dark";
+var themeColorNavOpen = isDarkMode ? themeColorDark : "#b50055";
+var themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
 
 var replaceFormspreeEmail = function() {
 	var emailLink = document.querySelector(".contact-form");
@@ -19,22 +22,21 @@ var navItemAnimDelay = function() {
 	});
 };
 
-var switchTheme = function(theme, save) {
-	if (theme == 'dark') {
+var switchTheme = function(darkModeState) {
+	if (darkModeState) {
 		document.querySelector('html').setAttribute('data-theme', 'dark');
-		document.querySelector('.site-theme-switcher i').classList.remove('far');
-		document.querySelector('.site-theme-switcher i').classList.add('fas');
-		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'light');
+		document.querySelector('[name="theme-color"]').setAttribute('content', themeColorDark);
+		themeToggle.querySelector('i').classList.remove('far');
+		themeToggle.querySelector('i').classList.add('fas');
+		themeToggle.setAttribute('data-switch-theme', 'light');
+		themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
 	} else {
 		document.querySelector('html').removeAttribute('data-theme');
-		document.querySelector('.site-theme-switcher i').classList.remove('fas');
-		document.querySelector('.site-theme-switcher i').classList.add('far');
-		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'dark');
-	}
-
-	save = typeof(save) == 'undefined' ? false : true;
-	if (save) {
-		localStorage.setItem('theme', document.querySelector('html').getAttribute('data-theme'));
+		document.querySelector('[name="theme-color"]').setAttribute('content', themeColorLight);
+		themeToggle.querySelector('i').classList.remove('fas');
+		themeToggle.querySelector('i').classList.add('far');
+		themeToggle.setAttribute('data-switch-theme', 'dark');
+		themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
 	}
 };
 
@@ -45,21 +47,14 @@ var timeSince = function(date) {
 	secondsPast = (now.getTime() - timestamp) / 1000;
 	
 	return 'déjà ' + parseInt(secondsPast / (60 * 60 * 24 * 365)) + ' ans';
-} 
+}
 
 document.addEventListener('DOMContentLoaded', function() {
-	const mode = getComputedStyle(document.documentElement).getPropertyValue('content');
-	switchTheme(mode);
+	switchTheme(isDarkMode);
 
-	if (isDarkMode && document.querySelector('html').getAttribute('data-theme') == 'dark') {
-		document.querySelector('.site-theme-switcher i').classList.remove('far');
-		document.querySelector('.site-theme-switcher i').classList.add('fas');
-		document.querySelector('.site-theme-switcher').setAttribute('data-switch-theme', 'light');
-	}
-
-	if (localStorage.getItem('theme') !== null) {
-		switchTheme(localStorage.getItem('theme'));
-	}
+	useDark.addListener(function(event) {
+		switchTheme(event.matches);
+	});
 
 	if (document.querySelector(".contact-form")) {
 		replaceFormspreeEmail();
@@ -73,20 +68,28 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 	navToggle.addEventListener('click', function() {
-		navToggle.classList.toggle('open');
-		body.classList.toggle('no-scroll');
+		if (!navToggle.classList.contains('open')) {
+			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorNavOpen);
+			navToggle.classList.add('open');
+			body.classList.add('no-scroll');
 
-		if (!navToggle.classList.contains(open)) {
 			var navItems = document.querySelectorAll('.nav-item.inview');
 			navItems.forEach(function(selector) {
 				selector.classList.remove('inview');
 			});
+		} else {
+			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorOld);
+			navToggle.classList.remove('open');
+			body.classList.remove('no-scroll');
 		}
 	});
 
 	themeToggle.addEventListener('click', function() {
-		switchTheme(themeToggle.getAttribute('data-switch-theme'), true);
+		console.log('themeToggle click', themeToggle.getAttribute('data-switch-theme'));
+		var setDarkMode = themeToggle.getAttribute('data-switch-theme') === 'dark' ? true : false;
+		switchTheme(setDarkMode);
 	});
+
 
 	if (document.querySelector('#js-career-start')) {
 		var careerStart = document.querySelector('#js-career-start');
