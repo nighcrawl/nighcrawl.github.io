@@ -3,8 +3,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>{% if page.title %}{{ page.title | normalize_whitespace | truncate: 160 | escape }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}</title>
-    <meta name="theme-color"  content="#fff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color"  content="rgb(19, 0, 32)"  media="(prefers-color-scheme: dark)">
+    <script>
+        var themeColorLight = "#FFFFFF";
+        var themeColorDark = "rgb(19, 0, 32)";
+    </script>
+    <meta name="theme-color" id="js-theme-color" content="#fff">
     <meta name="referrer" content="origin">
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title | normalize_whitespace | truncate: 160 | escape }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}">
