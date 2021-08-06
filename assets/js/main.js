@@ -3,8 +3,9 @@ var body = document.querySelector('body');
 var nav = document.querySelector('.site-nav');
 var themeToggle = document.querySelector('.site-theme-switcher');
 var useDark = window.matchMedia("(prefers-color-scheme: dark)");
-var isDarkMode = useDark.matches;
-var themeColorNavOpen = "#b50055";
+var isDarkMode = useDark.matches || document.querySelector('html').getAttribute('data-theme') === "dark";
+var themeColorNavOpen = isDarkMode ? themeColorDark : "#b50055";
+var themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
 
 var replaceFormspreeEmail = function() {
 	var emailLink = document.querySelector(".contact-form");
@@ -28,12 +29,14 @@ var switchTheme = function(darkModeState) {
 		themeToggle.querySelector('i').classList.remove('far');
 		themeToggle.querySelector('i').classList.add('fas');
 		themeToggle.setAttribute('data-switch-theme', 'light');
+		themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
 	} else {
 		document.querySelector('html').removeAttribute('data-theme');
 		document.querySelector('[name="theme-color"]').setAttribute('content', themeColorLight);
 		themeToggle.querySelector('i').classList.remove('fas');
 		themeToggle.querySelector('i').classList.add('far');
 		themeToggle.setAttribute('data-switch-theme', 'dark');
+		themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
 	}
 };
 
@@ -61,19 +64,38 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 	navToggle.addEventListener('click', function() {
-		var themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
-		navToggle.classList.toggle('open');
-		body.classList.toggle('no-scroll');
-
-		if (!navToggle.classList.contains(open)) {
-			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorOld);
+		if (!navToggle.classList.contains('open')) {
+			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorNavOpen);
+			navToggle.classList.add('open');
+			body.classList.add('no-scroll');
+			console.log('nav open');
 			var navItems = document.querySelectorAll('.nav-item.inview');
 			navItems.forEach(function(selector) {
 				selector.classList.remove('inview');
 			});
 		} else {
-			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorNavOpen);
+			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorOld);
+			navToggle.classList.remove('open');
+			body.classList.remove('no-scroll');
+			console.log('nav close');
 		}
+
+		/*
+		var themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
+		navToggle.classList.toggle('open');
+		body.classList.toggle('no-scroll');
+		console.log('nav open');
+		document.querySelector('[name="theme-color"]').setAttribute('content', themeColorNavOpen);
+
+		if (!navToggle.classList.contains(open)) {
+			console.log('nav close')
+			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorOld);
+			var navItems = document.querySelectorAll('.nav-item.inview');
+			navItems.forEach(function(selector) {
+				selector.classList.remove('inview');
+			});
+		}
+		*/
 	});
 
 	themeToggle.addEventListener('click', function() {
