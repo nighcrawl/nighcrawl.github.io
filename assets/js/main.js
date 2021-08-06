@@ -4,6 +4,7 @@ var nav = document.querySelector('.site-nav');
 var themeToggle = document.querySelector('.site-theme-switcher');
 var useDark = window.matchMedia("(prefers-color-scheme: dark)");
 var isDarkMode = useDark.matches;
+var themeColorNavOpen = "#b50055";
 
 var replaceFormspreeEmail = function() {
 	var emailLink = document.querySelector(".contact-form");
@@ -60,14 +61,18 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 	navToggle.addEventListener('click', function() {
+		var themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
 		navToggle.classList.toggle('open');
 		body.classList.toggle('no-scroll');
 
 		if (!navToggle.classList.contains(open)) {
+			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorOld);
 			var navItems = document.querySelectorAll('.nav-item.inview');
 			navItems.forEach(function(selector) {
 				selector.classList.remove('inview');
 			});
+		} else {
+			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorNavOpen);
 		}
 	});
 
