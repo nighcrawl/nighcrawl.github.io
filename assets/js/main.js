@@ -47,10 +47,14 @@ var timeSince = function(date) {
 	secondsPast = (now.getTime() - timestamp) / 1000;
 	
 	return 'déjà ' + parseInt(secondsPast / (60 * 60 * 24 * 365)) + ' ans';
-} 
+}
 
 document.addEventListener('DOMContentLoaded', function() {
 	switchTheme(isDarkMode);
+
+	useDark.addListener(function(event) {
+		switchTheme(event.matches);
+	});
 
 	if (document.querySelector(".contact-form")) {
 		replaceFormspreeEmail();
@@ -68,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorNavOpen);
 			navToggle.classList.add('open');
 			body.classList.add('no-scroll');
-			console.log('nav open');
+
 			var navItems = document.querySelectorAll('.nav-item.inview');
 			navItems.forEach(function(selector) {
 				selector.classList.remove('inview');
@@ -77,25 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorOld);
 			navToggle.classList.remove('open');
 			body.classList.remove('no-scroll');
-			console.log('nav close');
 		}
-
-		/*
-		var themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
-		navToggle.classList.toggle('open');
-		body.classList.toggle('no-scroll');
-		console.log('nav open');
-		document.querySelector('[name="theme-color"]').setAttribute('content', themeColorNavOpen);
-
-		if (!navToggle.classList.contains(open)) {
-			console.log('nav close')
-			document.querySelector('[name="theme-color"]').setAttribute('content', themeColorOld);
-			var navItems = document.querySelectorAll('.nav-item.inview');
-			navItems.forEach(function(selector) {
-				selector.classList.remove('inview');
-			});
-		}
-		*/
 	});
 
 	themeToggle.addEventListener('click', function() {
@@ -103,6 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		var setDarkMode = themeToggle.getAttribute('data-switch-theme') === 'dark' ? true : false;
 		switchTheme(setDarkMode);
 	});
+
 
 	if (document.querySelector('#js-career-start')) {
 		var careerStart = document.querySelector('#js-career-start');
