@@ -2,6 +2,7 @@
 title: 'Configurer un serveur local avec Homebrew'
 layout: post
 permalink: /blog/configurer-un-serveur-local-avec-homebrew/
+image: /contents/uploads/serveur-apache-local.jpg
 tags: apache, php, homebrew
 category: "Back-End"
 ---
