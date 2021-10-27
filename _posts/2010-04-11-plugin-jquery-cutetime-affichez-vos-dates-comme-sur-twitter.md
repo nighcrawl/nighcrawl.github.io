@@ -7,7 +7,7 @@ layout: post
 
 permalink: /blog/plugin-jquery-cutetime-affichez-vos-dates-comme-sur-twitter/
 image: /contents/uploads/2010/04/cutetimejquery.jpg
-category: "Ressource"
+categories: "Ressource"
 ---
 Vous rêvez d&rsquo;afficher les dates de vos articles à la façon de Twitter ou encore Facebook, <a title="CuteTime, pour des dates plus &quot;user-friendly&quot;" href="http://tpgblog.com/cutetime/" target="_blank">CuteTime</a> est fait pour vous! CuteTime est un plugin jQuery qui permet de convertir automatiquement des [timestamps](http://fr.wikipedia.org/wiki/Horodatage) en date formatées d&rsquo;une plus joli manière (ex: il y a 2 jours, etc..).<!--more-->
 

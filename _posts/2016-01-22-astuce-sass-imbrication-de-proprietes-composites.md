@@ -6,7 +6,7 @@ author: Ange Chierchia
 layout: post
 permalink: /blog/astuce-sass-imbrication-de-proprietes-composites/
 image: /contents/uploads/img_0275.jpeg
-category: "Front-End"
+categories: "Front-End"
 ---
 Cette semaine je lisais _Sass pour les Web designers,_ de <a href="http://simplebits.com" target="_blank">Dan Cederholm</a> et j&rsquo;ai découvert une petite astuce que je ne connaissait pas : l&rsquo;imbrication de propriétés composites.<!--more-->
 

@@ -35,7 +35,19 @@ sitemap:
         {% when '12' %}décembre
     {% endcase %} {{ page.date | date: "%Y" }}</time>
 
-    <span class="post-category">{{ page.category }}</span>
+    <span class="post-category">
+        {% if post %}
+            {% assign categories = post.categories %}
+        {% else %}
+            {% assign categories = page.categories %}
+        {% endif %}
+        {% for category in categories %}
+            <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+    </span>
+
+    
 
     {{ content }}
 

@@ -7,7 +7,7 @@ layout: post
 
 permalink: /blog/notifications-growl-jquery/
 image: /contents/uploads/2012/01/thumb-growl-notification.jpg
-category: "Front-End"
+categories: "Front-End"
 ---
 Aujourd&rsquo;hui, on va voir comment mettre en place facilement des notifications utilisateur un peu à la façon de Growl, très connu des Mac users.<!--more-->
 

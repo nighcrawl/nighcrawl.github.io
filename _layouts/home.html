@@ -3,61 +3,77 @@ layout: default
 body_class: "home-page"
 ---
 <ul class="posts-list">
-	{% for post in paginator.posts %}
-    <li data-animate="slideup" class="post-summary {% if post.format and post.format == "link" and post.link != "" %}post-format--link{% endif %}">
-        {% if post.format and post.format == "link" and post.link != "" %}
-        <a href="{{ post.url }}" class="post-link--permalink">{{ post.url }}</a>
-        {% endif %}
-        <h2 class="post-title">
-					<a href="{% if post.format and post.format == "link" and post.link != "" %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}" {% if post.format and post.format == "link" and post.link != "" %}target="_blank"{% endif %}>{{ post.title }}</a>
-				</h2>
-        {% if post.image and post.image != "" %}
-				<a href="{{ post.url }}">
-        <figure class="thumbnail">
-          <img src="{{ site.placeholder }}" data-echo="{{ post.image }}" alt="{{ post.title }}" class="{{ post.image_class | default: '' }}" />
-        </figure>
-				</a>
-        {% endif %}
-        {% assign m = post.date | date: "%-m" %}
-        <time class="post-date" datetime="{{ post.date | date_to_rfc822 }}">Publié le {{ post.date | date: "%d" }} {% case m %}
-            {% when '1' %}janvier
-            {% when '2' %}février
-            {% when '3' %}mars
-            {% when '4' %}avril
-            {% when '5' %}mai
-            {% when '6' %}juin
-            {% when '7' %}juillet
-            {% when '8' %}août
-            {% when '9' %}septembre
-            {% when '10' %}octobre
-            {% when '11' %}novembre
-            {% when '12' %}décembre
-        {% endcase %} {{ post.date | date: "%Y" }}</time>
+  {% for post in paginator.posts %}
+  <li data-animate="slideup"
+    class="post-summary {% if post.format and post.format == "link" and post.link != "" %}post-format--link{% endif %}">
+    {% if post.format and post.format == "link" and post.link != "" %}
+    <a href="{{ post.url }}" class="post-link--permalink">{{ post.url }}</a>
+    {% endif %}
+    <h2 class="post-title">
+      <a href="{% if post.format and post.format == "link" and post.link != "" %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}"
+        {% if post.format and post.format == "link" and post.link != "" %}target="_blank"
+        {% endif %}>{{ post.title }}</a>
+    </h2>
+    {% if post.image and post.image != "" %}
+    <a href="{{ post.url }}">
+      <figure class="thumbnail">
+        <img src="{{ site.placeholder }}" data-echo="{{ post.image }}" alt="{{ post.title }}"
+          class="{{ post.image_class | default: '' }}" />
+      </figure>
+    </a>
+    {% endif %}
+    {% assign m = post.date | date: "%-m" %}
+    <time class="post-date" datetime="{{ post.date | date_to_rfc822 }}">Publié le {{ post.date | date: "%d" }}
+      {% case m %}
+      {% when '1' %}janvier
+      {% when '2' %}février
+      {% when '3' %}mars
+      {% when '4' %}avril
+      {% when '5' %}mai
+      {% when '6' %}juin
+      {% when '7' %}juillet
+      {% when '8' %}août
+      {% when '9' %}septembre
+      {% when '10' %}octobre
+      {% when '11' %}novembre
+      {% when '12' %}décembre
+      {% endcase %} {{ post.date | date: "%Y" }}</time>
 
-        <span class="post-category">{{ post.category }}</span>
+    <span class="post-category">
+      {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span>
 
-        {% if post.format and post.format =="link" and post.link != "" %}
-            <p>{{ post.content }}</p>
-        {% else if post.content contains "<!--more-->" %}
-            <p>{{ post.excerpt  | split : "<!--more-->" | first }}</p>
-            <a class="post-readmore-link" href="{{ post.url | relative_url }}">Lire la suite</a>
-        {% else %}
-        	<p>{{ post.excerpt }}</p>
-          <a class="post-readmore-link" href="{{ post.url | relative_url }}">Lire la suite</a>
-        {% endif %}
-    </li>
-    {% endfor %}
+    {% if post.format and post.format =="link" and post.link != "" %}
+    <p>{{ post.content }}</p>
+    {% else if post.content contains "<!--more-->" %}
+    <p>{{ post.excerpt  | split : "<!--more-->" | first }}</p>
+    <a class="post-readmore-link" href="{{ post.url | relative_url }}">Lire la suite</a>
+    {% else %}
+    <p>{{ post.excerpt }}</p>
+    <a class="post-readmore-link" href="{{ post.url | relative_url }}">Lire la suite</a>
+    {% endif %}
+  </li>
+  {% endfor %}
 </ul>
 
 <!-- Pagination links -->
 <nav class="pagination">
-    <!-- If we have a previous page, we show a link to it -->
-    {% if paginator.previous_page %}
-      <a class="pagination-link pagination-link--previous" href="{{ paginator.previous_page_path }}">Articles plus récents</a>
-    {% endif %}
+  <!-- If we have a previous page, we show a link to it -->
+  {% if paginator.previous_page %}
+  <a class="pagination-link pagination-link--previous" href="{{ paginator.previous_page_path }}">Articles plus
+    récents</a>
+  {% endif %}
 
-    <!-- If we have a next page, we show a link to it -->
-    {% if paginator.next_page %}
-      <a class="pagination-link pagination-link--next" href="{{ paginator.next_page_path }}">Articles plus anciens</a>
-    {% endif %}
+  <!-- If we have a next page, we show a link to it -->
+  {% if paginator.next_page %}
+  <a class="pagination-link pagination-link--next" href="{{ paginator.next_page_path }}">Articles plus anciens</a>
+  {% endif %}
 </nav>

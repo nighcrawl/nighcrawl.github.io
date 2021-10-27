@@ -10,19 +10,19 @@
 }
 
 [data-animate="slideup"] {
-  transform: translateY(100px);
+  transform: translateY(30px);
   &.inview {
     transform: translateY(0);
   }
 }
 
 [data-animate="slidedown"] {
-  transform: translateY(-100px);
+  transform: translateY(-30px);
   &.inview {
     transform: translateY(0);
   }
 }
 
 [data-animate] + [data-animate] {
-  transition-delay: 300ms;
+  transition-delay: 200ms;
 }

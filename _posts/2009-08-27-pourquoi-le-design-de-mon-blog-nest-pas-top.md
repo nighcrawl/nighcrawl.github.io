@@ -4,7 +4,7 @@ title: 'Pourquoi le design de mon blog n&#039;est pas top?'
 date: 2009-08-27T20:31:28+00:00
 author: Ange Chierchia
 layout: post
-category: "Vis ma vie"
+categories: ["Vis ma vie"]
 permalink: /blog/pourquoi-le-design-de-mon-blog-nest-pas-top/
 img_article:
   - /contents/uploads/thumb_newdesigntease.jpg

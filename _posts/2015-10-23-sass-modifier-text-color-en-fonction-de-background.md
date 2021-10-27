@@ -7,7 +7,7 @@ layout: post
 permalink: /blog/sass-modifier-text-color-en-fonction-de-background/
 link: http://thesassway.com/intermediate/dynamically-change-text-color-based-on-its-background-with-sass
 format: link
-category: "Front-End"
+categories: "Front-End"
 ---
 Dans un article de The Sass Way, Sebastian Ekström nous montre comment, avec Sass, garantir la meilleure lisibilité possible à vos textes pour une couleur de fond donnée.
 

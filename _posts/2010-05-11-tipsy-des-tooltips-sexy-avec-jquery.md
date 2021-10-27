@@ -9,7 +9,7 @@ permalink: /blog/tipsy-des-tooltips-sexy-avec-jquery/
 img_article:
   - http://blog.angechierchia.com/wp-content/uploads/jquery-tipsy.jpg
 image: /contents/uploads/2010/05/jquery-tipsy.jpg
-category: "Ressource"
+categories: "Ressource"
 ---
 Il y a pratiquement 1 an maintenant je vous avez montré comment créer vos propres [infos-bulles en jQuery](http://chierchia.fr/ajax-javascript/creer-des-info-bulles-attractives-avec-jquery/ "Créer des info-bulles attractives avec jQuery"), aujourd&rsquo;hui je vous présente un plugin vraiment sympa qui permet de faire très simplement des infos-bulle (ou tooltips) similaire à celles qu&rsquo;on peut trouver sur Facebook ou encore Twitter.<!--more-->
 

@@ -8,7 +8,7 @@ layout: post
 permalink: /blog/utiliser-pdo-pour-les-connexion-a-une-bdd/
 img_article:
   - /contents/uploads/phppod.jpg
-category: "Back-End"
+categories: "Back-End"
 ---
 Aujourd&rsquo;hui, je vais vous parler de ce qui va bientôt être la seule façon d&rsquo;inititier une &laquo;&nbsp;discussion&nbsp;&raquo; entre un script PHP et une base de donnée, en effet la version 6 de PHP ne supportera plus des fonction comme mysql\_select\_db() , mysql_query() et autres fonctions du même genre permettant l&rsquo;interation avec une base de donnée jusqu&rsquo;à la version 5.x de PHP.<!--more-->
 

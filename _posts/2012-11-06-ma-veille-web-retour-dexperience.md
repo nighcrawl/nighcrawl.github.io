@@ -4,7 +4,7 @@ title: 'Ma veille Web : retour d&rsquo;expérience'
 date: 2012-11-06T13:27:22+00:00
 author: Ange Chierchia
 layout: post
-category: "Vis ma vie"
+categories: ["Vis ma vie"]
 permalink: /blog/ma-veille-web-retour-dexperience/
 
 ---

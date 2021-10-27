@@ -6,7 +6,7 @@ author: Ange Chierchia
 layout: post
 permalink: /blog/definir-une-grille-de-mise-en-page-avec-sass/
 image: /contents/uploads/image-825x510.png
-category: "Front-End"
+categories: "Front-End"
 ---
 Dans mon précédent article, je parlais de [mon expérience des pré-procésseurs](http://chierchia.fr/blog/pre-processeur-css-feuilles-de-styles-faciles/) CSS, et l&rsquo;une des choses bêtes que Sass/Compass m&rsquo;a permis de faire facilement et en quelques lignes a été de définir ma grille de mise en page.
 

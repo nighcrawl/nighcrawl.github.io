@@ -5,14 +5,17 @@ body_class: "archives-page"
 <h1 class="page-title" data-animate="slideup">{{ page.title }}</h1>
 
 <ul class="posts-list">
-  {% for post in site.posts %}
+    {% for post in site.posts %}
     {% assign m = post.date | date: "%-m" %}
-    <li data-animate="slideup" class="post-summary {% if post.format and post.format == "link" and post.link != "" %}post-format--link{% endif %}">
+    <li data-animate="slideup"
+        class="post-summary {% if post.format and post.format == "link" and post.link != "" %}post-format--link{% endif %}">
         {% if post.format and post.format == "link" and post.link != "" %}
         <a href="{{ post.url }}" class="post-link--permalink">{{ post.url }}</a>
         {% endif %}
-        <a href="{% if post.format and post.format == "link" and post.link != "" %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}" {% if post.format and post.format == "link" and post.link != "" %}target="_blank"{% endif %}>
-            <span class="post-title">{{ post.title }}</span> <time class="post-date" datetime="{{ post.date | date_to_rfc822 }}">{{ post.date | date: "%d" }} {% case m %}
+        <a href="{% if post.format and post.format == "link" and post.link != "" %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}"
+            {% if post.format and post.format == "link" and post.link != "" %}target="_blank" {% endif %}>
+            <span class="post-title">{{ post.title }}</span> <time class="post-date"
+                datetime="{{ post.date | date_to_rfc822 }}">{{ post.date | date: "%d" }} {% case m %}
                 {% when '1' %}janvier
                 {% when '2' %}février
                 {% when '3' %}mars
@@ -25,9 +28,9 @@ body_class: "archives-page"
                 {% when '10' %}octobre
                 {% when '11' %}novembre
                 {% when '12' %}décembre
-            {% endcase %} {{ post.date | date: "%Y" }}</time>
+                {% endcase %} {{ post.date | date: "%Y" }}</time>
 
-            <span class="post-category">{{ post.category }}</span>
+            <span class="post-category">{{ post.categories }}</span>
         </a>
     </li>
     {% endfor %}

@@ -4,7 +4,7 @@ title: Des templates HTML5/CSS3 gratuits, ça vous intéresse ?
 date: 2011-10-15T16:54:00+00:00
 author: Ange Chierchia
 layout: post
-category: "Vis ma vie"
+categories: ["Vis ma vie"]
 permalink: /blog/template-html5-css3-gratuit/
 more-link-text:
   - Lis la suite, tu comprendras pourquoi je dis çà

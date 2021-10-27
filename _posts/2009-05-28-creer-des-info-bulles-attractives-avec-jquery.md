@@ -6,7 +6,7 @@ layout: post
 permalink: /blog/creer-des-info-bulles-attractives-avec-jquery/
 img_article:
   - /contents/uploads/jquerytooltip_thumb.jpg
-category: "Front-End"
+categories: "Front-End"
 ---
 Dans cet article nous allons créer un plugin jQuery afin de générer à la volée des info-bulles stylisée en utilisant l&rsquo;attribut _title_.
   

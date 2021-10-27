@@ -4,7 +4,7 @@ title: '1er apéro #wdfr : Les webdesigners francophones se réunissent!'
 date: 2010-10-08T19:39:48+00:00
 author: Ange Chierchia
 layout: post
-category: "Réseautage"
+categories: "Réseautage"
 permalink: /blog/apero-wdfr-les-webdesigners-francophones-se-reunissent-a-paris/
 image: /contents/uploads/2010/10/wdfr3.png
 ---
