@@ -80,7 +80,7 @@ $themes: (
 		'accent': $red,
 		'accent-dark': shade($red, 20%),
 		'background': $dark-purple,
-		'pre': shade($dark-purple, 20%), 
+		'pre': $black, 
 		'border': tint($dark-purple, 20%)
 	)
 );

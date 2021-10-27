@@ -279,6 +279,23 @@ pre {
     }
 }
 
+code[class*="language-"] {
+	@include border-radius($base-radius);
+	background-color: getColor('pre');
+	color: getColor('background');
+	padding: .125em .25em;
+
+	[data-theme="dark"] & {
+		background-color: getColor('pre', 'dark');
+		color: getColor('text', 'dark');
+	}
+
+	@media (prefers-color-scheme: dark) {
+		background-color: getColor('pre', 'dark');
+		color: getColor('text', 'dark');
+    }
+}
+
 .cp_embed_wrapper>* {
 	width: 100%;
 }
