@@ -20,7 +20,12 @@ J'ai travaillé pendant presque cinq ans chez CBC Informatique, au sein de laque
 
 En janvier 2015, j'ai rejoins l'équipe d'Ibakus Europe en tant que développeur. Au quotidien, j'ai utilisé des technologies comme Symfony, Sass, Webpack et Git pour nous aider dans la conception d'applications Web destinées aux professionnels du Droit et de la Finance.
 
-Depuis décembre 2018, j'ai intégré le département Digital Creativity de Concept Factory, au sein duquel je fais de l'intégration de sites Web, de newsletters, et de bannières Web animées en CSS et Javascript pour divers clients. J'ai notamment collaboré à l'intégration des nouveaux sites Web de [la Croix-Rouge luxembourgeoise](https://croix-rouge.lu), [De Schnékert Traiteur](https://schnekert.lu), [Mobilitéit](https://mobiliteit.lu), [Flex](https://flex.lu) et [#MVOS2019](https://mvos.lu).
+Depuis décembre 2018, j'ai intégré le département Digital Creativity de Concept Factory, au sein duquel je fais de l'intégration de sites Web, de newsletters, et de bannières Web animées en CSS et Javascript pour divers clients. J'ai notamment collaboré à l'intégration des sites Web suivants:
+* [Luxembourg Institute of Health](https://lih.lu), 
+* [la Croix-Rouge luxembourgeoise](https://croix-rouge.lu), 
+* [De Schnékert Traiteur](https://schnekert.lu), 
+* [Mobilitéit](https://mobiliteit.lu), 
+* [Flex Carsharing](https://flex.lu).
 
 Si vous le souhaitez, vous pouvez me suivre sur Twitter via [@nighcrawl](http://twitter.com/nighcrawl), jeter un œil à [mon portfolio]({{site.baseurl}}/portfolio/ "Travaux"), ou consulter [mon CV]({{site.baseurl}}/cv/).
 
