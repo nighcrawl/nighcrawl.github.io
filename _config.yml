@@ -17,7 +17,7 @@ sass:
     style: compressed
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-paginate
 
 theme: jekyll-theme-minimal
