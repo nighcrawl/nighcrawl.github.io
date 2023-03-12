@@ -1,7 +1,6 @@
 ---
 layout: post
 permalink: /blog/tweet-test/
-image: /contents/uploads/serveur-apache-local.jpg
 tags: tweet
 categories: "Vis ma vie"
 ---
