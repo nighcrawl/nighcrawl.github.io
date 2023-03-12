@@ -9,11 +9,13 @@ body_class: "home-page"
     {% if post.format and post.format == "link" and post.link != "" %}
     <a href="{{ post.url }}" class="post-link--permalink">{{ post.url }}</a>
     {% endif %}
+    {% if !post.format || post.format != "status"}
     <h2 class="post-title">
       <a href="{% if post.format and post.format == "link" and post.link != "" %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}"
         {% if post.format and post.format == "link" and post.link != "" %}target="_blank"
         {% endif %}>{{ post.title }}</a>
     </h2>
+    {% endif %}
     {% if post.image and post.image != "" %}
     <a href="{{ post.url }}">
       <figure class="thumbnail">
