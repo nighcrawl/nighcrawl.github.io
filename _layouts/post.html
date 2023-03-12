@@ -10,7 +10,7 @@ sitemap:
     {% if page.format and page.format == "link" and page.link != "" %}
         <a href="{{ page.link }}" class="post-title">{{ page.title }}</a>
     {% else %}
-        {% if !page.format || page.format == "status" %}<h1 class="post-title">{{ page.title }}</h1>{% endif %}
+        {% if !page.format or page.format == "status" %}<h1 class="post-title">{{ page.title }}</h1>{% endif %}
     {% endif %}
 
     {% if page.image and page.image != "" %}
