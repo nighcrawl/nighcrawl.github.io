@@ -7,11 +7,10 @@ sitemap:
     - priority: "1"
 ---
 <div class="post {% if page.format and page.format == "link" and page.link != "" %}post-format--link{% endif %}">
-    {% if page.format and page.format == "status"}
     {% elseif page.format and page.format == "link" and page.link != "" %}
         <a href="{{ page.link }}" class="post-title">{{ page.title }}</a>
     {% else %}
-        <h1 class="post-title">{{ page.title }}</h1>
+        {% if !page.format || page.format == "status" %}<h1 class="post-title">{{ page.title }}</h1>{% endif %}
     {% endif %}
 
     {% if page.image and page.image != "" %}
