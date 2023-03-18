@@ -55,10 +55,10 @@ body_class: "home-page"
 
     {% if post.format and post.format =="link" and post.link != "" %}
       <p>{{ post.content }}</p>
-    {% else if post.content contains "<!--more-->" %}
+    {% elsif post.content contains "<!--more-->" %}
       <p>{{ post.excerpt  | split : "<!--more-->" | first }}</p>
       <a class="post-readmore-link" href="{{ post.url | relative_url }}">Lire la suite</a>
-    {% else if post.format and post.format == "status" %}
+    {% elsif post.format and post.format == "status" %}
       <p>{{ post.content }}</p>
     {% else %}
       <p>{{ post.excerpt }}</p>
