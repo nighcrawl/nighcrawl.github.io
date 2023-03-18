@@ -7,7 +7,7 @@ body_class: "home-page"
   <li data-animate="slideup"
     class="post-summary {% if post.format and post.format == 'link' and post.link != '' %}post-format--link{% endif %}">
 
-    {% unless post.format and post.format != "status" %}
+    {% unless post.format and post.format == "status" %}
       {% if post.format and post.format == "link" and post.link != "" %}
         <a href="{{ post.url }}" class="post-link--permalink">{{ post.url }}</a>
       {% endif %}

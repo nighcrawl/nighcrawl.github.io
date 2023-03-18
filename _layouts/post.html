@@ -8,7 +8,7 @@ sitemap:
 ---
 <div class="post {% if page.format and page.format == "link" and page.link != "" %}post-format--link{% endif %}">
 
-    {% unless page.format and page.format != "status" %}
+    {% unless page.format and page.format == "status" %}
         {% if page.format and page.format == "link" and page.link != "" %}
             <a href="{{ page.link }}" class="post-title">{{ page.title }}</a>
         {% else %}
