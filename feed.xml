@@ -18,11 +18,11 @@ permalink: /feed.xml
     <description>
       {% if post.image and post.image != "" %}
         {% capture post_thumb %}<img src='{{ post.image | prepend: site.baseurl | prepend: site.url }}' />{% endcapture %}
-        {{ post_thumb | xml_escape }}
-        {{ post.content | markdownify | xml_escape }}
       {% else %}
-        {{ post.content | markdownify | xml_escape }}
+        {% capture post_thumb %}<img src='https://avatars1.githubusercontent.com/u/2862432' />{% endcapture %}
       {% endif %}
+      {{ post_thumb | xml_escape }}
+      {{ post.content | markdownify | xml_escape }}
     </description>
     <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
     <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
