@@ -41,7 +41,7 @@ sitemap:
 
         <span class="post-category">
             {% if post %}
-                {% assign categories = post.categories %}
+                {% assign categories = p.categories %}
             {% else %}
                 {% assign categories = page.categories %}
             {% endif %}
@@ -92,6 +92,7 @@ sitemap:
         <li><a class="share-icon--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ page.url }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Facebook">Facebook</a></li>
 </ul>
 
+{% if jekyll.environment == "production" %}
 <div id="disqus_thread"></div>
 <script>
 /**
