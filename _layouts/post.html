@@ -22,8 +22,43 @@ sitemap:
     </figure>
     {% endif %}
 
-    {% assign m = page.date | date: "%-m" %}
-    <time class="post-date" datetime="{{ page.date | date_to_rfc822 }}">Publié le {{ page.date | date: "%d" }} {% case m %}
+    {% unless page.format and page.format == "status" %}
+        {% assign m = page.date | date: "%-m" %}
+        <time class="post-date" datetime="{{ page.date | date_to_rfc822 }}">Publié le {{ page.date | date: "%d" }} {% case m %}
+            {% when '1' %}janvier
+            {% when '2' %}février
+            {% when '3' %}mars
+            {% when '4' %}avril
+            {% when '5' %}mai
+            {% when '6' %}juin
+            {% when '7' %}juillet
+            {% when '8' %}août
+            {% when '9' %}septembre
+            {% when '10' %}octobre
+            {% when '11' %}novembre
+            {% when '12' %}décembre
+        {% endcase %} {{ page.date | date: "%Y" }}</time>
+
+        <span class="post-category">
+            {% if post %}
+                {% assign categories = post.categories %}
+            {% else %}
+                {% assign categories = page.categories %}
+            {% endif %}
+            {% for category in categories %}
+                <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
+            {% unless forloop.last %}&nbsp;{% endunless %}
+            {% endfor %}
+        </span>
+    {% endunless %}
+    
+
+    {{ content }}
+
+    {% if page.format and page.format == "status" %}
+      {% assign m = page.date | date: "%-m" %}
+      <time class="post-date" datetime="{{ page.date | date_to_rfc822 }}">Publié le {{ page.date | date: "%d" }}
+        {% case m %}
         {% when '1' %}janvier
         {% when '2' %}février
         {% when '3' %}mars
@@ -36,24 +71,20 @@ sitemap:
         {% when '10' %}octobre
         {% when '11' %}novembre
         {% when '12' %}décembre
-    {% endcase %} {{ page.date | date: "%Y" }}</time>
+        {% endcase %} {{ page.date | date: "%Y" }}</time>
 
-    <span class="post-category">
+      <span class="post-category">
         {% if post %}
-            {% assign categories = post.categories %}
+        {% assign categories = page.categories %}
         {% else %}
-            {% assign categories = page.categories %}
+        {% assign categories = page.categories %}
         {% endif %}
         {% for category in categories %}
-            <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
+        <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
         {% unless forloop.last %}&nbsp;{% endunless %}
         {% endfor %}
-    </span>
-
-    
-
-    {{ content }}
-
+      </span>
+    {% endif %}
 </div>
 
 <ul class="share">
@@ -61,7 +92,6 @@ sitemap:
         <li><a class="share-icon--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ page.url }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Facebook">Facebook</a></li>
 </ul>
 
-{% if jekyll.environment == "production" %}
 <div id="disqus_thread"></div>
 <script>
 /**
