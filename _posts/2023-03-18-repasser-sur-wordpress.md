@@ -1,9 +1,12 @@
 ---
+title: Repasser sur Wordpress
 layout: post
-permalink: /blog/repasser-sur-wordpress/
-tags: tweet
-categories: ["Vis ma vie"]
-date: 2023-03-18T22:58:30+01:00
+permalink: "/blog/repasser-sur-wordpress/"
+tags:
+- tweet
+categories:
+- Vis ma vie
+date: '2023-03-18 22:58:30 +0100'
 format: status
 ---
 

@@ -1,11 +1,16 @@
 ---
-title: 'Configurer un serveur local avec Homebrew'
+title: Configurer un serveur local avec Homebrew
 layout: post
-permalink: /blog/configurer-un-serveur-local-avec-homebrew/
-image: /contents/uploads/serveur-apache-local.jpg
-tags: apache, php, homebrew
-categories: "Back-End"
+permalink: "/blog/configurer-un-serveur-local-avec-homebrew/"
+image: "/contents/uploads/serveur-apache-local.jpg"
+tags:
+- apache,
+- php,
+- homebrew
+categories:
+- Back-End
 ---
+
 Dans cet article on va voir comment installer PHP et Apache pour configurer un serveur Web local sur Mac grâce au gestionnaire de paquets Homebrew, afin de se passer d'un outil comme MAMP.
 
 Lorsque je travaillais chez Ibakus Europe, on développait des projets Symfony, du coup on n’avait pas besoin d'un MAMP pour faire tourner le projet, compiler les fichiers Sass et/ou JavaScript. Webpack s'en chargeait.
@@ -175,5 +180,3 @@ Rendez-vous à l'adresse [http://localhost/info.php](http://localhost/info.php) 
 ## Et ensuite ?
 
 Dans un prochain article, je partagerai ici ma méthode pour créer des virtual hosts rapidement et simplement, pour par exemple visiter l'URL [http://monsiteweb.local/](http://monsiteweb.local/) et quand même voir le site web stocké dans le dossier `Repositories/monsiteweb`.
-
-

@@ -63,8 +63,7 @@ body_class: "home-page"
     {% elsif post.format and post.format == "status" %}
       <p>{{ post.content }}</p>
     {% else %}
-      <p>{{ post.excerpt }}</p>
-      <a class="post-readmore-link" href="{{ post.url | relative_url }}">Lire la suite</a>
+      <p>{{ post.content }}</p>
     {% endif %}
 
     {% if post.format and post.format == "status" %}
