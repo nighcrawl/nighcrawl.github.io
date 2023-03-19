@@ -7,6 +7,8 @@ categories: "Back-End"
 ---
 Aujourd'hui on va voir comment utiliser Python afin de scraper une page ou un site Web afin de récupérer les informations qui nous intéressent et ainsi se constituer une base de données.
 
+<!--more-->
+
 Le scraping de sites Web fait partie de mon quotidien chez Ibakus Europe ces derniers mois, dans le cadre du développement d'une fonctionnalité de notre application dédiée à la lutte contre le blanchiment d'argent et le financement du terrorisme.
 Le scraping de différentes sources nous a permit de constituer une base de données des sociétés européennes, permettant à nos utilisateurs de compléter leur fichier KYC avec les informations publiques dont on dispose sur leurs clients, en plus des informations qu'ils ont en leur possession.
 

@@ -13,6 +13,8 @@ categories:
 
 Dans cet article on va voir comment installer PHP et Apache pour configurer un serveur Web local sur Mac grâce au gestionnaire de paquets Homebrew, afin de se passer d'un outil comme MAMP.
 
+<!--more-->
+
 Lorsque je travaillais chez Ibakus Europe, on développait des projets Symfony, du coup on n’avait pas besoin d'un MAMP pour faire tourner le projet, compiler les fichiers Sass et/ou JavaScript. Webpack s'en chargeait.
 
 En arrivant chez Concept Factory, MAMP Pro était déjà bien utilisé dans l'équipe Front. Parfois lorsqu'on travaille avec l'équipe Symfony sur un projet, on démarre Vagrant ou Docker dans lequel tout est déjà installé pour faire tourner le projet, seulement voilà, il faut arrêter MAMP pour pouvoir ensuite démarrer la machine virtuelle, va savoir pourquoi... Probablement une histoire de ports utilisés

@@ -1,12 +1,15 @@
 ---
 title: Au revoir OVH
 layout: post
-permalink: /blog/au-revoir-ovh/
+permalink: "/blog/au-revoir-ovh/"
 tags: git, Migration
-categories: ["Vis ma vie"]
+categories:
+- Vis ma vie
 ---
+
 Il y a déjà plus d'un an j'avais expliqué les raisons qui m'avaient poussées à [migrer mon site sur Jekyll]({{ site.base_url }}{% post_url 2017-02-12-jekyll %}). J'y avais déjà exprimé mon intérêt pour GitHub Pages et pourquoi je ne voulais pas [me séparer d'OVH]({{ site.base_url}}{% post_url 2017-04-12-deployer-jekyll-sur-un-vps-avec-github %}) pour le moment.
 
+<!--more-->
 Jusqu'au début de l'année dernière, mon site Web tournait sous WordPress, sur un serveur mutualisé OVH que je payais bien trop pour l'utilité que j'en avais. Même si le rapport qualité/prix est là, les ~250 Go d'espace disque qui m'étaient alloués ne me servaient pas, et encore moins quand j'ai migré sur Jekyll.
 
 J'étais donc passé d'un mutualisé de 250 Go à 6€/mois à un VPS de 10 Go à 3€/mois. 2 fois moins cher pour 25 fois moins d'espace de stockage, certes mais largement suffisant pour mon usage.
