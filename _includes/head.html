@@ -13,8 +13,10 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title | normalize_whitespace | truncate: 160 | escape }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.opengraph_visual }}{% endif %}">
+    <meta property="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.opengraph_visual }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@nighcrawl">
     <meta name="canonical" content="{{ site.url }}{{ page.url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
