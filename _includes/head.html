@@ -12,7 +12,7 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title | normalize_whitespace | truncate: 160 | escape }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.opengraph_visual }}{% endif %}">
+    <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.opengraph_visual }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="canonical" content="{{ site.url }}{{ page.url }}">

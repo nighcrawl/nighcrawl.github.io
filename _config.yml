@@ -9,7 +9,7 @@ url: "https://chierchia.fr" # the base hostname & protocol for your site, e.g. h
 twitter_username: nighcrawl
 github_username:  nighcrawl
 
-opengraph_visual: 'https://avatars1.githubusercontent.com/u/2862432'
+opengraph_visual: '/assets/img/opengraph.jpg'
 
 placeholder: "/assets/img/placeholder.png"
 
