@@ -103,7 +103,7 @@ Si vous avez un Mac avec un processeur Intel, le fichier se trouvera à cet endr
 
 Il faudra remplacer les choses suivantes :
 * `Listen 8080` ➡️ `Listen 80`
-* `DocumentRoot "/usr/local/var/www"` ➡️ `DocumentRoot "/Users/VOTRE_USERNAME/Sites"`
+* `DocumentRoot "/usr/local/var/www"` ➡️ `DocumentRoot "/Users/VOTRE_USERNAME/Repositories"`
 * `<Directory "/usr/local/var/www">` ➡️ `<Directory "/Users/VOTRE_USERNAME/Repositories">`
 * Dans la section `<Directory “/Users/VOTRE_USERNAME/Repositories”>`qu'on a modifié à l'instant : `AllowOverride None` ➡️ `AllowOverride All`
 * `#LoadModule rewrite_module lib/httpd/modules/mod_rewrite.so️` ➡️ `LoadModule rewrite_module lib/httpd/modules/mod_rewrite.so`
