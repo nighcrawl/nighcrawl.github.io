@@ -3,7 +3,7 @@ title: Créer des virtual hosts pour notre serveur local
 categories:
 - Back-End
 permalink: "/blog/creer-des-virtual-hosts-pour-notre-serveur-local"
-date: '2023-03-23 23:22:27'
+date: '2023-03-23 23:32:27 +0100'
 ---
 
 Dans cet article, qui fait suite à mon article [Configurer un serveur local avec Homebrew](https://chierchia.fr/blog/configurer-un-serveur-local-avec-homebrew/), je vais vous montrer la méthode que j'utilise pour créer les virtual hosts des projets sur lesquels je travail. Si vous n'avez pas lu la première partie, je vous invite à le faire avant de continuer.
