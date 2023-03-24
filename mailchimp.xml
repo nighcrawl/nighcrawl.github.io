@@ -17,9 +17,9 @@ permalink: /mailchimp.xml
       <author>{{ site.author }}</author>
       <description>
         {% if post.image and post.image != "" %}
-          {% capture post_thumb %}<img style='max-width:600px;height: auto;' src='{{ post.image | prepend: site.baseurl | prepend: site.url }}' />{% endcapture %}
+          {% capture post_thumb %}<img src='{{ post.image | prepend: site.baseurl | prepend: site.url }}' />{% endcapture %}
         {% else %}
-          {% capture post_thumb %}<img style='max-width:600px;height: auto;' src='https://avatars1.githubusercontent.com/u/2862432' />{% endcapture %}
+          {% capture post_thumb %}{% endcapture %}
         {% endif %}
         {{ post_thumb | xml_escape }}
         {{ post.content | markdownify | xml_escape }}
@@ -44,7 +44,6 @@ permalink: /mailchimp.xml
           {{ post.content | markdownify | xml_escape }}
         {% elsif post.content contains "<!--more-->" %}
           {{ post.excerpt | split : "<!--more-->" | first | markdownify | xml_escape }}
-          <a class="post-readmore-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Lire la suite</a>
         {% elsif post.format and post.format == "status" %}
           {{ post.content | markdownify | xml_escape }}
         {% else %}
