@@ -10,6 +10,7 @@ twitter_username: nighcrawl
 github_username:  nighcrawl
 
 opengraph_visual: '/assets/img/opengraph.jpg'
+rss_thumbnail: '/assets/img/feed-default-thumbnail.jpg'
 
 placeholder: "/assets/img/placeholder.png"
 

@@ -19,7 +19,7 @@ permalink: /feed.xml
       {% if post.image and post.image != "" %}
         {% capture post_thumb %}<img src='{{ post.image | prepend: site.baseurl | prepend: site.url }}' />{% endcapture %}
       {% else %}
-        {% capture post_thumb %}<img src='https://avatars1.githubusercontent.com/u/2862432' />{% endcapture %}
+        {% capture post_thumb %}<img src='{{ site.rss_thumbnail | prepend: site.baseurl | prepend: site.url }}' />{% endcapture %}
       {% endif %}
       {{ post_thumb | xml_escape }}
       {{ post.content | markdownify | xml_escape }}
