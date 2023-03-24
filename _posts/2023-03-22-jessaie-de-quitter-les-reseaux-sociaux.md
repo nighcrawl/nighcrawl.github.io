@@ -6,7 +6,7 @@ permalink: "/blog/jessaie-de-quitter-les-reseaux-sociaux"
 date: '2023-03-22 21:40:14 +0100'
 ---
 
-C'est derniers mois je réfléchis beaucoup à quitter tous les réseaux sociaux sur lesquels je me suis inscrit, j'ai d'ailleurs déjà commencé en fermant mon compte Facebook l'été dernier.
+Ces derniers mois je réfléchis beaucoup à quitter tous les réseaux sociaux sur lesquels je me suis inscrit, j'ai d'ailleurs déjà commencé en fermant mon compte Facebook l'été dernier.
 
 <!--more-->
 
