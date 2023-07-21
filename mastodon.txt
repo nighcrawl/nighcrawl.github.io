@@ -1,0 +1,5 @@
+---
+layout: none
+permalink: /.well-known/webfinger
+---
+{"subject":"acct:nighcrawl@mastodon.top","aliases":["https://mastodon.top/@nighcrawl","https://mastodon.top/users/nighcrawl"],"links":[{"rel":"http://webfinger.net/rel/profile-page","type":"text/html","href":"https://mastodon.top/@nighcrawl"},{"rel":"self","type":"application/activity+json","href":"https://mastodon.top/users/nighcrawl"},{"rel":"http://ostatus.org/schema/1.0/subscribe","template":"https://mastodon.top/authorize_interaction?uri={uri}"}]}
