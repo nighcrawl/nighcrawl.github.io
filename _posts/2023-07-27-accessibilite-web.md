@@ -3,7 +3,7 @@ title: Accessibilité Web
 categories:
 - Front-End
 permalink: "/blog/accessibilite-web"
-date: '2023-07-27 09:46:09'
+date: '2023-07-27 09:46:09 +0100'
 ---
 
 Depuis plusieurs semaines je travaille beaucoup sur l'aspect accessible des sites Web que l'on produit chez Concept Factory. 
