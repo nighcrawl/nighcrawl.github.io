@@ -2,8 +2,8 @@
 title: Accessibilité Web
 categories:
 - Front-End
-permalink: "/blog/accessibilite"
-date: '2023-04-24 21:02:09'
+permalink: "/blog/accessibilite-web"
+date: '2023-07-27 09:46:09'
 ---
 
 Depuis plusieurs semaines je travaille beaucoup sur l'aspect accessible des sites Web que l'on produit chez Concept Factory. 
