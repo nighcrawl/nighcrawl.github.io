@@ -27,7 +27,7 @@ Depuis décembre 2018, j'ai intégré le département Digital Creativity de Conc
 * [Mobilitéit](https://mobiliteit.lu), 
 * [Flex Carsharing](https://flex.lu).
 
-Si vous le souhaitez, vous pouvez me suivre sur Twitter via [@nighcrawl](http://twitter.com/nighcrawl), jeter un œil à [mon portfolio]({{site.baseurl}}/portfolio/ "Travaux"), ou consulter [mon CV]({{site.baseurl}}/cv/).
+Si vous le souhaitez, vous pouvez me suivre sur [Mastodon](https://mastodon.social/@nighcrawl) ou [Twitter](https://twitter.com/nighcrawl), jeter un œil à [mon portfolio]({{site.baseurl}}/portfolio/ "Travaux"), ou consulter [mon CV]({{site.baseurl}}/cv/).
 
 ### A propos du blog
 
