@@ -5,7 +5,7 @@ layout: page
 body_class: "contact-page"
 permalink: /contact/
 ---
-Pour me demander de l&rsquo;aide sur une question ayant trait au développement Web en général, me proposer une opportunité ou tout simplement dire bonjour, vous pouvez [me contacter sur Twitter](https://twitter.com/nighcrawl) ou bien utiliser le formulaire ci-dessous.
+Pour me demander de l&rsquo;aide sur une question ayant trait au développement Web en général, me proposer une opportunité ou tout simplement dire bonjour, vous pouvez m'envoyer un message [sur Mastodon](https://mastodon.social/@nighcrawl), [sur Twitter](https://twitter.com/nighcrawl) ou bien utiliser le formulaire ci-dessous.
 
 <form class="contact-form" method="POST">
 	<p>
