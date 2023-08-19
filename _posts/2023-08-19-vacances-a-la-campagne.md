@@ -3,6 +3,7 @@ title: Vacances à la campagne
 categories:
 - Vis ma vie
 permalink: "/blog/vacances-a-la-campagne"
+date: 2019-08-19 18:20:00
 ---
 
 Cela fait déjà une semaine que je suis avec mon fils et mes parents dans leur maison de campagne.<!--more-->
