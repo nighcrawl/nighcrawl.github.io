@@ -5,7 +5,7 @@ categories:
 permalink: "/blog/vacances-a-la-campagne"
 ---
 
-Cela fait déjà une semaine que je suis avec mon fils et mes parents dans leur maison de campagne.
+Cela fait déjà une semaine que je suis avec mon fils et mes parents dans leur maison de campagne.<!--more-->
 
 Outre le fait que mon fils puisse profiter un maximum de ses grands parents et du jardin, ça m’a aussi permis de me reposer un maximum, parce que bizarrement, dans « la grande maison de papi et mamie » comme l’appelle mon fils, il ne se réveille pas à 7h15 comme à son habitude quand sa mère et moi avons envie de dormir. Et franchement, ça fait un bien fou !
 
