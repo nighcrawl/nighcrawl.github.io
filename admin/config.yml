@@ -21,11 +21,12 @@ collections:
       - label: "Categories"
         name: "categories" 
         widget: "select"
+        multiple: true
         options:
-          - {value: 'front-end', label: 'Front-end'}
-          - {value: 'back-end', label: 'Back-end'}
-          - {value: 'ressource', label: 'Ressource'}
-          - {value: 'vis-ma-vie', label: 'Vis ma vie'}
+          - {value: 'Font-End', label: 'Front-End'}
+          - {value: 'Back-End', label: 'Back-End'}
+          - {value: 'Ressource', label: 'Ressource'}
+          - {value: 'Vis ma vie', label: 'Vis ma vie'}
       - {label: "Tags", name: "tags", widget: "list", default: ["tweet"], required: false}
       - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post'], required: false}
       - {label: "Permalink", name: "permalink", widget: "string", default: '/blog/{{slug}}'}
