@@ -23,6 +23,8 @@ permalink: /feed.xml
       {% endif %}
       {{ post_thumb | xml_escape }}
       {{ post.content | markdownify | xml_escape }}
+
+      {% for tag in post.tags %}#{{ tag | xml_escape }} {% endfor %}
     </description>
     <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
     <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
