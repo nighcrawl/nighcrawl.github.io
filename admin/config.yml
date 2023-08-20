@@ -19,4 +19,5 @@ collections:
       - {label: "Categories", name: "categories", widget: "select", options: ["Front-End", "Banck-End", "Vis ma vie"]}
       - {label: "Tags", name: "tags", widget: "select", options: ["tweet", ""], default: [""]}
       - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post']}
+      - {label: "Permalink", name: "permalink", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
