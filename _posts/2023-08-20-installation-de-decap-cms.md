@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installation de Decap CMS
-date: 2023-08-20T12:03:28.181Z
+date: 2023-08-20T12:05:18.003Z
 thumbnail: /contents/uploads/11049531_747517128680491_5685630941615427600_o-825x510.jpg
 categories: Vis ma vie
 tags: tweet
