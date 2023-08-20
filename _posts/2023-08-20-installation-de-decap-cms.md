@@ -3,8 +3,9 @@ layout: post
 permalink: /blog/installation-de-decap-cms
 thumbnail: /contents/uploads/11049531_747517128680491_5685630941615427600_o-825x510.jpg
 title: Installation de Decap CMS
-date: 2023-08-20T13:14:23.685Z
-categories: vis-ma-vie
+date: 2023-08-20T13:20:40.644Z
+categories:
+  - Vis ma vie
 tags: tweet
 format: status
 ---
