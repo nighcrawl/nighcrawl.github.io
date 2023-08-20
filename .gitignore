@@ -37,3 +37,4 @@ Temporary Items
 
 
 # End of https://www.gitignore.io/api/sass,macos,jekyll
+node_modules
