@@ -17,8 +17,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Categories", name: "categories", widget: "list", default: ["Front-End", "Banck-End", "Vis ma vie"]}
-      - {label: "Tags", name: "tags", widget: "select", options: ["tweet", ""], required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["Front-End", "Back-End", "Vis ma vie", "Ressource"]}
+      - {label: "Tags", name: "tags", widget: "list", default: ["tweet"], required: false}
       - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post'], required: false}
       - {label: "Permalink", name: "permalink", widget: "string", default: '/blog/{{slug}}'}
       - {label: "Body", name: "body", widget: "markdown"}
