@@ -7,6 +7,7 @@ collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/" # The path to the folder where the documents are stored
+    sort: "date:desc"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -15,9 +16,9 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", default: ''}
-      - {label: "Categories", name: "categories", widget: "select", options: ["Front-End", "Banck-End", "Vis ma vie"]}
-      - {label: "Tags", name: "tags", widget: "select", options: ["tweet", ""], default: [""]}
-      - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post']}
-      - {label: "Permalink", name: "permalink", widget: "text"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", default: ["Front-End", "Banck-End", "Vis ma vie"]}
+      - {label: "Tags", name: "tags", widget: "select", options: ["tweet", ""], required: false}
+      - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post'], required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", default: '/blog/{{slug}}'}
       - {label: "Body", name: "body", widget: "markdown"}
