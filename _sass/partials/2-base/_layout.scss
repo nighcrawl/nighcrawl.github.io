@@ -263,19 +263,23 @@
 
 .post blockquote {
 	border-left: 4px solid getColor('accent', 'light');
-	padding: 1em 1.5em;
-	background-color: getColor('text-light', 'light');
+	background-color: getColor('border', 'light');
+	padding: 1em .5em;
 	border-radius: 5px;
 
 	[data-theme="dark"] & {
 		border-left-color: getColor('accent', 'dark');
-		background-color: getColor('text-light', 'dark');
+		background-color: getColor('border', 'dark');
 	}
 
 	@media (prefers-color-scheme: dark) {
 		border-left-color: getColor('accent', 'dark');
-		background-color: getColor('text-light', 'dark');
+		background-color: getColor('border', 'dark');
     }
+
+	@media only screen and (min-width: 710px) {
+		padding: 1em 1.5em;
+	}
 }
 
 .post blockquote>*:first-child {
