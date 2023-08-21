@@ -252,6 +252,7 @@
 	img {
 		max-width: 100%;
 		height: auto;
+		@include border-radius($base-radius);
 	}
 }
 
@@ -265,7 +266,7 @@
 	border-left: 6px solid getColor('accent', 'light');
 	background-color: getColor('border', 'light');
 	padding: 1em;
-	border-radius: 5px;
+	@include border-radius($base-radius * 2);
 	margin: 0;
 
 	[data-theme="dark"] & {
