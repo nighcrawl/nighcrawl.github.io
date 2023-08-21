@@ -53,6 +53,7 @@
 // Color palette
 $blue: #0000b5;
 $red: #b50055;
+$bright-red: #ff0178;
 $teal: #0087ff;
 $white:  #fff;
 $silver: #ddd;
@@ -76,9 +77,9 @@ $themes: (
 	'dark': (
 		'text-light': shade($white, 40%),
 		'text': $white,
-		'accent-light': tint($red, 20%),
-		'accent': $red,
-		'accent-dark': shade($red, 20%),
+		'accent-light': tint($bright-red, 20%),
+		'accent': $bright-red,
+		'accent-dark': shade($bright-red, 20%),
 		'background': $dark-purple,
 		'pre': $black, 
 		'border': tint($dark-purple, 20%)
