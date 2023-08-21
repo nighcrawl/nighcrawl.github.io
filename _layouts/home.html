@@ -24,36 +24,6 @@ body_class: "home-page"
       </figure>
     </a>
     {% endif %}
-    {% unless post.format and post.format == "status" %}
-      {% assign m = post.date | date: "%-m" %}
-      <time class="post-date" datetime="{{ post.date | date_to_rfc822 }}">Publié le {{ post.date | date: "%d" }}
-        {% case m %}
-        {% when '1' %}janvier
-        {% when '2' %}février
-        {% when '3' %}mars
-        {% when '4' %}avril
-        {% when '5' %}mai
-        {% when '6' %}juin
-        {% when '7' %}juillet
-        {% when '8' %}août
-        {% when '9' %}septembre
-        {% when '10' %}octobre
-        {% when '11' %}novembre
-        {% when '12' %}décembre
-        {% endcase %} {{ post.date | date: "%Y" }}</time>
-
-      <span class="post-category">
-        {% if post %}
-        {% assign categories = post.categories %}
-        {% else %}
-        {% assign categories = page.categories %}
-        {% endif %}
-        {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
-        {% unless forloop.last %}&nbsp;{% endunless %}
-        {% endfor %}
-      </span>
-    {% endunless %}
 
     {% if post.format and post.format =="link" and post.link != "" %}
       <p>{{ post.content }}</p>
@@ -66,36 +36,34 @@ body_class: "home-page"
       <p>{{ post.content }}</p>
     {% endif %}
 
-    {% if post.format and post.format == "status" %}
-      {% assign m = post.date | date: "%-m" %}
-      <time class="post-date" datetime="{{ post.date | date_to_rfc822 }}">Publié le {{ post.date | date: "%d" }}
-        {% case m %}
-        {% when '1' %}janvier
-        {% when '2' %}février
-        {% when '3' %}mars
-        {% when '4' %}avril
-        {% when '5' %}mai
-        {% when '6' %}juin
-        {% when '7' %}juillet
-        {% when '8' %}août
-        {% when '9' %}septembre
-        {% when '10' %}octobre
-        {% when '11' %}novembre
-        {% when '12' %}décembre
-        {% endcase %} {{ post.date | date: "%Y" }}</time>
+    {% assign m = post.date | date: "%-m" %}
+    <time class="post-date" datetime="{{ post.date | date_to_rfc822 }}">Publié le {{ post.date | date: "%d" }}
+      {% case m %}
+      {% when '1' %}janvier
+      {% when '2' %}février
+      {% when '3' %}mars
+      {% when '4' %}avril
+      {% when '5' %}mai
+      {% when '6' %}juin
+      {% when '7' %}juillet
+      {% when '8' %}août
+      {% when '9' %}septembre
+      {% when '10' %}octobre
+      {% when '11' %}novembre
+      {% when '12' %}décembre
+      {% endcase %} {{ post.date | date: "%Y" }}</time>
 
-      <span class="post-category">
-        {% if post %}
-        {% assign categories = post.categories %}
-        {% else %}
-        {% assign categories = page.categories %}
-        {% endif %}
-        {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
-        {% unless forloop.last %}&nbsp;{% endunless %}
-        {% endfor %}
-      </span>
-    {% endif %}
+    <span class="post-category">
+      {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span>
   </li>
   {% endfor %}
 </ul>
