@@ -31,5 +31,6 @@ collections:
           - {value: 'Vis ma vie', label: 'Vis ma vie'}
       - {label: "Tags", name: "tags", widget: "list", default: ["tweet"], required: false}
       - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post'], required: false}
+      - {label: "URL to Share", name: 'link', widget: 'string', required: false, pattern: ['^https?:\/\/([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$', 'Must start with http:// or https://']}
       - {label: "Permalink", name: "permalink", widget: "string", default: '/blog/{{slug}}'}
       - {label: "Body", name: "body", widget: "markdown"}
