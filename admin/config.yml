@@ -32,3 +32,20 @@ collections:
       - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post'], required: false}
       - {label: "URL to Share", name: 'link', widget: 'string', required: false, pattern: ['^https?:\/\/', 'Must start with http:// or https://']}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "page" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "_pages/" # The path to the folder where the documents are stored
+    sort: "title:asc"
+    editor:
+      preview: false
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Featured Image CSS Class", name: "image_class", widget: "string", required: false}
+      - {label: "Permalink", name: 'permalink', widget: "string", required: false}
+      - {label: "Body CSS class", name: 'body_class', widget: 'string', required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
