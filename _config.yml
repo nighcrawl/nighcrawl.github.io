@@ -14,6 +14,11 @@ rss_thumbnail: '/assets/img/feed-default-thumbnail.jpg'
 
 placeholder: "/assets/img/placeholder.png"
 
+permalink: /blog/:year/:month/:title
+
+include:
+  - _pages
+
 paginate: 10
 paginate_path: "/blog/page/:num/"
 

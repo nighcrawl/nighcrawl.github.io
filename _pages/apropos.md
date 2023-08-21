@@ -27,7 +27,7 @@ Depuis décembre 2018, j'ai intégré le département Digital Creativity de Conc
 * [Mobilitéit](https://mobiliteit.lu), 
 * [Flex Carsharing](https://flex.lu).
 
-Si vous le souhaitez, vous pouvez me suivre sur [Mastodon](https://mastodon.social/@nighcrawl) ou [Twitter](https://twitter.com/nighcrawl), jeter un œil à [mon portfolio]({{site.baseurl}}/portfolio/ "Travaux"), ou consulter [mon CV]({{site.baseurl}}/cv/).
+Si vous le souhaitez, vous pouvez me suivre sur [Mastodon](https://mastodon.social/@nighcrawl), jeter un œil à [mon portfolio]({{site.baseurl}}/portfolio/ "Travaux"), si j'ai un jour le courage d'alimenter cette page, ou consulter [mon CV]({{site.baseurl}}/cv/).
 
 ### A propos du blog
 
@@ -35,4 +35,4 @@ Ce blog est avant tout un moyen pour moi de garder une trace de certaines ressou
 
 Le blog n’est ni une publication journalière, ni hebdomadaire et encore moins mensuelle, ne vous attendez donc pas à trouver un nouvel article tous les jours, vous seriez déçu.
 
-Vous y trouverez, en vrac, des morceaux de code, quelques retours d’expériences et des «réflexions» sur le métier de Webdesigner.
+Vous y trouverez, en vrac, des morceaux de code, des retours d'expériences et des posts sur ma vie perso.
