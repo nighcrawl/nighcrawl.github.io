@@ -14,7 +14,6 @@ collections:
       preview: false
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: "{{fields.permalink}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -32,5 +31,4 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", default: ["tweet"], required: false}
       - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post'], required: false}
       - {label: "URL to Share", name: 'link', widget: 'string', required: false, pattern: ['^https?:\/\/', 'Must start with http:// or https://']}
-      - {label: "Permalink", name: "permalink", widget: "string", pattern: ['^\/blog\/', 'Must start with /blog/']}
       - {label: "Body", name: "body", widget: "markdown"}
