@@ -260,6 +260,32 @@
 	display: block;
 }
 
+
+.post blockquote {
+	border-left: 4px solid getColor('accent', 'light');
+	padding: 1em 1.5em;
+	background-color: getColor('text-light', 'light');
+	border-radius: 5px;
+
+	[data-theme="dark"] & {
+		border-left-color: getColor('accent', 'dark');
+		background-color: getColor('text-light', 'dark');
+	}
+
+	@media (prefers-color-scheme: dark) {
+		border-left-color: getColor('accent', 'dark');
+		background-color: getColor('text-light', 'dark');
+    }
+}
+
+.post blockquote>*:first-child {
+	margin-top: 0;
+}
+
+.post blockquote>*:last-child {
+	margin-bottom: 0;
+}
+
 pre {
 	@include border-radius($base-radius);
 	background-color: getColor('pre');
