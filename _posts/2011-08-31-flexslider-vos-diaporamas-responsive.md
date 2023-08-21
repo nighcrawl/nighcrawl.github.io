@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Ange Chierchia
-title: FlexSlider — vos diaporamas &quot;responsive&quot;
+title: FlexSlider — vos diaporamas "responsive"
 date: 2011-08-31T18:56:06+00:00
 categories:
   - Ressource
