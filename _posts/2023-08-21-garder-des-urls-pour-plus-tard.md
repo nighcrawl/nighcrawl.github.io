@@ -20,4 +20,4 @@ Il catégorise ses liens dans trois catégories : court terme, moyen terme et lo
 
 J'ai trouvé son approche très intéressante même si je ne comprend pas bien pourquoi utiliser les favoris du navigateur soit si dérangeant pour lui. Personnellement c'est la méthode que j'utilise. 
 
-Après, c'est vrai que je ne peut pas accéder à mes favoris depuis mon iPhone, parce que j'utilise Firefox sur mon ordinateur et Safari sur mon iPhone, mais ça n'est pas si dérangeant. Peut-être que je m'inspirerai de sa méthode si mes besoin changent un jour.
+Après, c'est vrai que je ne peut pas accéder à mes favoris depuis mon iPhone, parce que j'utilise Firefox sur mon ordinateur et Safari sur mon iPhone, mais ça n'est pas si dérangeant. Peut-être que je m'inspirerai de sa méthode si mes besoins changent un jour.
