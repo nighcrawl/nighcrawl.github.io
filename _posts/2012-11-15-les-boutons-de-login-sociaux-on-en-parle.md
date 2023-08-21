@@ -5,7 +5,7 @@ date: 2012-11-15T20:26:34+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/les-boutons-de-login-sociaux-on-en-parle/
+redirect_from: /blog/les-boutons-de-login-sociaux-on-en-parle/
 
 ---
 Avant-hier je suis tombé sur [un article d&rsquo;Aarron Walter](http://blog.mailchimp.com/social-login-buttons-arent-worth-it/ "Social Login Buttons Aren't Worth It") sur le blog de MailChimp expliquant comment ils avaient réussi à réduire significativement le taux d&rsquo;échec  lors de la connexion de leurs utilisateurs. Aaron explique que même en ayant ajouté des boutons de connexion via Twitter et Facebook, le taux d&rsquo;échec à la connexion n&rsquo;avait pas vraiment bougé. C&rsquo;est lorsqu&rsquo;ils ont retravaillé leur messages d&rsquo;erreurs (mauvais login/mauvais mot de passe) qu&rsquo;il on vu une nette amélioration.

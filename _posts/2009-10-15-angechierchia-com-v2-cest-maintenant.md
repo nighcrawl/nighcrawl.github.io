@@ -5,7 +5,7 @@ date: 2009-10-15T17:30:25+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/angechierchia-com-v2-cest-maintenant/
+redirect_from: /blog/angechierchia-com-v2-cest-maintenant/
 img_article:
   - /contents/uploads/thumb_acv2.jpg
 ---

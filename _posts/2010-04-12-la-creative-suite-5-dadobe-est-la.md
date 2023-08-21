@@ -5,7 +5,7 @@ date: 2010-04-12T20:37:12+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/la-creative-suite-5-dadobe-est-la/
+redirect_from: /blog/la-creative-suite-5-dadobe-est-la/
 img_article:
   - /contents/uploads/cs5launch.jpg
 image: /contents/uploads/2010/04/cs5launch.jpg

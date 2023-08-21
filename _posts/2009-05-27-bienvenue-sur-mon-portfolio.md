@@ -2,7 +2,7 @@
 title: Bienvenue sur mon portfolio!
 date: 2009-05-27T00:11:41+00:00
 layout: post
-permalink: /blog/bienvenue-sur-mon-portfolio/
+redirect_from: /blog/bienvenue-sur-mon-portfolio/
 image: /contents/uploads/thumb_openingfolio.jpg
 categories: ["Vis ma vie"]
 ---

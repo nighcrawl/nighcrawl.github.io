@@ -4,7 +4,7 @@ title: 'Impression et en-tête de page : casse-tête'
 date: 2016-06-16T19:59:11+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/impression-en-tete-de-page-casse-tete/
+redirect_from: /blog/impression-en-tete-de-page-casse-tete/
 image: /contents/uploads/pexels-photo-825x510.jpg
 categories: "Front-End"
 ---

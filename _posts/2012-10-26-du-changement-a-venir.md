@@ -5,7 +5,7 @@ date: 2012-10-26T12:48:53+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/du-changement-a-venir/
+redirect_from: /blog/du-changement-a-venir/
 ---
 Il y a de cela 4 ans j&rsquo;ai commencé à écrire sur ce blog. Et puis à l&rsquo;été 2009 je me suis déclaré comme auto-entrepreneur, ayant le besoin de travailler et donc rester actif pendant ma recherche de premier emploi.
 

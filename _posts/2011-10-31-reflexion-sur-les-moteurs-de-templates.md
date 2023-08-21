@@ -5,7 +5,7 @@ date: 2011-10-31T09:24:56+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/reflexion-sur-les-moteurs-de-templates/
+redirect_from: /blog/reflexion-sur-les-moteurs-de-templates/
 more-link-text:
   - Je lui laisse donc la place !
 

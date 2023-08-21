@@ -4,7 +4,7 @@ title: Créer un pixel de suivi
 date: 2016-03-08T19:10:44+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/creer-un-pixel-de-suivi/
+redirect_from: /blog/creer-un-pixel-de-suivi/
 image: /contents/uploads/0851180c82edcb207c0f6a706700d56c_c413-0-2587-1268_s885x516-825x510.jpg
 categories: "Back-End"
 ---

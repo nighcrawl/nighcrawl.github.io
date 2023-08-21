@@ -5,7 +5,7 @@ date: 2011-07-08T18:47:47+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/generer-un-mot-de-passe-aleatoirement/
+redirect_from: /blog/generer-un-mot-de-passe-aleatoirement/
 more-link-text:
   - "Clique pour voir comme c'est beau!"
 

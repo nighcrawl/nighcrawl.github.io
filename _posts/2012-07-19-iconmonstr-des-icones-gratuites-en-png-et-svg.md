@@ -5,7 +5,7 @@ date: 2012-07-19T12:55:01+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/iconmonstr-des-icones-gratuites-en-png-et-svg/
+redirect_from: /blog/iconmonstr-des-icones-gratuites-en-png-et-svg/
 link:
   - http://iconmonstr.com/
 format: link

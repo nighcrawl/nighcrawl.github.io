@@ -5,7 +5,7 @@ date: 2012-07-19T08:08:16+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/adapter-vos-site-pour-les-ecrans-retina/
+redirect_from: /blog/adapter-vos-site-pour-les-ecrans-retina/
 link:
   - http://wdfriday.com/blog/2012/06/adapter-vos-sites-pour-les-ecrans-retina/
 format: link

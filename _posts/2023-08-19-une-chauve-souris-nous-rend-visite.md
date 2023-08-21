@@ -4,7 +4,7 @@ categories:
 - Vis ma vie
 tags:
 - tweet
-permalink: "/blog/une-chauve-souris-nous-rend-visite"
+redirect_from: "/blog/une-chauve-souris-nous-rend-visite"
 format: status
 date: '2023-08-19 22:13:00 +0200'
 ---

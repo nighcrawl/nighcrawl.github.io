@@ -28,5 +28,9 @@ markdown: kramdown
 
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 theme: jekyll-theme-minimal

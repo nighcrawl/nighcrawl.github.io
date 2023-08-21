@@ -5,7 +5,7 @@ date: 2009-12-09T20:37:12+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/ma-carte-de-visite-electronique/
+redirect_from: /blog/ma-carte-de-visite-electronique/
 img_article:
   - http://about.angechierchia.com/images/vcard.png
 image: /contents/uploads/2010/04/vcardthumb1.jpg

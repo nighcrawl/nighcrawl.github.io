@@ -5,7 +5,7 @@ date: 2009-06-04T21:32:49+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/mise-a-jour-du-blog/
+redirect_from: /blog/mise-a-jour-du-blog/
 img_article:
   - /contents/uploads/thumb_comments_update.jpg
 ---

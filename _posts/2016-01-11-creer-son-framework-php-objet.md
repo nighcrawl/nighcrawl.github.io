@@ -4,7 +4,7 @@ title: Créer son framework PHP Objet
 date: 2016-01-11T08:40:21+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/creer-son-framework-php-objet/
+redirect_from: /blog/creer-son-framework-php-objet/
 image: /contents/uploads/technology-programming-code-wallpaper-hd-1920x1080-825x510.jpg
 categories: "Back-End"
 ---

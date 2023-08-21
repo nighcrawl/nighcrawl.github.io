@@ -2,7 +2,7 @@
 title: Je suis passé sous Linux
 categories:
 - Vis ma vie
-permalink: "/blog/je-suis-passe-sous-linux"
+redirect_from: "/blog/je-suis-passe-sous-linux"
 date: '2023-07-27 18:11:00 +0200'
 image: "/contents/uploads/IMG_4877.JPEG"
 ---

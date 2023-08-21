@@ -5,7 +5,7 @@ date: 2011-10-15T16:54:00+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/template-html5-css3-gratuit/
+redirect_from: /blog/template-html5-css3-gratuit/
 more-link-text:
   - Lis la suite, tu comprendras pourquoi je dis çà
 ---

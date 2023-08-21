@@ -5,7 +5,7 @@ date: 2010-05-12T19:29:19+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/astuce-jquery-fonction-resize/
+redirect_from: /blog/astuce-jquery-fonction-resize/
 image: /contents/uploads/2010/05/1205101927.jpg
 categories: "Front-End"
 ---

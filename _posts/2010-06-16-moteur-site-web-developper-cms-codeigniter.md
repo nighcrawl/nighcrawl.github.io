@@ -5,7 +5,7 @@ date: 2010-06-16T21:09:06+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/moteur-site-web-developper-cms-codeigniter/
+redirect_from: /blog/moteur-site-web-developper-cms-codeigniter/
 image: /contents/uploads/2010/06/ci_cms.jpg
 categories: "Back-End"
 ---

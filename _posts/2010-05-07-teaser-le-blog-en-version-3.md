@@ -5,7 +5,7 @@ date: 2010-05-07T16:13:46+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/teaser-le-blog-en-version-3/
+redirect_from: /blog/teaser-le-blog-en-version-3/
 img_article:
   - http://blog.angechierchia.com/wp-content/uploads/teaserv3-b-200x200.jpg
 image: /contents/uploads/2010/05/teaserv3-b-390x288.jpg

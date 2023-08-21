@@ -5,7 +5,7 @@ date: 2013-01-28T13:06:41+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/glyphs-html/
+redirect_from: /blog/glyphs-html/
 link:
   - http://css-tricks.com/snippets/html/glyphs/
 

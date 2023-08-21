@@ -5,7 +5,7 @@ date: 2009-08-22T19:12:21+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/utiliser-pdo-pour-les-connexion-a-une-bdd/
+redirect_from: /blog/utiliser-pdo-pour-les-connexion-a-une-bdd/
 img_article:
   - /contents/uploads/phppod.jpg
 categories: "Back-End"

@@ -5,7 +5,7 @@ date: 2011-02-25T00:10:32+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/afficher-instagram-via-jquery-et-json/
+redirect_from: /blog/afficher-instagram-via-jquery-et-json/
 image: /contents/uploads/2011/02/instagram1-512x288.jpg
 categories: "Front-End"
 ---

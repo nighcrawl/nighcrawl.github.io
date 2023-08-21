@@ -5,7 +5,7 @@ date: 2009-09-09T00:35:53+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/le-nouveau-design-bientot-en-ligne/
+redirect_from: /blog/le-nouveau-design-bientot-en-ligne/
 img_article:
   - /contents/uploads/thumb_ac.comv2.jpg
 ---

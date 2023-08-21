@@ -5,7 +5,7 @@ date: 2010-08-07T17:09:15+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/developper-cms-codeigniter-la-gestion-des-pages/
+redirect_from: /blog/developper-cms-codeigniter-la-gestion-des-pages/
 image: /contents/uploads/2010/06/ci_cms.jpg
 categories: "Back-End"
 ---

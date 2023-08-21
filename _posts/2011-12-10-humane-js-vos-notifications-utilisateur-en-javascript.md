@@ -5,7 +5,7 @@ date: 2011-12-10T18:00:37+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/humane-js-vos-notifications-utilisateur-en-javascript/
+redirect_from: /blog/humane-js-vos-notifications-utilisateur-en-javascript/
 link:
   - http://wavded.github.com/humane-js/
 format: link

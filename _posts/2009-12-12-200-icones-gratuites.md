@@ -5,7 +5,7 @@ date: 2009-12-12T16:32:51+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/200-icones-gratuites/
+redirect_from: /blog/200-icones-gratuites/
 img_article:
   - /contents/uploads/freeiconsets.jpg
 image: /contents/uploads/2010/04/functioniconset.jpg

@@ -5,7 +5,7 @@ date: 2011-06-26T13:36:10+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/awesome-fontstacks-vos-piles-de-polices-tout-simplement/
+redirect_from: /blog/awesome-fontstacks-vos-piles-de-polices-tout-simplement/
 link: http://awesome-fontstacks.com/
 format: link
 categories: "Ressource"

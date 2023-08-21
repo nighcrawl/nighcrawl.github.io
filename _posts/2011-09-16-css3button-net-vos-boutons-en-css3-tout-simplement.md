@@ -5,7 +5,7 @@ date: 2011-09-16T20:53:01+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/css3button-net-vos-boutons-en-css3-tout-simplement/
+redirect_from: /blog/css3button-net-vos-boutons-en-css3-tout-simplement/
 link:
   - http://css3button.net
 format: link

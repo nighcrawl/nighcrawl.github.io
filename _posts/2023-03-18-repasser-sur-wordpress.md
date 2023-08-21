@@ -1,7 +1,7 @@
 ---
 title: Repasser sur Wordpress
 layout: post
-permalink: "/blog/repasser-sur-wordpress/"
+redirect_from: "/blog/repasser-sur-wordpress/"
 tags:
 - tweet
 categories:

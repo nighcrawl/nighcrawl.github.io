@@ -5,7 +5,7 @@ date: 2010-06-19T13:58:15+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/login-securise-cms-codeigniter-partie-2/
+redirect_from: /blog/login-securise-cms-codeigniter-partie-2/
 image: /contents/uploads/2010/06/ci_cms.jpg
 categories: "Back-End"
 ---

@@ -4,7 +4,7 @@ title: Une navigation 3D en CSS et jQuery
 date: 2016-02-22T21:06:38+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/une-navigation-3d-en-css-et-jquery/
+redirect_from: /blog/une-navigation-3d-en-css-et-jquery/
 image: /contents/uploads/img_2986.jpg
 format: link
 link: https://codyhouse.co/gem/3d-bold-navigation/

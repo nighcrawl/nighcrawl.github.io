@@ -5,7 +5,7 @@ date: 2011-08-26T21:04:51+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/notifications-growl-jquery/
+redirect_from: /blog/notifications-growl-jquery/
 image: /contents/uploads/2012/01/thumb-growl-notification.jpg
 categories: "Front-End"
 ---

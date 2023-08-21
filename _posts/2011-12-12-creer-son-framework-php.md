@@ -5,7 +5,7 @@ date: 2011-12-12T08:15:50+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/creer-son-framework-php/
+redirect_from: /blog/creer-son-framework-php/
 image: /contents/uploads/2011/12/framework-perso-php.jpg
 categories: "Back-End"
 ---

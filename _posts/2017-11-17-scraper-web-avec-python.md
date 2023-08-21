@@ -1,7 +1,7 @@
 ---
 title: Scraper un site Web en Python
 layout: post
-permalink: /blog/scraper-web-python/
+redirect_from: /blog/scraper-web-python/
 image: /contents/uploads/python.jpg
 categories: "Back-End"
 ---

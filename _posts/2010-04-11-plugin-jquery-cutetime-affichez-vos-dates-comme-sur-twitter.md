@@ -5,7 +5,7 @@ date: 2010-04-11T23:43:22+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/plugin-jquery-cutetime-affichez-vos-dates-comme-sur-twitter/
+redirect_from: /blog/plugin-jquery-cutetime-affichez-vos-dates-comme-sur-twitter/
 image: /contents/uploads/2010/04/cutetimejquery.jpg
 categories: "Ressource"
 ---

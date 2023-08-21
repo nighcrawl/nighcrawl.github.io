@@ -5,7 +5,7 @@ date: 2010-05-28T16:20:19+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/ressource-cms-en-ligne/
+redirect_from: /blog/ressource-cms-en-ligne/
 image: /contents/uploads/2010/05/screenshot-2010-05-28_-15.28.05-1000x288.jpg
 categories: "Ressource"
 ---

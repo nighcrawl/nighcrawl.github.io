@@ -2,7 +2,7 @@
 title: Test de Jekyll Admin
 categories:
 - Vis ma vie
-permalink: "/blog/test-de-jekyll-admin/"
+redirect_from: "/blog/test-de-jekyll-admin/"
 layout: post
 date: '2023-03-19 12:46:10 +0100'
 ---

@@ -4,7 +4,7 @@ title: Définir une grille de mise en page avec Sass
 date: 2015-11-06T20:26:51+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/definir-une-grille-de-mise-en-page-avec-sass/
+redirect_from: /blog/definir-une-grille-de-mise-en-page-avec-sass/
 image: /contents/uploads/image-825x510.png
 categories: "Front-End"
 ---

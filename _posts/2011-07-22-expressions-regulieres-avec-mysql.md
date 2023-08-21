@@ -5,7 +5,7 @@ date: 2011-07-22T21:08:08+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/expressions-regulieres-avec-mysql/
+redirect_from: /blog/expressions-regulieres-avec-mysql/
 more-link-text:
   - "Regarde comme c'est beautiful!"
 

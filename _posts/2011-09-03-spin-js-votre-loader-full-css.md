@@ -5,7 +5,7 @@ date: 2011-09-03T17:31:56+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/spin-js-votre-loader-full-css/
+redirect_from: /blog/spin-js-votre-loader-full-css/
 link:
   - http://fgnass.github.com/spin.js/
 format: link

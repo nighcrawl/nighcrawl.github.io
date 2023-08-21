@@ -4,7 +4,7 @@ title: 'Pré-processeur CSS : nos feuilles de styles faciles'
 date: 2015-10-23T08:45:08+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/pre-processeur-css-feuilles-de-styles-faciles/
+redirect_from: /blog/pre-processeur-css-feuilles-de-styles-faciles/
 image: /contents/uploads/image-825x510.png
 categories: "Front-End"
 ---

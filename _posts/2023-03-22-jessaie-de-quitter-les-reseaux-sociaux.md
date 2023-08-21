@@ -2,7 +2,7 @@
 title: J’essaie de quitter les réseaux sociaux
 categories:
 - Vis ma vie
-permalink: "/blog/jessaie-de-quitter-les-reseaux-sociaux"
+redirect_from: "/blog/jessaie-de-quitter-les-reseaux-sociaux"
 date: '2023-03-22 21:40:14 +0100'
 ---
 

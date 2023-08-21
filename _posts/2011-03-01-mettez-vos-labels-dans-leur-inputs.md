@@ -5,7 +5,7 @@ date: 2011-03-01T19:45:33+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/mettez-vos-labels-dans-leur-inputs/
+redirect_from: /blog/mettez-vos-labels-dans-leur-inputs/
 image:
   - ""
 link:

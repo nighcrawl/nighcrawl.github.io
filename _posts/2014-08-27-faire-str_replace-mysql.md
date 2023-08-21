@@ -4,7 +4,7 @@ title: 'Faire un <code>str_replace()</code> avec MySQL'
 date: 2014-08-27T09:46:49+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/faire-str_replace-mysql/
+redirect_from: /blog/faire-str_replace-mysql/
 categories: "Back-End"
 
 ---

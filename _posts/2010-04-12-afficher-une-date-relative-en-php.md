@@ -5,7 +5,7 @@ date: 2010-04-12T13:28:52+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/afficher-une-date-relative-en-php/
+redirect_from: /blog/afficher-une-date-relative-en-php/
 image: /contents/uploads/2010/04/phpcutetime.jpg
 categories: "Back-End"
 ---

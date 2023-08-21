@@ -5,7 +5,7 @@ date: 2011-01-14T22:36:57+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/requetes-sql-avec-codeigniter/
+redirect_from: /blog/requetes-sql-avec-codeigniter/
 image: /contents/uploads/2010/06/ci_cms.jpg
 categories: "Back-End"
 ---

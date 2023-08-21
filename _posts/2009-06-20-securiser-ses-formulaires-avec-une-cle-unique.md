@@ -5,7 +5,7 @@ date: 2009-06-20T16:02:31+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/securiser-ses-formulaires-avec-une-cle-unique/
+redirect_from: /blog/securiser-ses-formulaires-avec-une-cle-unique/
 img_article:
   - /contents/uploads/formkeyphp_thumb.jpg
 categories: "Back-End"

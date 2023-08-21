@@ -5,7 +5,7 @@ date: 2010-04-16T13:18:09+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/teaser-nouveau-design-pour-les-1-an-du-blog/
+redirect_from: /blog/teaser-nouveau-design-pour-les-1-an-du-blog/
 img_article:
   - /contents/uploads/teaserv3-200x200.jpg
 image: /contents/uploads/2010/04/teaserv3-390x288.jpg

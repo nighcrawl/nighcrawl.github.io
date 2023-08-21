@@ -5,7 +5,7 @@ date: 2010-05-14T17:55:33+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/teaser-le-portfolio-passe-en-v3/
+redirect_from: /blog/teaser-le-portfolio-passe-en-v3/
 image: /contents/uploads/2010/05/teaserv3-c-14-05-10-390x288.jpg
 ---
 La mise en ligne de la nouvelle version du site approchant, voilà l&rsquo;avant dernier teasing qui vous présente la toute nouvelle page consacré à mon Portfolio.<!--more-->

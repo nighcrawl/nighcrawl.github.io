@@ -5,7 +5,7 @@ date: 2013-01-23T22:01:12+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/le-changement-cest-maintenant-ou-pas/
+redirect_from: /blog/le-changement-cest-maintenant-ou-pas/
 
 ---
 Lorsque j&rsquo;ai acheté le domaine chierchia.fr pour y transférer le blog il y a trois mois, je m&rsquo;étais dit que ça serait une bonne occasion de repartir à zéro et d&rsquo;écrire plus. Pas forcement des billets longs ou même très techniques, mais toujours en suivant un peu l&rsquo;actualité, les nouveautés du Web. Faire ma veille, quoi.

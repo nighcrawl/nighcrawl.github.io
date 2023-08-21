@@ -5,7 +5,7 @@ date: 2011-09-10T14:53:17+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/responsive-design-adaptez-vos-videos/
+redirect_from: /blog/responsive-design-adaptez-vos-videos/
 link:
   - http://fitvidsjs.com/
 format: link

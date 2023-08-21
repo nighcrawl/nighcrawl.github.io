@@ -5,7 +5,7 @@ date: 2013-03-06T13:02:13+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/parsley-js/
+redirect_from: /blog/parsley-js/
 link:
   - http://parsleyjs.org/
 

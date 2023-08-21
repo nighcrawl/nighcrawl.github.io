@@ -5,7 +5,7 @@ date: 2009-10-17T18:04:13+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/3-facons-dutiliser-une-police-decriture-exotique-sur-un-site-web/
+redirect_from: /blog/3-facons-dutiliser-une-police-decriture-exotique-sur-un-site-web/
 img_article:
   - /contents/uploads/fontsthumb.jpg
 categories: "Front-End"

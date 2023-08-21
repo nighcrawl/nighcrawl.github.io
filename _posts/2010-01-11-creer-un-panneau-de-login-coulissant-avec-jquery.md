@@ -5,7 +5,7 @@ date: 2010-01-11T17:45:18+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/creer-un-panneau-de-login-coulissant-avec-jquery/
+redirect_from: /blog/creer-un-panneau-de-login-coulissant-avec-jquery/
 img_article:
   - /contents/uploads/loginpaneljquery.jpg
 image: /contents/uploads/2010/04/loginpanel.jpg

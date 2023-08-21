@@ -5,7 +5,7 @@ date: 2009-09-02T22:26:46+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/wordpress-custom-field-hors-de-la-loop/
+redirect_from: /blog/wordpress-custom-field-hors-de-la-loop/
 img_article:
   - /contents/uploads/wploopthumb.jpg
 categories: "Back-End"

@@ -5,7 +5,7 @@ date: 2011-04-27T15:06:44+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/subtle-patterns-des-motifs-haute-qualite-a-telecharger-gratuitement/
+redirect_from: /blog/subtle-patterns-des-motifs-haute-qualite-a-telecharger-gratuitement/
 link: "http://subtlepatterns.com/"
 format: link
 categories: "Ressource"

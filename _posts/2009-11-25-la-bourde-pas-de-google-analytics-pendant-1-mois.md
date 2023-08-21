@@ -5,7 +5,7 @@ date: 2009-11-25T14:11:10+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/la-bourde-pas-de-google-analytics-pendant-1-mois/
+redirect_from: /blog/la-bourde-pas-de-google-analytics-pendant-1-mois/
 img_article:
   - /contents/uploads/stats.jpg
 image:

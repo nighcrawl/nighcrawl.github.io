@@ -4,7 +4,7 @@ title: 'Flexbox Patterns &#8211; éléments d&rsquo;interfaces avec flexbox'
 date: 2016-04-25T07:31:47+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/flexbox-patterns-elements-dinterfaces-flexbox/
+redirect_from: /blog/flexbox-patterns-elements-dinterfaces-flexbox/
 format: link
 link: http://www.flexboxpatterns.com
 categories: "Ressource"

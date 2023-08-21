@@ -2,7 +2,7 @@
 title: Accessibilité Web
 categories:
 - Front-End
-permalink: "/blog/accessibilite-web"
+redirect_from: "/blog/accessibilite-web"
 date: '2023-07-27 10:20:09 +0100'
 ---
 

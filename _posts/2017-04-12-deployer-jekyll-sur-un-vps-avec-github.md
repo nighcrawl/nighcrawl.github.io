@@ -3,7 +3,7 @@ title: Déployer Jekyll sur un VPS avec GitHub
 date: 2017-04-12T12:52:41+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/deployer-jekyll-sur-un-vps-avec-github/
+redirect_from: /blog/deployer-jekyll-sur-un-vps-avec-github/
 image: /contents/uploads/git.jpg
 categories: "Back-End"
 ---

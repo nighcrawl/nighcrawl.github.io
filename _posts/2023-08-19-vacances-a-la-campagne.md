@@ -2,7 +2,7 @@
 title: Vacances à la campagne
 categories:
 - Vis ma vie
-permalink: "/blog/vacances-a-la-campagne"
+redirect_from: "/blog/vacances-a-la-campagne"
 date: '2023-08-19 18:20:00 +0200'
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Au revoir OVH
 layout: post
-permalink: "/blog/au-revoir-ovh/"
+redirect_from: "/blog/au-revoir-ovh/"
 tags: git, Migration
 categories:
 - Vis ma vie

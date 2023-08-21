@@ -5,7 +5,7 @@ date: 2012-09-08T12:30:14+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/preprocesseur-css-pourquoi/
+redirect_from: /blog/preprocesseur-css-pourquoi/
 categories: "Front-End"
 ---
 Ces derniers mois on parle constamment de pré-processeur CSS tel que LESS ou SASS, en nous disant que ces pré-processeurs révolutionnent l&rsquo;écriture de nos feuilles de styles. D&rsquo;accord, mais comment ? Et pourquoi devrait-on les utiliser au détriment de nos bonnes vieilles CSS &laquo;&nbsp;de base&nbsp;&raquo; ?

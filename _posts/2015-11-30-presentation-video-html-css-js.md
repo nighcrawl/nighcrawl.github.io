@@ -4,7 +4,7 @@ title: Une présentation vidéo en HTML, CSS et JS
 date: 2015-11-30T08:15:07+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/presentation-video-html-css-js/
+redirect_from: /blog/presentation-video-html-css-js/
 image: /contents/uploads/html5-topper-825x510.png
 categories: "Front-End"
 ---

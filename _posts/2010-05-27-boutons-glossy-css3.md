@@ -5,7 +5,7 @@ date: 2010-05-27T17:56:06+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/boutons-glossy-css3/
+redirect_from: /blog/boutons-glossy-css3/
 image: /contents/uploads/2010/05/css3button.jpg
 categories: "Front-End"
 ---

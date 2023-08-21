@@ -3,7 +3,7 @@ title: Créer des info-bulles attractives avec jQuery
 date: 2009-05-28T23:05:02+00:00
 author: Ange Chierchia
 layout: post
-permalink: /blog/creer-des-info-bulles-attractives-avec-jquery/
+redirect_from: /blog/creer-des-info-bulles-attractives-avec-jquery/
 img_article:
   - /contents/uploads/jquerytooltip_thumb.jpg
 categories: "Front-End"

@@ -5,7 +5,7 @@ date: 2010-07-28T22:25:32+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/menu-lava-lamp-jquery/
+redirect_from: /blog/menu-lava-lamp-jquery/
 image: /contents/uploads/2010/07/lavalampmenu.png
 categories: "Front-End"
 ---

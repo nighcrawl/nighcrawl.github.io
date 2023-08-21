@@ -5,7 +5,7 @@ date: 2009-12-19T01:53:19+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/utiliser-une-fonte-personnalisee-avec-cufon/
+redirect_from: /blog/utiliser-une-fonte-personnalisee-avec-cufon/
 img_article:
   - /contents/uploads/cufon-thumb.jpg
 image: /contents/uploads/2010/04/cufonfonts.jpg

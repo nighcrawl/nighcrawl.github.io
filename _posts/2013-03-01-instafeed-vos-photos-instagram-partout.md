@@ -5,7 +5,7 @@ date: 2013-03-01T14:29:31+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/instafeed-vos-photos-instagram-partout/
+redirect_from: /blog/instafeed-vos-photos-instagram-partout/
 link:
   - http://instafeedjs.com/
 

@@ -5,7 +5,7 @@ date: 2011-04-13T00:21:00+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/patternify-generateur-de-pattern-css/
+redirect_from: /blog/patternify-generateur-de-pattern-css/
 link: "http://www.patternify.com/"
 format: link
 categories: "Ressource"

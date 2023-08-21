@@ -5,7 +5,7 @@ date: 2010-10-08T19:39:48+00:00
 author: Ange Chierchia
 layout: post
 categories: "Réseautage"
-permalink: /blog/apero-wdfr-les-webdesigners-francophones-se-reunissent-a-paris/
+redirect_from: /blog/apero-wdfr-les-webdesigners-francophones-se-reunissent-a-paris/
 image: /contents/uploads/2010/10/wdfr3.png
 ---
 Si vous êtes un habitué de Twitter, vous avez surement du remarquer chaque vendredi une perturbation dans <span style="text-decoration: line-through;">la Force</span> votre flux, surtout si vous suivez des designer Web et autres professionnels de l&rsquo;Internet: C&rsquo;est le Webdesign Friday! Pourquoi je vous parle de ça maintenant? Parce que j&rsquo;ai envie et que vendredi prochain, **C&rsquo;EST L&rsquo;APÉRO !**<!--more-->

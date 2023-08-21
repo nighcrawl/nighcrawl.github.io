@@ -2,7 +2,7 @@
 title: Créer des virtual hosts pour notre serveur local
 categories:
 - Back-End
-permalink: "/blog/creer-des-virtual-hosts-pour-notre-serveur-local"
+redirect_from: "/blog/creer-des-virtual-hosts-pour-notre-serveur-local"
 date: '2023-03-23 23:32:27 +0100'
 ---
 

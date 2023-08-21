@@ -5,7 +5,7 @@ date: 2010-05-11T19:54:51+00:00
 author: Ange Chierchia
 layout: post
 
-permalink: /blog/tipsy-des-tooltips-sexy-avec-jquery/
+redirect_from: /blog/tipsy-des-tooltips-sexy-avec-jquery/
 img_article:
   - http://blog.angechierchia.com/wp-content/uploads/jquery-tipsy.jpg
 image: /contents/uploads/2010/05/jquery-tipsy.jpg

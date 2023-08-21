@@ -5,7 +5,7 @@ date: 2009-07-14T13:58:12+00:00
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]
-permalink: /blog/ac-com-victime-de-son-succes/
+redirect_from: /blog/ac-com-victime-de-son-succes/
 img_article:
   - /contents/uploads/hackthumb.jpg
 ---
