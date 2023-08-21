@@ -261,7 +261,7 @@
 }
 
 
-.post blockquote {
+.post blockquote, .post-summary blockquote {
 	border-left: 4px solid getColor('accent', 'light');
 	background-color: getColor('border', 'light');
 	padding: 1em .5em;
