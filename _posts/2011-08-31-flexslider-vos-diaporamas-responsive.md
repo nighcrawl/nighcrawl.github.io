@@ -3,7 +3,8 @@ layout: post
 author: Ange Chierchia
 title: FlexSlider — vos diaporamas &quot;responsive&quot;
 date: 2011-08-31T18:56:06+00:00
-categories: Ressource
+categories:
+  - Ressource
 format: link
 link: http://flex.madebymufffin.com/
 permalink: /blog/flexslider-vos-diaporamas-responsive/
