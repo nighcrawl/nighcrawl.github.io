@@ -262,10 +262,11 @@
 
 
 .post blockquote, .post-summary blockquote {
-	border-left: 4px solid getColor('accent', 'light');
+	border-left: 6px solid getColor('accent', 'light');
 	background-color: getColor('border', 'light');
-	padding: 1em .5em;
+	padding: 1em;
 	border-radius: 5px;
+	margin: 0;
 
 	[data-theme="dark"] & {
 		border-left-color: getColor('accent', 'dark');
@@ -282,11 +283,11 @@
 	}
 }
 
-.post blockquote>*:first-child {
+.post blockquote>*:first-child, .post-summary blockquote>*:first-child {
 	margin-top: 0;
 }
 
-.post blockquote>*:last-child {
+.post blockquote>*:last-child, .post-summary blockquote>*:last-child {
 	margin-bottom: 0;
 }
 
