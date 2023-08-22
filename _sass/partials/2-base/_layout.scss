@@ -227,12 +227,18 @@
 		color: getColor('accent');
 		transition: all 200ms ease-in-out;
 
+		text-decoration-color: getColor('accent');
+		text-decoration-thickness: 0.1ex;
+		text-underline-offset: 0.3ex;
+
 		[data-theme="dark"] & {
 			color: getColor('accent', 'dark');
+			text-decoration-color: getColor('accent', 'dark');
 		}
 
 		@media (prefers-color-scheme: dark) {
 			color: getColor('accent', 'dark');
+			text-decoration-color: getColor('accent', 'dark');
 		}
 
 		&:hover {
@@ -259,6 +265,10 @@
 .post-title {
 	font-size: $h1-font-size;
 	display: block;
+
+	a {
+		text-decoration-thickness: 0.3ex;
+	}
 }
 
 
@@ -369,7 +379,7 @@ code[class*="language-"] {
 
 	a {
 		color: getColor('accent');
-		text-decoration: none;
+		//text-decoration: none;
 		transition: all 200ms ease-in-out;
 
 		[data-theme="dark"] & {
