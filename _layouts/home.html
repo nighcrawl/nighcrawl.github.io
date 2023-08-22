@@ -15,6 +15,8 @@ body_class: "home-page"
         <a href="{% if post.format and post.format == 'link' and post.link != '' %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}"
           {% if post.format and post.format == 'link' and post.link != '' %}target="_blank"{% endif %}>{{ post.title }}</a>
       </h2>
+
+      {% include post-meta.html object=post %}
     {% endunless %}
     {% if post.image and post.image != "" %}
     <a href="{{ post.url }}">
@@ -36,36 +38,9 @@ body_class: "home-page"
       <p>{{ post.content }}</p>
     {% endif %}
 
-    {% assign m = post.date | date: "%-m" %}
-    <div class="post-metadata">
-      <time class="post-date" datetime="{{ post.date | date_to_rfc822 }}">Publié le {{ post.date | date: "%d" }}
-        {% case m %}
-        {% when '1' %}janvier
-        {% when '2' %}février
-        {% when '3' %}mars
-        {% when '4' %}avril
-        {% when '5' %}mai
-        {% when '6' %}juin
-        {% when '7' %}juillet
-        {% when '8' %}août
-        {% when '9' %}septembre
-        {% when '10' %}octobre
-        {% when '11' %}novembre
-        {% when '12' %}décembre
-        {% endcase %} {{ post.date | date: "%Y" }}</time>
-
-      <span class="post-category">
-        {% if post %}
-        {% assign categories = post.categories %}
-        {% else %}
-        {% assign categories = page.categories %}
-        {% endif %}
-        {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
-        {% unless forloop.last %}&nbsp;{% endunless %}
-        {% endfor %}
-      </span>
-    </div>
+    {% if post.format and post.format == "status" %}
+      {% include post-meta.html object=post %}
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
