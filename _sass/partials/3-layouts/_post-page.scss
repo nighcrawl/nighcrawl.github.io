@@ -15,6 +15,10 @@
     border-bottom-color: getColor('border', 'dark');
   }
 
+  .post-title + .post-metadata {
+    margin-top: -1em;
+  }
+
   .post-category:before {
     content: "|";
     margin-right: .5em;
