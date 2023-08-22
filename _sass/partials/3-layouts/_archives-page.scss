@@ -8,9 +8,9 @@
 }
 
 .archives-page .post-summary {
-    border-bottom: 1px solid getColor('border');
-    padding-bottom: 1em;
-    padding-top: 1em;
+    border-bottom: 0;
+    padding-bottom: .25em;
+    padding-top: .25em;
 
     [data-theme="dark"] & {
         border-bottom-color: getColor('border', 'dark');
