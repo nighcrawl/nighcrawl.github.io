@@ -11,3 +11,5 @@ format: status
 Lunch avec toute la team.
 
 ![](/contents/uploads/390e9cb590.jpg)
+
+![](/contents/uploads/0893ddf361.jpg)
