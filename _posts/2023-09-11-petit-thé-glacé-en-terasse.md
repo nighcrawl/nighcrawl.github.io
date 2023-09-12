@@ -7,6 +7,7 @@ categories:
 tags:
   - tweet
 format: status
+publish_social: no
 ---
 Petit thé glacé en terrasse.
 
