@@ -35,6 +35,9 @@ permalink: /feed.xml
     {% for cat in post.categories %}
     <category>{{ cat | xml_escape }}</category>
     {% endfor %}
+    {% if post.publish_social == 'no'}
+    <category>donotshare</category>
+    {% endif %}
     </item>
   {% endfor %}
   </channel>
