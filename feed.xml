@@ -25,6 +25,16 @@ permalink: /feed.xml
       {{ post.content | markdownify | xml_escape }}
 
       {% for tag in post.tags %}#{{ tag | xml_escape }} {% endfor %}
+
+      {% if post.publish_social != null and post.publish_social == no or post.publish_social == false %}
+        {% capture publish_social %}#donotshare{% endcapture %}
+      {% else %}
+        {% capture publish_social %}{% endcapture %}
+      {% endif %}
+
+      {{publish_social}}
+
+      
     </description>
     <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
     <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
@@ -35,9 +45,6 @@ permalink: /feed.xml
     {% for cat in post.categories %}
     <category>{{ cat | xml_escape }}</category>
     {% endfor %}
-    {% if post.publish_social == 'no' %}
-    <category>donotshare</category>
-    {% endif %}
     </item>
   {% endfor %}
   </channel>
