@@ -11,7 +11,7 @@ permalink: /feed.xml
   <atom:link href="{{ "/feed" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
   <generator>Jekyll v{{ jekyll.version }}</generator>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:20%}
     <item>
     <title>{{ post.title | xml_escape }}</title>
     <author>{{ site.author }}</author>
