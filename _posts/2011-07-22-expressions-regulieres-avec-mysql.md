@@ -1,7 +1,7 @@
 ---
 
 title: Expressions régulières avec MySQL
-date: 2011-07-22T21:08:08+00:00
+date: 2011-07-22T21:08:08.456Z
 author: Ange Chierchia
 layout: post
 

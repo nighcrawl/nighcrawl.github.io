@@ -1,7 +1,7 @@
 ---
 
 title: spin.js – votre loader full CSS
-date: 2011-09-03T17:31:56+00:00
+date: 2011-09-03T17:31:56.456Z
 author: Ange Chierchia
 layout: post
 

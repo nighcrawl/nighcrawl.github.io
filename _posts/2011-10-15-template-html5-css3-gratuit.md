@@ -1,7 +1,7 @@
 ---
 
 title: Des templates HTML5/CSS3 gratuits, ça vous intéresse ?
-date: 2011-10-15T16:54:00+00:00
+date: 2011-10-15T16:54:00.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

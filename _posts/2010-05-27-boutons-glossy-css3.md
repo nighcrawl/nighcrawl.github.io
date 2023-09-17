@@ -1,7 +1,7 @@
 ---
 
 title: Des boutons qui ont du style (CSS)!
-date: 2010-05-27T17:56:06+00:00
+date: 2010-05-27T17:56:06.456Z
 author: Ange Chierchia
 layout: post
 

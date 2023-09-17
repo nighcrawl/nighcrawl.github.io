@@ -1,7 +1,7 @@
 ---
 
 title: 'Comment utiliser l&#039;objet PDO de PHP pour les connexions à une base de données?'
-date: 2009-08-22T19:12:21+00:00
+date: 2009-08-22T19:12:21.456Z
 author: Ange Chierchia
 layout: post
 

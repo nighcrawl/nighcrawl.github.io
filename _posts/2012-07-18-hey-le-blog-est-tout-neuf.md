@@ -1,7 +1,7 @@
 ---
 
 title: Hey, le blog est tout neuf !
-date: 2012-07-18T23:41:22+00:00
+date: 2012-07-18T23:41:22.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

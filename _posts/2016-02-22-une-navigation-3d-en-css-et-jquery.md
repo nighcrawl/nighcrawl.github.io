@@ -1,7 +1,7 @@
 ---
 
 title: Une navigation 3D en CSS et jQuery
-date: 2016-02-22T21:06:38+00:00
+date: 2016-02-22T21:06:38.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/une-navigation-3d-en-css-et-jquery/

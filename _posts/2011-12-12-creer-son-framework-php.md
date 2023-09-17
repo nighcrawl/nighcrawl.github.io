@@ -1,7 +1,7 @@
 ---
 
 title: Créer son propre framework PHP, pourquoi ?
-date: 2011-12-12T08:15:50+00:00
+date: 2011-12-12T08:15:50.456Z
 author: Ange Chierchia
 layout: post
 

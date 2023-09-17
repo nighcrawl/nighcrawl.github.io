@@ -1,7 +1,7 @@
 ---
 
 title: Le nouveau design bientôt en ligne
-date: 2009-09-09T00:35:53+00:00
+date: 2009-09-09T00:35:53.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

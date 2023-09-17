@@ -1,6 +1,6 @@
 ---
 title: 'Créer un menu horizontal avec les &quot;Sprites CSS&quot;'
-date: 2009-06-04T17:34:15+00:00
+date: 2009-06-04T17:34:15.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/creer-un-menu-horizontal-avec-des-sprites-css/

@@ -1,7 +1,7 @@
 ---
 
 title: Une présentation vidéo en HTML, CSS et JS
-date: 2015-11-30T08:15:07+00:00
+date: 2015-11-30T08:15:07.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/presentation-video-html-css-js/

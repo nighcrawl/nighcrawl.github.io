@@ -1,7 +1,7 @@
 ---
 
 title: 'Plugin jQuery: CuteTime, affichez vos dates comme sur Twitter'
-date: 2010-04-11T23:43:22+00:00
+date: 2010-04-11T23:43:22.456Z
 author: Ange Chierchia
 layout: post
 

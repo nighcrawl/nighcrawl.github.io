@@ -1,7 +1,7 @@
 ---
 
 title: Développer un moteur de site Web avec CodeIgniter
-date: 2010-06-16T21:09:06+00:00
+date: 2010-06-16T21:09:06.456Z
 author: Ange Chierchia
 layout: post
 

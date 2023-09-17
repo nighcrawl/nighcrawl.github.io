@@ -1,7 +1,7 @@
 ---
 
 title: 'Moteurs de templates : fausse bonne idée ?'
-date: 2011-10-31T09:24:56+00:00
+date: 2011-10-31T09:24:56.456Z
 author: Ange Chierchia
 layout: post
 

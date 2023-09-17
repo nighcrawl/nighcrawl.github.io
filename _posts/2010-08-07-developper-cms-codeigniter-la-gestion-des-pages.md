@@ -1,7 +1,7 @@
 ---
 
 title: 'Développer un CMS avec CodeIgniter #3 : la gestion des pages'
-date: 2010-08-07T17:09:15+00:00
+date: 2010-08-07T17:09:15.456Z
 author: Ange Chierchia
 layout: post
 

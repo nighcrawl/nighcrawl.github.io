@@ -1,7 +1,7 @@
 ---
 
 title: Sécuriser ses formulaires avec une clé unique
-date: 2009-06-20T16:02:31+00:00
+date: 2009-06-20T16:02:31.456Z
 author: Ange Chierchia
 layout: post
 

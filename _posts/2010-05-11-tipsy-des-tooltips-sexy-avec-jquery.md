@@ -1,7 +1,7 @@
 ---
 
 title: 'Tipsy: des tooltips sexy avec jQuery'
-date: 2010-05-11T19:54:51+00:00
+date: 2010-05-11T19:54:51.456Z
 author: Ange Chierchia
 layout: post
 

@@ -1,7 +1,7 @@
 ---
 
 title: Awesome Fontstacks – vos piles de polices tout simplement
-date: 2011-06-26T13:36:10+00:00
+date: 2011-06-26T13:36:10.456Z
 author: Ange Chierchia
 layout: post
 

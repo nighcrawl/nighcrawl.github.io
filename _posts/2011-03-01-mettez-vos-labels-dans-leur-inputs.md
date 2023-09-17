@@ -1,7 +1,7 @@
 ---
 
 title: Mettez vos labels dans leur inputs
-date: 2011-03-01T19:45:33+00:00
+date: 2011-03-01T19:45:33.456Z
 author: Ange Chierchia
 layout: post
 

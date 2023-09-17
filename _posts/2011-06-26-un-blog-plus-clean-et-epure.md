@@ -1,7 +1,7 @@
 ---
 
 title: Un blog plus clean et épuré
-date: 2011-06-26T13:24:25+00:00
+date: 2011-06-26T13:24:25.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

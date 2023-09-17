@@ -1,7 +1,7 @@
 ---
 
 title: 'Teaser: la dernière ligne droite!'
-date: 2010-05-21T15:51:45+00:00
+date: 2010-05-21T15:51:45.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

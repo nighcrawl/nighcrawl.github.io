@@ -1,7 +1,7 @@
 ---
 
 title: 'AngeChierchia.com v2, c&#039;est maintenant!'
-date: 2009-10-15T17:30:25+00:00
+date: 2009-10-15T17:30:25.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

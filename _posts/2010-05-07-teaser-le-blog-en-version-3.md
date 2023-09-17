@@ -1,7 +1,7 @@
 ---
 
 title: 'Teaser: le blog en version 3'
-date: 2010-05-07T16:13:46+00:00
+date: 2010-05-07T16:13:46.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

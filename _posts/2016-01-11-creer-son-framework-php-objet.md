@@ -1,7 +1,7 @@
 ---
 
 title: Créer son framework PHP Objet
-date: 2016-01-11T08:40:21+00:00
+date: 2016-01-11T08:40:21.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/creer-son-framework-php-objet/

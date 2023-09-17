@@ -1,7 +1,7 @@
 ---
 
 title: 'Avancements du projet &quot;Thèmes à monter soi-même&quot;'
-date: 2012-02-18T18:32:37+00:00
+date: 2012-02-18T18:32:37.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

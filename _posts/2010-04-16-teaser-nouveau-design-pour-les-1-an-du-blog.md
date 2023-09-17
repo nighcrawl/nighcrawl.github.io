@@ -1,7 +1,7 @@
 ---
 
 title: 'Teaser : nouveau design pour les 1 an du blog'
-date: 2010-04-16T13:18:09+00:00
+date: 2010-04-16T13:18:09.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

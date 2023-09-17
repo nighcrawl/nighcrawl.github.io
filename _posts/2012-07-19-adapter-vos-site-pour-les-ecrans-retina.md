@@ -1,7 +1,7 @@
 ---
 
 title: Adapter vos sites pour les écrans Retina
-date: 2012-07-19T08:08:16+00:00
+date: 2012-07-19T08:08:16.456Z
 author: Ange Chierchia
 layout: post
 

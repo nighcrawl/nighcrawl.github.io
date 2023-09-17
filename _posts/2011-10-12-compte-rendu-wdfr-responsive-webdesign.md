@@ -1,7 +1,7 @@
 ---
 
 title: '#wdfr S02E01 &#8211; Responsive Web Design'
-date: 2011-10-12T15:30:53+00:00
+date: 2011-10-12T15:30:53.456Z
 author: Ange Chierchia
 layout: post
 categories: "Front-End"

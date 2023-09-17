@@ -1,7 +1,7 @@
 ---
 
 title: 'Humane JS : vos notifications utilisateur en JavaScript'
-date: 2011-12-10T18:00:37+00:00
+date: 2011-12-10T18:00:37.456Z
 author: Ange Chierchia
 layout: post
 

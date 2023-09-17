@@ -1,7 +1,7 @@
 ---
 
 title: Un menu Lava avec jQuery
-date: 2010-07-28T22:25:32+00:00
+date: 2010-07-28T22:25:32.456Z
 author: Ange Chierchia
 layout: post
 

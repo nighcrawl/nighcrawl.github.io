@@ -1,7 +1,7 @@
 ---
 
 title: Nettoyer une chaîne de caractères avec PHP
-date: 2016-03-27T15:10:26+00:00
+date: 2016-03-27T15:10:26.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/nettoyer-une-chaine-de-caracteres-php-permalien/

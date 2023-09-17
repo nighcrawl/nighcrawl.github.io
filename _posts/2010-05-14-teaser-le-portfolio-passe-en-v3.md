@@ -1,7 +1,7 @@
 ---
 
 title: 'Teaser: le portfolio passe en v3'
-date: 2010-05-14T17:55:33+00:00
+date: 2010-05-14T17:55:33.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

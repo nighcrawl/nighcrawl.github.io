@@ -1,7 +1,7 @@
 ---
 
 title: 'Le changement, c&rsquo;est maintenant. Ou pas.'
-date: 2013-01-23T22:01:12+00:00
+date: 2013-01-23T22:01:12.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

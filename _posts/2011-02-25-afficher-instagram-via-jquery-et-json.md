@@ -1,7 +1,7 @@
 ---
 
 title: Afficher son flux de photos Instagram via jQuery et JSON
-date: 2011-02-25T00:10:32+00:00
+date: 2011-02-25T00:10:32.456Z
 author: Ange Chierchia
 layout: post
 

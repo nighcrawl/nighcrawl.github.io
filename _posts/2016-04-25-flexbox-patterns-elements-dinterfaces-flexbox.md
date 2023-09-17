@@ -1,7 +1,7 @@
 ---
 
 title: 'Flexbox Patterns &#8211; éléments d&rsquo;interfaces avec flexbox'
-date: 2016-04-25T07:31:47+00:00
+date: 2016-04-25T07:31:47.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/flexbox-patterns-elements-dinterfaces-flexbox/

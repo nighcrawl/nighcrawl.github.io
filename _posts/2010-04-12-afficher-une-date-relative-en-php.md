@@ -1,7 +1,7 @@
 ---
 
 title: Afficher une date relative en PHP
-date: 2010-04-12T13:28:52+00:00
+date: 2010-04-12T13:28:52.456Z
 author: Ange Chierchia
 layout: post
 

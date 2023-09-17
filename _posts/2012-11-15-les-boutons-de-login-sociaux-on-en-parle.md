@@ -1,7 +1,7 @@
 ---
 
 title: Les boutons de login sociaux, on en parle ?
-date: 2012-11-15T20:26:34+00:00
+date: 2012-11-15T20:26:34.456Z
 author: Ange Chierchia
 layout: post
 

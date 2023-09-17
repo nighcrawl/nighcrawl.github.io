@@ -1,6 +1,6 @@
 ---
 title: Bienvenue sur mon portfolio!
-date: 2009-05-27T00:11:41+00:00
+date: 2009-05-27T00:11:41.456Z
 layout: post
 redirect_from: /blog/bienvenue-sur-mon-portfolio/
 image: /contents/uploads/thumb_openingfolio.jpg

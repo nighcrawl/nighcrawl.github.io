@@ -1,7 +1,7 @@
 ---
 
 title: 'Pré-processeur CSS : nos feuilles de styles faciles'
-date: 2015-10-23T08:45:08+00:00
+date: 2015-10-23T08:45:08.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/pre-processeur-css-feuilles-de-styles-faciles/

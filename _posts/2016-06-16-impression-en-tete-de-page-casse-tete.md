@@ -1,7 +1,7 @@
 ---
 
 title: 'Impression et en-tête de page : casse-tête'
-date: 2016-06-16T19:59:11+00:00
+date: 2016-06-16T19:59:11.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/impression-en-tete-de-page-casse-tete/

@@ -1,7 +1,7 @@
 ---
 
 title: 'Ma veille Web : retour d&rsquo;expérience'
-date: 2012-11-06T13:27:22+00:00
+date: 2012-11-06T13:27:22.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

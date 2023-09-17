@@ -1,7 +1,7 @@
 ---
 
 title: Patternify – Générateur de pattern CSS
-date: 2011-04-13T00:21:00+00:00
+date: 2011-04-13T00:21:00.456Z
 author: Ange Chierchia
 layout: post
 

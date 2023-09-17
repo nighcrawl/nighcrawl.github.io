@@ -1,6 +1,6 @@
 ---
 title: A propos
-date: 2009-05-14T17:17:33+00:00
+date: 2009-05-14T17:17:33.456Z
 layout: page
 permalink: /apropos/
 image: /contents/uploads/11459E5D-0C49-43BF-B18E-AA75EFA1AAA8.jpeg

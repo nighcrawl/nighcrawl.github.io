@@ -1,7 +1,7 @@
 ---
 
 title: Stage chez CBC Informatique terminé
-date: 2009-09-11T19:14:59+00:00
+date: 2009-09-11T19:14:59.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

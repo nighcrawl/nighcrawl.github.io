@@ -2,7 +2,7 @@
 layout: post
 author: Ange Chierchia
 title: FlexSlider — vos diaporamas "responsive"
-date: 2011-08-31T18:56:06+00:00
+date: 2011-08-31T18:56:06.456Z
 categories:
   - Ressource
 format: link

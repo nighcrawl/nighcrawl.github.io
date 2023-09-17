@@ -6,7 +6,7 @@ tags:
 - tweet
 categories:
 - Vis ma vie
-date: '2023-03-18 22:58:30 +0100'
+date: 2023-03-18T22:58:30.456Z
 format: status
 ---
 

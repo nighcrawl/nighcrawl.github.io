@@ -1,7 +1,7 @@
 ---
 
 title: AC.com victime de son succès
-date: 2009-07-14T13:58:12+00:00
+date: 2009-07-14T13:58:12.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

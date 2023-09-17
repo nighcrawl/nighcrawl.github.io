@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Travaux
-date: 2012-11-13T14:11:26+00:00
+date: 2012-11-13T14:11:26.456Z
 permalink: /portfolio/
 ---
 Quand j'aurai le courage d'alimenter cette page, vous y trouverez quelques travaux personnels ou professionnels.

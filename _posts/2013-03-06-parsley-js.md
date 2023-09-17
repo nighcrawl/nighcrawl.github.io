@@ -1,7 +1,7 @@
 ---
 
 title: Parsley.js – Validez vos formulaires en JavaScript. Simplement.
-date: 2013-03-06T13:02:13+00:00
+date: 2013-03-06T13:02:13.456Z
 author: Ange Chierchia
 layout: post
 

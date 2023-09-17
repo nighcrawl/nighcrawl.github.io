@@ -1,7 +1,7 @@
 ---
 
 title: 'Ressource: 4 solutions de CMS en ligne'
-date: 2010-05-28T16:20:19+00:00
+date: 2010-05-28T16:20:19.456Z
 author: Ange Chierchia
 layout: post
 

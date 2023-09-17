@@ -1,7 +1,7 @@
 ---
 
 title: 'Astuce: une feuille de style différente selon la taille de la fenêtre'
-date: 2010-05-12T19:29:19+00:00
+date: 2010-05-12T19:29:19.456Z
 author: Ange Chierchia
 layout: post
 

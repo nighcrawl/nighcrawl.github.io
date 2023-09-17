@@ -1,7 +1,7 @@
 ---
 
 title: 'Système de login sécurisé &#8211; CMS CodeIgniter, partie 2'
-date: 2010-06-19T13:58:15+00:00
+date: 2010-06-19T13:58:15.456Z
 author: Ange Chierchia
 layout: post
 

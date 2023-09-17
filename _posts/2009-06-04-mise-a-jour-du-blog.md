@@ -1,7 +1,7 @@
 ---
 
 title: Mise à jour du blog
-date: 2009-06-04T21:32:49+00:00
+date: 2009-06-04T21:32:49.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

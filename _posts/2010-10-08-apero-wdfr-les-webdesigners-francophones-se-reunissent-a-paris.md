@@ -1,7 +1,7 @@
 ---
 
 title: '1er apéro #wdfr : Les webdesigners francophones se réunissent!'
-date: 2010-10-08T19:39:48+00:00
+date: 2010-10-08T19:39:48.456Z
 author: Ange Chierchia
 layout: post
 categories: "Réseautage"

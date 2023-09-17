@@ -1,7 +1,7 @@
 ---
 
 title: Créer un panneau de Login coulissant avec jQuery
-date: 2010-01-11T17:45:18+00:00
+date: 2010-01-11T17:45:18.456Z
 author: Ange Chierchia
 layout: post
 

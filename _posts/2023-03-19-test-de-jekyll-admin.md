@@ -4,7 +4,7 @@ categories:
 - Vis ma vie
 redirect_from: "/blog/test-de-jekyll-admin/"
 layout: post
-date: '2023-03-19 12:46:10 +0100'
+date: 2023-03-19T12:46:10.456Z
 ---
 
 Ceci est un post pour tester la création de contenus depuis l'interface de [Jekyll Admin](https://github.com/jekyll/jekyll-admin).

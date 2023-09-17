@@ -1,7 +1,7 @@
 ---
 
 title: FitVids.JS – adaptez vos vidéos à la taille de fenêtre
-date: 2011-09-10T14:53:17+00:00
+date: 2011-09-10T14:53:17.456Z
 author: Ange Chierchia
 layout: post
 

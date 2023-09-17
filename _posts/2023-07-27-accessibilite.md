@@ -3,7 +3,7 @@ title: Accessibilité Web
 categories:
 - Front-End
 redirect_from: "/blog/accessibilite-web"
-date: '2023-07-27 10:20:09 +0100'
+date: 2023-07-27T10:20:09.456Z
 ---
 
 Depuis plusieurs semaines je travaille beaucoup sur l'aspect accessible des sites Web que l'on produit chez Concept Factory. 

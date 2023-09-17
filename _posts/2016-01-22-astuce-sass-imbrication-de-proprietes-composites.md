@@ -1,7 +1,7 @@
 ---
 
 title: 'Astuce Sass : imbrication de propriétés composites'
-date: 2016-01-22T08:15:56+00:00
+date: 2016-01-22T08:15:56.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/astuce-sass-imbrication-de-proprietes-composites/

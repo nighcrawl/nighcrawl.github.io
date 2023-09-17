@@ -1,7 +1,7 @@
 ---
 
 title: Migration vers GitHub ?
-date: 2012-11-20T11:41:03+00:00
+date: 2012-11-20T11:41:03.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

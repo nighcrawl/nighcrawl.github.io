@@ -1,7 +1,7 @@
 ---
 
 title: 'Récupérer la valeur d&#039;un champ personnalisé dans WordPress hors de la Boucle'
-date: 2009-09-02T22:26:46+00:00
+date: 2009-09-02T22:26:46.456Z
 author: Ange Chierchia
 layout: post
 

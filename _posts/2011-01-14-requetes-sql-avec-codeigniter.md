@@ -1,7 +1,7 @@
 ---
 
 title: Exécuter des requêtes SQL avec CodeIgniter
-date: 2011-01-14T22:36:57+00:00
+date: 2011-01-14T22:36:57.456Z
 author: Ange Chierchia
 layout: post
 

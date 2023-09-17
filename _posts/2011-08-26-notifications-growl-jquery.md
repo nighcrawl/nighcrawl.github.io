@@ -1,7 +1,7 @@
 ---
 
 title: Notifications à la Growl avec jQuery
-date: 2011-08-26T21:04:51+00:00
+date: 2011-08-26T21:04:51.456Z
 author: Ange Chierchia
 layout: post
 

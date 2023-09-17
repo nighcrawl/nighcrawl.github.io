@@ -1,7 +1,7 @@
 ---
 
 title: Ma carte de visite électronique
-date: 2009-12-09T20:37:12+00:00
+date: 2009-12-09T20:37:12.456Z
 author: Ange Chierchia
 layout: post
 

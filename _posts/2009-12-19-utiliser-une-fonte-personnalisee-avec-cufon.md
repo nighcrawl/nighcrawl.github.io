@@ -1,7 +1,7 @@
 ---
 
 title: Utiliser une fonte personnalisée avec Cufón
-date: 2009-12-19T01:53:19+00:00
+date: 2009-12-19T01:53:19.456Z
 author: Ange Chierchia
 layout: post
 

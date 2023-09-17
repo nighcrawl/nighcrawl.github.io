@@ -1,7 +1,7 @@
 ---
 
 title: 'Pourquoi le design de mon blog n&#039;est pas top?'
-date: 2009-08-27T20:31:28+00:00
+date: 2009-08-27T20:31:28.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

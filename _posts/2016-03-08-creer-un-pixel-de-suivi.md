@@ -1,7 +1,7 @@
 ---
 
 title: Créer un pixel de suivi
-date: 2016-03-08T19:10:44+00:00
+date: 2016-03-08T19:10:44.456Z
 author: Ange Chierchia
 layout: post
 redirect_from: /blog/creer-un-pixel-de-suivi/

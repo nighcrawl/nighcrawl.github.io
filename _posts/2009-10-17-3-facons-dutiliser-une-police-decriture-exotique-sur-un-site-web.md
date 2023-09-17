@@ -1,7 +1,7 @@
 ---
 
 title: '3 façons d&#039;utiliser une police d&#039;écriture &quot;exotique&quot; sur un site Web'
-date: 2009-10-17T18:04:13+00:00
+date: 2009-10-17T18:04:13.456Z
 author: Ange Chierchia
 layout: post
 

@@ -1,7 +1,7 @@
 ---
 
 title: Glyphs HTML
-date: 2013-01-28T13:06:41+00:00
+date: 2013-01-28T13:06:41.456Z
 author: Ange Chierchia
 layout: post
 

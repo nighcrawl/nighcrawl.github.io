@@ -1,7 +1,7 @@
 ---
 
 title: 'Du changement  à venir&#8230;'
-date: 2012-10-26T12:48:53+00:00
+date: 2012-10-26T12:48:53.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

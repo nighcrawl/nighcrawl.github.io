@@ -1,7 +1,7 @@
 ---
 
 title: 'Je n&rsquo;utilise plus de framework CSS'
-date: 2013-03-29T19:21:33+00:00
+date: 2013-03-29T19:21:33.456Z
 author: Ange Chierchia
 layout: post
 categories: ["Vis ma vie"]

@@ -1,7 +1,7 @@
 ---
 
 title: Quel intérêt à utiliser un pré-processeur CSS ?
-date: 2012-09-08T12:30:14+00:00
+date: 2012-09-08T12:30:14.456Z
 author: Ange Chierchia
 layout: post
 
