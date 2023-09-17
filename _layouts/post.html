@@ -22,7 +22,7 @@ sitemap:
         {% include post-meta.html object=page %}
     {% endunless %}
 
-    {% if page.image and page.image != "" %}
+    {% if page.image and page.image != "" and post.format != "status" %}
     <figure class="thumbnail">
         <img src="{{ site.placeholder }}" data-echo="{{ page.image }}" alt="{{ page.title }}" class="{{ page.image_class | default: '' }}" />
     </figure>

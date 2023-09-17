@@ -18,7 +18,7 @@ body_class: "home-page"
 
       {% include post-meta.html object=post %}
     {% endunless %}
-    {% if post.image and post.image != "" %}
+    {% if post.image and post.image != "" and post.format != "status" %}
     <a href="{{ post.url }}">
       <figure class="thumbnail">
         <img src="{{ site.placeholder }}" data-echo="{{ post.image }}" alt="{{ post.title }}"
