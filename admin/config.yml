@@ -15,7 +15,7 @@ collections:
     folder: "_posts/" # The path to the folder where the documents are stored
     preview_path: blog/{{year}}/{{month}}/{{title}}
     preview_path_date_field: date
-    sort: "updated_on:desc"
+    sort: "date:desc"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -38,7 +38,7 @@ collections:
       - {label: "Post Format", name: "format", widget: "select", options: ['post', 'link', 'status'], default: ['post'], required: false}
       - {label: "URL to Share", name: 'link', widget: 'string', required: false, pattern: ['^https?:\/\/', 'Must start with http:// or https://']}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Share online", name: "publish_social", widget: "select", options: ['yes', 'no'], default: ['yes'], required: true}
+      - {label: "Share online", name: "publish_social", widget: "select", options: ['yes', 'no'], default: ['yes'], required: false}
   - name: "page" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "_pages/" # The path to the folder where the documents are stored

@@ -3,6 +3,8 @@ layout: page
 permalink: /categories/
 title: Catégories
 body_class: "archives-page"
+exclude: true
+redirect_to: /blog/
 ---
 {% for category in site.categories %}
 {% capture category_name %}{{ category | first }}{% endcapture %}

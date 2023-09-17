@@ -18,7 +18,7 @@
 
     <span class="post-category">
     {% for category in include.object.categories %}
-    <a href="{{site.baseurl}}/categories/#{{category|slugify}}">{{category}}</a>
+    <a href="{{site.baseurl}}/blog/category/{{category|slugify}}">{{category}}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
     </span>
