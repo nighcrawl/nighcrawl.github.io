@@ -3,6 +3,7 @@ title: Configurer un serveur local avec Homebrew
 layout: post
 redirect_from: "/blog/configurer-un-serveur-local-avec-homebrew/"
 image: "/contents/uploads/serveur-apache-local.jpg"
+date: 2021-10-27T12:49:38.456Z
 tags:
 - apache,
 - php,

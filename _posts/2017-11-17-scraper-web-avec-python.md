@@ -4,6 +4,7 @@ layout: post
 redirect_from: /blog/scraper-web-python/
 image: /contents/uploads/python.jpg
 categories: "Back-End"
+date: 2017-11-17T12:49:38.456Z
 ---
 Aujourd'hui on va voir comment utiliser Python afin de scraper une page ou un site Web afin de récupérer les informations qui nous intéressent et ainsi se constituer une base de données.
 
