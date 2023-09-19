@@ -15,4 +15,4 @@ Dans un article de The Sass Way, Sebastian Ekström nous montre comment, avec S
 
 Pour cela, il écrit une fonction Sass qui retournera une couleur différente en fonction de la couleur qui lui sera passée en paramètre. Cette fonction vérifie tout simplement le taux de luminosité de la couleur qu&rsquo;elle reçoit et retourne une couleur contrastée en conséquence. Si sa luminosité est supérieure à 50%, la fonction retournera une couleur sombre, sinon une couleur claire.
 
-<a href="http://thesassway.com/intermediate/dynamically-change-text-color-based-on-its-background-with-sass" target="_blank">Lisez son article</a> sur The Sass Way, pour voir comment il fait ça.  Sa solution est toute simple mais efficace.
+<a href="https://web.archive.org/web/20201013205223/http://thesassway.com/intermediate/dynamically-change-text-color-based-on-its-background-with-sass" target="_blank">Lisez son article</a> sur The Sass Way, pour voir comment il fait ça.  Sa solution est toute simple mais efficace.
