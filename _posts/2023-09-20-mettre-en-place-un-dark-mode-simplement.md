@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mettre en place un "dark mode" simplement
-date: 2023-09-20T20:43:28.220Z
+date: 2023-09-20T23:12:01.514Z
 categories:
   - Font-End
 tags: []
