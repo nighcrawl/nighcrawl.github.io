@@ -27,11 +27,11 @@
 			color: getColor('text', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
+		/* @media (prefers-color-scheme: dark) {
 			border-color: getColor('border', 'dark');
 			background-color: getColor('pre', 'dark');
 			color: getColor('text', 'dark');
-		}
+		} */
 	}
 
   #mc_embed_signup_scroll {
@@ -68,12 +68,13 @@
 
 	[type="submit"] {
 		@include btn;
+		
 		[data-theme="dark"] & {
 			@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
 		}
 
-		@media (prefers-color-scheme: dark) {
+		/* @media (prefers-color-scheme: dark) {
 			@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
-		}
+		} */
 	}
 }

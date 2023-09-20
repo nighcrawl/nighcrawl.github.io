@@ -11,9 +11,9 @@
     border-bottom-color: getColor('border', 'dark');
   }
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     border-bottom-color: getColor('border', 'dark');
-  }
+  } */
 
   .post-title + .post-metadata {
     margin-top: -1em;
@@ -33,9 +33,9 @@
       color: getColor('text-light', 'dark');
     }
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
       color: getColor('text-light', 'dark');
-    }
+    } */
   }
 }
 

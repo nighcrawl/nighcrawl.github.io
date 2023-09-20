@@ -15,9 +15,9 @@
     border-bottom-color: getColor('border', 'dark');
   }
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     border-bottom-color: getColor('border', 'dark');
-  }
+  } */
 
   .post-category:before {
     content: "|";
@@ -33,9 +33,9 @@
       color: getColor('text-light', 'dark');
     }
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
       color: getColor('text-light', 'dark');
-    }
+    } */
   }
 
   .post-metadata {
@@ -57,9 +57,9 @@
         color: getColor('accent-dark', 'dark');
       }
 
-      @media (prefers-color-scheme: dark) {
+      /* @media (prefers-color-scheme: dark) {
         color: getColor('accent-dark', 'dark');
-      }
+      } */
     }
   }
 
@@ -76,9 +76,9 @@
         color: getColor('accent-dark', 'dark');
       }
 
-      @media (prefers-color-scheme: dark) {
+      /* @media (prefers-color-scheme: dark) {
         color: getColor('accent-dark', 'dark');
-      }
+      } */
     }
   }
 
@@ -91,9 +91,9 @@
       @include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
     }
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
       color: getColor('accent', 'dark');
       @include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
-    }
+    } */
   }
 }
