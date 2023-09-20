@@ -30,6 +30,10 @@ html[data-theme="dark"] body {
 
 Et voici ce que je faisais en JavaScript :
 
+Je sauvegardais dans un booléen `isDarkMode` le résultat de la condition media query `(prefers-color-scheme: dark)` ou de l'attribut `[data-theme="dark"]`. 
+
+Au chargement de la page, le thème était défini sur "dark" ou "light" suivant la valeur du booléen `isDarkMode.` Puis lorsque un changement au niveau de la media query était détecté, j’appelai à nouveau ma fonction `switchTheme()`.
+
 ```javascript
 var themeToggle = document.querySelector('.site-theme-switcher');
 var useDark = window.matchMedia("(prefers-color-scheme: dark)")
@@ -52,3 +56,41 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 });
 ```
+
+En soit, cette méthode n'est pas mauvaise, mais à aucun moment elle ne prend en compte la volonté de l'utilisateur de visionner votre site Web en version sombre ou non. C'est le système d'exploitation de l'ordinateur qui prend la main.
+
+## Ne pas utiliser de cookie
+
+Une autre erreur à ne pas faire, si on veut que l'utilisateur garde la main, c'est de ne pas enregistrer son choix. C'est tout bête, mais je ne m'en suis rendu compte que ce soir en me penchant enfin sur le problème...
+
+La correction est simple à mettre en place, il suffit de modifier la fonction `switchTheme()` comme suit :
+
+```javascript
+var switchTheme = function(darkModeState) {
+	if (darkModeState) {
+		document.querySelector('html').setAttribute('data-theme', 'dark');
+		themeToggle.setAttribute('data-switch-theme', 'light');
+		document.cookie = "darktheme=true; expires=Fri, 31 Dec 9999 23:59:59 GMT;";
+	} else {
+		document.querySelector('html').removeAttribute('data-theme');
+		themeToggle.setAttribute('data-switch-theme', 'dark');
+		document.cookie = "darktheme=false; expires=Fri, 31 Dec 9999 23:59:59 GMT;";
+	}
+};
+```
+
+Il conviendra ensuite de modifier l'écouteur de l’évènement `DOMContentLoaded` comme ceci :
+
+```javascript
+document.addEventListener('DOMContentLoaded', function() {
+	if (document.cookie.split(";").some((item) => item.trim().startsWith("darktheme=true"))) {
+		switchTheme(true);
+	} else if (document.cookie.split(";").some((item) => item.trim().startsWith("darktheme=false"))) {
+		switchTheme(false);
+	} else {
+		switchTheme(useDark.matches);
+	}
+}
+```
+
+Et voilà !
