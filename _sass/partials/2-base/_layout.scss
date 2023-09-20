@@ -40,9 +40,9 @@
 		color: getColor('text', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
+	/* @media (prefers-color-scheme: dark) {
         color: getColor('text', 'dark');
-    }
+    } */
 }
 
 .site-title {
@@ -79,9 +79,9 @@
 		background-color: getColor('background', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
+	/* @media (prefers-color-scheme: dark) {
         background-color: getColor('background', 'dark');
-    }
+    } */
 
 	.no-scroll & {
 		display: flex;
@@ -131,9 +131,9 @@
 			background-color: getColor('accent-dark', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
+		/* @media (prefers-color-scheme: dark) {
 			background-color: getColor('accent-dark', 'dark');
-		}
+		} */
 
 		&:last-child {
 			margin-bottom: 0;
@@ -147,9 +147,9 @@
 			background-color: getColor('accent-dark', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
+		/* @media (prefers-color-scheme: dark) {
 			background-color: getColor('accent-dark', 'dark');
-		}
+		} */
 
 		&:nth-child(3) {
 			width: 30px;
@@ -212,10 +212,10 @@
 				color: getColor('background', 'dark');
 			}
 	
-			@media (prefers-color-scheme: dark) {
+			/* @media (prefers-color-scheme: dark) {
 				background-color: getColor('accent-dark', 'dark');
 				color: getColor('background', 'dark');
-			}
+			} */
 		}
 	}
 }
@@ -236,10 +236,10 @@
 			text-decoration-color: getColor('accent', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
+		/* @media (prefers-color-scheme: dark) {
 			color: getColor('accent', 'dark');
 			text-decoration-color: getColor('accent', 'dark');
-		}
+		} */
 
 		&:hover {
 			color: getColor('accent-dark');
@@ -249,9 +249,9 @@
 				color: getColor('accent-dark', 'dark');
 			}
 
-			@media (prefers-color-scheme: dark) {
+			/* @media (prefers-color-scheme: dark) {
 				color: getColor('accent-dark', 'dark');
-			}
+			} */
 		}
 	}
 
@@ -284,10 +284,10 @@
 		background-color: getColor('border', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
+	/* @media (prefers-color-scheme: dark) {
 		border-left-color: getColor('accent', 'dark');
 		background-color: getColor('border', 'dark');
-    }
+    } */
 
 	@media only screen and (min-width: 710px) {
 		padding: 1em 1.5em;
@@ -315,10 +315,10 @@ pre {
 		color: getColor('text', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
+	/* @media (prefers-color-scheme: dark) {
 		background-color: getColor('pre', 'dark');
 		color: getColor('text', 'dark');
-    }
+    } */
 }
 
 code[class*="language-"] {
@@ -332,10 +332,10 @@ code[class*="language-"] {
 		color: getColor('text', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
+	/* @media (prefers-color-scheme: dark) {
 		background-color: getColor('pre', 'dark');
 		color: getColor('text', 'dark');
-    }
+    } */
 }
 
 .cp_embed_wrapper>* {
@@ -356,10 +356,10 @@ code[class*="language-"] {
 		@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
 	}
 
-	@media (prefers-color-scheme: dark) {
+	/* @media (prefers-color-scheme: dark) {
 		color: getColor('accent', 'dark');
 		@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));		
-    }
+    } */
 }
 
 .site-footer {
@@ -373,9 +373,9 @@ code[class*="language-"] {
 		border-top-color: getColor('border', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
+	/* @media (prefers-color-scheme: dark) {
         border-top-color: getColor('border', 'dark');
-    }
+    } */
 
 	a {
 		color: getColor('accent');
@@ -386,9 +386,9 @@ code[class*="language-"] {
 			color: getColor('accent', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
+		/* @media (prefers-color-scheme: dark) {
 			color: getColor('accent', 'dark');
-		}
+		} */
 
 		&:hover {
 			color: getColor('accent-dark');
@@ -397,9 +397,9 @@ code[class*="language-"] {
 				color: getColor('accent-dark', 'dark');
 			}
 
-			@media (prefers-color-scheme: dark) {
+			/* @media (prefers-color-scheme: dark) {
 				color: getColor('accent-dark', 'dark');
-			}
+			} */
 		}
 	}
 

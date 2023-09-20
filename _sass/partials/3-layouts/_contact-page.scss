@@ -33,8 +33,8 @@
 			@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
 		}
 
-		@media (prefers-color-scheme: dark) {
+		/* @media (prefers-color-scheme: dark) {
 			@include btn($bg: getColor('accent', 'dark'), $bg-hover: getColor('accent-dark', 'dark'), $color: getColor('text', 'dark'));
-		}
+		} */
 	}
 }

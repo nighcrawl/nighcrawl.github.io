@@ -2,8 +2,8 @@ var navToggle = document.querySelector('.site-nav-toggle');
 var body = document.querySelector('body');
 var nav = document.querySelector('.site-nav');
 var themeToggle = document.querySelector('.site-theme-switcher');
-var useDark = window.matchMedia("(prefers-color-scheme: dark)");
-var isDarkMode = useDark.matches || document.querySelector('html').getAttribute('data-theme') === "dark";
+var useDark = window.matchMedia("(prefers-color-scheme: dark)") || window.matchMedia("(prefers-color-scheme: no-preference)") ? true : false;
+var isDarkMode = document.querySelector('html').getAttribute('data-theme') === "dark";
 var themeColorNavOpen = isDarkMode ? themeColorDark : "#b50055";
 var themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
 
@@ -22,25 +22,6 @@ var navItemAnimDelay = function() {
 	});
 };
 
-var switchTheme = function(darkModeState) {
-	if (darkModeState) {
-		document.querySelector('html').setAttribute('data-theme', 'dark');
-		document.querySelector('[name="theme-color"]').setAttribute('content', themeColorDark);
-		themeToggle.querySelector('i').classList.remove('far');
-		themeToggle.querySelector('i').classList.add('fas');
-		themeToggle.setAttribute('data-switch-theme', 'light');
-		themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
-	} else {
-		document.querySelector('html').removeAttribute('data-theme');
-		document.querySelector('[name="theme-color"]').setAttribute('content', themeColorLight);
-		themeToggle.querySelector('i').classList.remove('fas');
-		themeToggle.querySelector('i').classList.add('far');
-		themeToggle.setAttribute('data-switch-theme', 'dark');
-		themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
-	}
-};
-
-
 var timeSince = function(date) {
 	var timestamp = new Date(Date.parse(date));
 	var now = new Date(),
@@ -50,11 +31,6 @@ var timeSince = function(date) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-	switchTheme(isDarkMode);
-
-	useDark.addListener(function(event) {
-		switchTheme(event.matches);
-	});
 
 	if (document.querySelector(".contact-form")) {
 		replaceFormspreeEmail();
@@ -84,17 +60,66 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	});
 
-	themeToggle.addEventListener('click', function() {
-		console.log('themeToggle click', themeToggle.getAttribute('data-switch-theme'));
-		var setDarkMode = themeToggle.getAttribute('data-switch-theme') === 'dark' ? true : false;
-		switchTheme(setDarkMode);
-	});
-
-
 	if (document.querySelector('#js-career-start')) {
 		var careerStart = document.querySelector('#js-career-start');
 		var careerStartedSince = timeSince(careerStart.getAttribute('datetime'));
 
 		careerStart.innerHTML = careerStartedSince;
 	}
+});
+
+const COOKIE = "dark";
+
+function disableDarkTheme() {
+	document.querySelector('html').removeAttribute('data-theme');
+	document.querySelector('[name="theme-color"]').setAttribute('content', themeColorLight);
+	themeToggle.querySelector('i').classList.remove('fas');
+	themeToggle.querySelector('i').classList.add('far');
+	themeToggle.setAttribute('data-switch-theme', 'dark');
+	themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
+	document.cookie = `${COOKIE}=false; expires=Fri, 31 Dec 9999 23:59:59 GMT;"`;
+}
+
+function enableDarkTheme() {
+	document.querySelector('html').setAttribute('data-theme', 'dark');
+	document.querySelector('[name="theme-color"]').setAttribute('content', themeColorDark);
+	themeToggle.querySelector('i').classList.remove('far');
+	themeToggle.querySelector('i').classList.add('fas');
+	themeToggle.setAttribute('data-switch-theme', 'light');
+	themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
+	document.cookie = `${COOKIE}=true; expires=Fri, 31 Dec 9999 23:59:59 GMT;"`;
+}
+
+if (document.cookie.split(";").some((item) => item.trim().startsWith(`${COOKIE}=true`))) {
+	// If the user has the dark mode cookie, respect the cookie.
+	enableDarkTheme();
+} else if (document.cookie.split(";").some((item) => item.trim().startsWith(`${COOKIE}=false`))) {
+	// If the user has the light mode cookie, respect the cookie.
+	disableDarkTheme();
+} else {
+	if (
+		window.matchMedia 
+		&& (
+			window.matchMedia("(prefers-color-scheme: dark)").matches 
+			|| window.matchMedia("(prefers-color-scheme: no-preference)").matches
+		)
+	) {
+		// If the user prefers dark mode, or doesn't care, enable dark mode.
+		enableDarkTheme();
+	} else {
+		// User prefers light mode via system preferences.
+		disableDarkTheme();
+	}
+}
+
+addEventListener("DOMContentLoaded", () => {
+	themeToggle.addEventListener('click', function() {
+		console.log('themeToggle click', themeToggle.getAttribute('data-switch-theme'));
+		var setDarkMode = themeToggle.getAttribute('data-switch-theme') === 'dark' ? true : false;
+		if (setDarkMode) {
+			enableDarkTheme();
+		} else {
+			disableDarkTheme();
+		}
+	});
 });

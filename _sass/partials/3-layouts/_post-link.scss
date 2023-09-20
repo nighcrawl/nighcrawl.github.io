@@ -29,9 +29,9 @@
 		background-color: getColor('text', 'dark');
 	}
 
-	@media (prefers-color-scheme: dark) {
+	/* @media (prefers-color-scheme: dark) {
         background-color: getColor('text', 'dark');
-    }
+    } */
 
 	&:hover {
 		background-color: getColor('accent-dark');
@@ -40,9 +40,9 @@
 			background-color: getColor('accent-dark', 'dark');
 		}
 
-		@media (prefers-color-scheme: dark) {
+		/* @media (prefers-color-scheme: dark) {
 			background-color: getColor('accent-dark', 'dark');
-		}
+		} */
 	}
 }
 

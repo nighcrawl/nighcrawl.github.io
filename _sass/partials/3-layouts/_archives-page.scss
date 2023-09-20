@@ -16,9 +16,9 @@
         border-bottom-color: getColor('border', 'dark');
     }
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
         border-bottom-color: getColor('border', 'dark');
-    }
+    } */
 
     &:last-child {
         border-bottom: none;
@@ -42,9 +42,9 @@
                 color: getColor('accent', 'dark');
             }
 
-            @media (prefers-color-scheme: dark) {
+            /* @media (prefers-color-scheme: dark) {
                 color: getColor('accent', 'dark');
-            }
+            } */
         }
 
         .post-category:before {
@@ -61,9 +61,9 @@
                 color: getColor('text-light', 'dark');
             }
 
-            @media (prefers-color-scheme: dark) {
+            /* @media (prefers-color-scheme: dark) {
                 color: getColor('text-light', 'dark');
-            }
+            } */
         }
     }
 }
