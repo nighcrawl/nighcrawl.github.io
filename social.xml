@@ -18,14 +18,14 @@ permalink: /social_feed.xml
         <title>{{ post.title | xml_escape }}</title>
         <author>{{ site.author }}</author>
         <description>
-          {% if post.format and post.format == "status" %}
+          {% unless post.format and post.format == "status" %}
             {% if post.image and post.image != "" %}
               {% capture post_thumb %}<img src='{{ post.image | prepend: site.baseurl | prepend: site.url }}' />{% endcapture %}
             {% else %}
               {% capture post_thumb %}<img src='{{ site.rss_thumbnail | prepend: site.baseurl | prepend: site.url }}' />{% endcapture %}
             {% endif %}
             {{ post_thumb | xml_escape }}
-          {% endif %}
+          {% endunless %}
           {{ post.content | markdownify | xml_escape }}
           {% for tag in post.tags %}#{{ tag | xml_escape }} {% endfor %}
         </description>
