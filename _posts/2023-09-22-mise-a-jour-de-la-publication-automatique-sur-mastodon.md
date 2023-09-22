@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mise à jour de la publication automatique sur Mastodon
-date: 2023-09-22T11:37:09.070Z
+date: 2023-09-22T17:19:03.518Z
 categories:
   - Vis ma vie
 tags:
