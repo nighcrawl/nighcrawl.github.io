@@ -18,7 +18,7 @@ permalink: /social_feed.xml
         <title>{{ post.title | xml_escape }}</title>
         <author>{{ site.author }}</author>
         <description>
-          {{ post.content | markdownify | xml_escape }}
+          {{ post.content | xml_escape }}
           {% for tag in post.tags %}#{{ tag | xml_escape }} {% endfor %}
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
