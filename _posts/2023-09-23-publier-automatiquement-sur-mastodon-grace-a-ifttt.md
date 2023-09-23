@@ -2,6 +2,7 @@
 layout: post
 title: Publier automatiquement sur Mastodon grâce à IFTTT
 date: 2023-09-23T10:32:29.699Z
+image: /contents/uploads/mastodon-ifttt.png
 categories:
   - Ressource
 tags: []
