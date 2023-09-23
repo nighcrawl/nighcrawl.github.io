@@ -14,7 +14,8 @@
     {% when '10' %}octobre
     {% when '11' %}novembre
     {% when '12' %}décembre
-    {% endcase %} {{ include.object.date | date: "%Y" }}</time>
+    {% endcase %} 
+    {% if include.object.format and include.object.format == "status" %}{{ include.object.date | date: "%Y @ %H:%M" }}{% else %}{{ include.object.date | date: "%Y" }}{% endif %}</time>
 
     <span class="post-category">
     {% for category in include.object.categories %}
