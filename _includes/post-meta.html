@@ -15,7 +15,7 @@
     {% when '11' %}novembre
     {% when '12' %}décembre
     {% endcase %} 
-    {{ include.object.date | date: "%Y @ %H:%M:%S" }}</time>
+    {{ include.object.date | date: "%Y @ %H:%M" }}</time>
 
     <span class="post-category">
     {% for category in include.object.categories %}
