@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modifier la Timezone d’un site en Jekyll "
-date: 2023-10-31T21:33:23.935Z
+date: 2023-10-31T21:51:57.025Z
 categories:
   - Ressource
 tags: []
