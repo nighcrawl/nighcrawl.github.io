@@ -60,7 +60,7 @@ Remplir le formulaire comme suit:
 * **Method:** POST
 * **Content Type:** application/x-www-form-urlencoded
 * **Additional Headers:** Authorization: Bearer YOUR_ACCESS_TOKEN
-* **Body:** status=<<<Votre texte ici>>>
+* **Body:** status=`<<<Votre texte ici>>>`
 
 Puis valider.
 
