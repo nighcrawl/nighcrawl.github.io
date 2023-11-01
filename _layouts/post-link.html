@@ -1,0 +1,16 @@
+---
+layout: default
+body_class: "post-page post-link-page"
+---
+<div class="post post-format--link">
+    <h1 class="post-title">
+        <a href="{{ page.link }}">
+            <span class="post-link--permalink">{{ page.url }}</span>
+            {{ page.title }}
+        </a>
+    </h1>
+
+    {% include post-meta.html object=page %}
+
+    {{ content }}
+</div>

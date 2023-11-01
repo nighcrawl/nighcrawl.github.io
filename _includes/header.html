@@ -23,8 +23,10 @@
 
     <ul class="site-nav">
         <li data-animate="slidedown" class="nav-item"><a href="{{ "/blog/" | relative_url}}">blog</a></li>
+        <li data-animate="slidedown" class="nav-item"><a href="{{ "/status/" | relative_url}}">status</a></li>
+        <li data-animate="slidedown" class="nav-item"><a href="{{ "/liens/" | relative_url}}">liens</a></li>
         {% for nav  in site.pages %}
-          {% unless nav.exclude %}
+          {% unless nav.exclude == true %}
               {% if nav.title and nav.url %}
               <li data-animate="slidedown" class="nav-item"><a href="{{ nav.url }}">{{ nav.title | downcase | escape }}</a></li>
               {% endif %}

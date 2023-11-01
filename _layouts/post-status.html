@@ -1,0 +1,13 @@
+---
+layout: default
+body_class: "post-page post-status-page"
+---
+<div class="post post-format--status">
+    <h1 class="post-title">
+        {{ page.title }}
+    </h1>
+
+    {% include post-meta.html object=page %}
+
+    {{ content }}
+</div>

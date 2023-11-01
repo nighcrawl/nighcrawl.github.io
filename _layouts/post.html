@@ -6,33 +6,19 @@ sitemap:
     - changefreq: "weekly"
     - priority: "1"
 ---
-<div class="post {% if page.format and page.format == "link" and page.link != "" %}post-format--link{% endif %}">
+<div class="post">
 
-    {% unless page.format and page.format == "status" %}
-        {% if page.format and page.format == "link" and page.link != "" %}
-            <h1 class="post-title">
-                <a href="{{ page.link }}" >{% if page.format and page.format == "link" and page.link != "" %}
-                    <span class="post-link--permalink">{{ page.url }}</span>
-                    {% endif %} {{ page.title }}
-                </a>
-            </h1>
-        {% else %}
-            <h1 class="post-title">{{ page.title }}</h1>
-        {% endif %}
-        {% include post-meta.html object=page %}
-    {% endunless %}
+    <h1 class="post-title">{{ page.title }}</h1>
 
-    {% if page.image and page.image != "" and post.format != "status" %}
+    {% include post-meta.html object=page %}
+
+    {% if page.image and page.image != "" %}
     <figure class="thumbnail">
         <img src="{{ site.placeholder }}" data-echo="{{ page.image }}" alt="{{ page.title }}" class="{{ page.image_class | default: '' }}" />
     </figure>
     {% endif %}
 
     {{ content }}
-
-    {% if page.format and page.format == 'status' %}
-        {% include post-meta.html object=page %}
-    {% endif %}
 </div>
 
 <ul class="share">

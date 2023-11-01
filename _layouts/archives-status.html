@@ -7,7 +7,7 @@ body_class: "archives-page"
 {% assign posts = site.posts | where: "format", "post" %}
 
 {% for post in site.posts  %}
-{% unless post.format == "link" or post.format == "status" %}
+{% unless post.format != "status" %}
     {% assign m = post.date | date: "%-m" %}
     {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
