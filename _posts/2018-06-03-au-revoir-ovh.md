@@ -19,7 +19,9 @@ Je savais que cette situation ne serait que temporaire, en tout cas je l'espéra
 
 Et miracle, il y a de cela quelques semaines, je suis tombé sur l'info tant attendue !
 
-<blockquote class="twitter-tweet" width="80%" data-lang="en"><p lang="fr" dir="ltr">J’étais passé à côté de ça ! Il est peut-être temps de laisser tomber mon VPS OVH, pour ce que j’en fais... <a href="https://t.co/g4CXGrYFJD">https://t.co/g4CXGrYFJD</a></p>&mdash; Ange Chierchia (@nighcrawl) <a href="https://twitter.com/nighcrawl/status/992267480776163329?ref_src=twsrc%5Etfw">May 4, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote>
+<p>J’étais passé à côté de ça ! Il est peut-être temps de laisser tomber mon VPS OVH, pour ce que j’en fais... <a href="https://t.co/g4CXGrYFJD">https://t.co/g4CXGrYFJD</a></p>
+<cite>Ange Chierchia (<a href="https://twitter.com/nighcrawl/">@nighcrawl</a>) <a href="https://twitter.com/nighcrawl/status/992267480776163329">4 mai 2018</a></cite>
+</blockquote>
 
 Je fini donc enfin ce que j'avais entrepris il y a maintenant un an et ça fait un bien fou.
