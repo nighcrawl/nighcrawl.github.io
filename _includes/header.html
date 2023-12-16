@@ -1,15 +1,15 @@
-<header class="site-header">
-    <a data-animate="slidedown" href="{{ "/" | relative_url }}" class="site-avatar inview">
-        <img src="https://avatars1.githubusercontent.com/u/2862432" alt="{{ site.title }}">
+<header class="site-header h-card">
+    <a data-animate="slidedown" href="{{ "/" | relative_url }}" class="site-avatar inview u-url">
+        <img src="https://avatars1.githubusercontent.com/u/2862432" class="u-photo" alt="{{ site.title }}">
     </a>
 
     <a href="{{ "/" | relative_url}}" class="logo">
         {% if layout.body_class == "home-page" %}
-            <h1 data-animate="slidedown"  class="site-title">{{ site.title }}</h1>
+            <h1 data-animate="slidedown"  class="site-title p-name">{{ site.title }}</h1>
         {% else %}
-            <p data-animate="slidedown"  class="site-title">{{ site.title }}</p>
+            <p data-animate="slidedown"  class="site-title p-name">{{ site.title }}</p>
         {% endif %}
-        <span data-animate="slidedown"  class="site-tagline">{{ site.tagline }}</span>
+        <span data-animate="slidedown"  class="site-tagline p-job-title">{{ site.tagline }}</span>
     </a>
     <div class="site-nav-toggle">
       <span></span>
