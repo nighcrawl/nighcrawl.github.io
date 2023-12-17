@@ -11,9 +11,8 @@ sitemap:
     {% unless page.format and page.format == "status" %}
         {% if page.format and page.format == "link" and page.link != "" %}
             <h1 class="post-title">
-                <a href="{{ page.link }}" >{% if page.format and page.format == "link" and page.link != "" %}
-                    <span class="post-link--permalink u-url">{{ page.url | absolute_url }}</span>
-                    {% endif %} <span class="p-name">{{ page.title }}</span>
+                <a href="{{ page.link }}" class="u-bookmark-of" >
+                    <span class="p-name">{{ page.title }}</span>
                 </a>
             </h1>
         {% else %}
@@ -32,7 +31,6 @@ sitemap:
     <div class="e-content">{{ content }}</div>
 
     {% if page.format and page.format == 'status' %}
-        <a href="{{ page.url | absolute_url }}" class="u-url p-name" hidden>{{ page.title }}</a>
         {% include post-meta.html object=page %}
     {% endif %}
 </div>
