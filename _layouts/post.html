@@ -6,18 +6,19 @@ sitemap:
     - changefreq: "weekly"
     - priority: "1"
 ---
-<div class="post {% if page.format and page.format == "link" and page.link != "" %}post-format--link{% endif %}">
+<div class="h-entry post {% if page.format and page.format == "link" and page.link != "" %}post-format--link{% endif %}">
 
     {% unless page.format and page.format == "status" %}
         {% if page.format and page.format == "link" and page.link != "" %}
             <h1 class="post-title">
                 <a href="{{ page.link }}" >{% if page.format and page.format == "link" and page.link != "" %}
-                    <span class="post-link--permalink">{{ page.url }}</span>
-                    {% endif %} {{ page.title }}
+                    <span class="post-link--permalink u-url">{{ page.url }}</span>
+                    {% endif %} <span class="p-name">{{ page.title }}</span>
                 </a>
             </h1>
         {% else %}
-            <h1 class="post-title">{{ page.title }}</h1>
+            <h1 class="post-title p-name">{{ page.title }}</h1>
+            <span class="u-url" hidden>{{ page.url }}</span>
         {% endif %}
         {% include post-meta.html object=page %}
     {% endunless %}
@@ -28,7 +29,7 @@ sitemap:
     </figure>
     {% endif %}
 
-    {{ content }}
+    <div class="e-content">{{ content }}</div>
 
     {% if page.format and page.format == 'status' %}
         {% include post-meta.html object=page %}
