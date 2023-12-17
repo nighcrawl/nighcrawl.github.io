@@ -1,6 +1,6 @@
 {% assign m = include.object.date | date: "%-m" %}
 <div class="post-metadata">
-    <time class="post-date dt-published" datetime="{{ include.object.date | date_to_rfc822 }}">Publié le <a class="u-url" href="{{ page.url | absolute_url }}">{{ include.object.date | date: "%d" }}
+    <time class="post-date dt-published" datetime="{{ include.object.date | date_to_rfc822 }}">Publié le <a class="u-url" href="{{ include.object.url | absolute_url }}">{{ include.object.date | date: "%d" }}
     {% case m %}
     {% when '1' %}janvier
     {% when '2' %}février
