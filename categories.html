@@ -16,7 +16,7 @@ redirect_to: /blog/
     <li
       class="post-summary {% if post.format and post.format == "link" and post.link != "" %}post-format--link{% endif %}">
       {% if post.format and post.format == "link" and post.link != "" %}
-      <a href="{{ post.url }}" class="post-link--permalink">{{ post.url }}</a>
+      <a href="{{ post.url | absolute_url }}" class="post-link--permalink">{{ post.url | absolute_url }}</a>
       {% endif %}
       <a href="{% if post.format and post.format == "link" and post.link != "" %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}"
         {% if post.format and post.format == "link" and post.link != "" %}target="_blank" {% endif %}>

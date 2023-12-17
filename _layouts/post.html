@@ -12,13 +12,13 @@ sitemap:
         {% if page.format and page.format == "link" and page.link != "" %}
             <h1 class="post-title">
                 <a href="{{ page.link }}" >{% if page.format and page.format == "link" and page.link != "" %}
-                    <span class="post-link--permalink u-url">{{ page.url }}</span>
+                    <span class="post-link--permalink u-url">{{ page.url | absolute_url }}</span>
                     {% endif %} <span class="p-name">{{ page.title }}</span>
                 </a>
             </h1>
         {% else %}
             <h1 class="post-title p-name">{{ page.title }}</h1>
-            <span class="u-url" hidden>{{ page.url }}</span>
+            <span class="u-url" hidden>{{ page.url | absolute_url }}</span>
         {% endif %}
         {% include post-meta.html object=page %}
     {% endunless %}
@@ -32,14 +32,14 @@ sitemap:
     <div class="e-content">{{ content }}</div>
 
     {% if page.format and page.format == 'status' %}
-        <a href="{{ page.url }}" class="u-url p-name" hidden>{{ page.url }}</a>
+        <a href="{{ page.url | absolute_url }}" class="u-url p-name" hidden>{{ page.url | absolute_url }}</a>
         {% include post-meta.html object=page %}
     {% endif %}
 </div>
 
 <ul class="share">
-        <li><a class="share-icon--twitter" href="https://twitter.com/intent/tweet?text={{ page.title | strip_html }}&url={{site.url}}{{ page.url }}&via={{ site.twitter_username }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Twitter">Twitter</a></li>
-        <li><a class="share-icon--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ page.url }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Facebook">Facebook</a></li>
+        <li><a class="share-icon--twitter" href="https://twitter.com/intent/tweet?text={{ page.title | strip_html }}&url={{ page.url | absolute_url }}&via={{ site.twitter_username }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Twitter">Twitter</a></li>
+        <li><a class="share-icon--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Facebook">Facebook</a></li>
 </ul>
 
 {% if jekyll.environment == "production" %}
@@ -50,8 +50,8 @@ sitemap:
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = "{{ site.url }}{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = "{{ page.url | absolute_url }}";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "{{ page.url | absolute_url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
