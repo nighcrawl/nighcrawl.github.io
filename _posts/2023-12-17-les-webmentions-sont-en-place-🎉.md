@@ -9,4 +9,4 @@ tags:
 format: status
 publish_social: yes
 ---
-Bon, je crois que j’ai réussi, j’ai des mentions venant de Mastodon sur mon statut posté hier https://chierchia.fr/blog/2023/12/quel-est-l-interet 🎉
+Bon, je crois que j’ai réussi, j’ai des mentions venant de Mastodon sur mon statut posté hier <https://chierchia.fr/blog/2023/12/quel-est-l-interet> 🎉
