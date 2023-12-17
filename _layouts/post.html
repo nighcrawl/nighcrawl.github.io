@@ -32,6 +32,7 @@ sitemap:
     <div class="e-content">{{ content }}</div>
 
     {% if page.format and page.format == 'status' %}
+        <a href="{{ page.url }}" class="u-url p-name" hidden>{{ page.url }}</a>
         {% include post-meta.html object=page %}
     {% endif %}
 </div>
