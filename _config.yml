@@ -48,3 +48,29 @@ defaults:
       type: category
     values:
       layout: "archives-category"
+webmentions:
+  username: chierchia.fr
+  cache_folder: .cache
+  legacy_domains:
+    - http://blog.angechierchia.com
+    - http://chierchia.fr
+  max_attempts: 5
+  bad_uri_policy:
+    unsupported:
+      policy: ban
+    error:
+      policy: ignore
+    failure:
+      policy: retry
+      retry_delay: [ 1, 12, 48, 120 ]
+      max_retries: 5
+    whitelist:
+      - "^https://brid.gy/publish/"
+  syndication:
+    mastodon: 
+      endpoint: https://brid.gy/publish/mastodon
+      response_mapping:
+        syndication: $.url
+collections:
+  posts:
+    syndicate_to: [ mastodon ]
