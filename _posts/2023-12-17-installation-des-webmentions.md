@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installation des webmentions
-date: 2023-12-17T15:23:30.348Z
+date: 2023-12-17T15:24:23.911Z
 categories:
   - Vis ma vie
 tags:
