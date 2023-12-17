@@ -39,3 +39,5 @@ sitemap:
         <li><a class="share-icon--twitter" href="https://twitter.com/intent/tweet?text={{ page.title | strip_html }}&url={{ page.url | absolute_url }}&via={{ site.twitter_username }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Twitter">Twitter</a></li>
         <li><a class="share-icon--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Facebook">Facebook</a></li>
 </ul>
+{% webmentions page.url %}
+{% webmentions_js %}
