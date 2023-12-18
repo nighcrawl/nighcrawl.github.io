@@ -5,6 +5,7 @@ comments: true
 sitemap:
     - changefreq: "weekly"
     - priority: "1"
+syndicate_to: [ mastodon ]
 ---
 <div class="h-entry post {% if page.format and page.format == "link" and page.link != "" %}post-format--link{% endif %}">
 
@@ -39,5 +40,7 @@ sitemap:
         <li><a class="share-icon--twitter" href="https://twitter.com/intent/tweet?text={{ page.title | strip_html }}&url={{ page.url | absolute_url }}&via={{ site.twitter_username }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Twitter">Twitter</a></li>
         <li><a class="share-icon--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Facebook">Facebook</a></li>
 </ul>
+
+<p class="h4">Webmentions</p>
 {% webmentions page.url %}
 {% webmentions_js %}

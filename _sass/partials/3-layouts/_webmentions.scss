@@ -1,0 +1,37 @@
+.webmentions {
+
+    .webmentions__list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .webmentions__item {
+        border-bottom: 1px solid getColor('border');
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+
+        [data-theme="dark"] & {
+          border-bottom-color: getColor('border', 'dark');
+        }
+    }
+
+    .webmention__author a.u-url {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .webmention__author__photo.u-photo {
+        max-width: 64px;
+    }
+
+    .webmention__meta {
+        color: getColor('text-light');
+        font-size: .75em;
+
+        [data-theme="dark"] & {
+            color: getColor('text-light', 'dark');
+        }
+    }
+}
