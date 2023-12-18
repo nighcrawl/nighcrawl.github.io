@@ -33,6 +33,9 @@ syndicate_to: [ mastodon ]
 
     {% if page.format and page.format == 'status' %}
         {% include post-meta.html object=page %}
+        {%- for url in page.syndication -%}
+        <a class="u-syndication" href="{{ url }}">{{ url }}</a>
+        {%- endfor -%}
     {% endif %}
 </div>
 
@@ -44,3 +47,7 @@ syndicate_to: [ mastodon ]
 <p class="h4">Webmentions</p>
 {% webmentions page.url %}
 {% webmentions_js %}
+
+{% for target in page.syndicate_to %}
+  <a hidden href="{{ site.webmentions.syndication[target].endpoint }}"></a>
+{% endfor %}
