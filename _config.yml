@@ -38,9 +38,11 @@ whitelist:
 theme: jekyll-theme-minimal
 
 collections:
+  posts:
+    syndicate_to: [ mastodon ]
   category:
     output: true
-
+    
 defaults:
   -
     scope:
@@ -71,6 +73,3 @@ webmentions:
       endpoint: https://brid.gy/publish/mastodon
       response_mapping:
         syndication: $.url
-collections:
-  posts:
-    syndicate_to: [ mastodon ]
