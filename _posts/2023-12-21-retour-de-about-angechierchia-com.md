@@ -9,4 +9,4 @@ tags:
 format: status
 publish_social: yes
 ---
-Finalement j'ai utilisé mon "redesign" pour faire revivre https://about.angechierchia.com, une simple page "carte de visite.
+Finalement j'ai utilisé mon "redesign" pour faire revivre https://about.angechierchia.com une simple page "carte de visite".
