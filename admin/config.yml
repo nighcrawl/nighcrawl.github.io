@@ -4,9 +4,9 @@ backend:
 site_url: https://chierchia.fr
 display_url: https://chierchia.fr
 publish_mode: editorial_workflow
-media_folder: 'contents/uploads'
+media_folder: 'https://chierchia.fr/contents/uploads'
 slug:
-  encoding: unicode
+  encoding: ascii
   clean_accents: true
   sanitize_replacement: '-'
 collections:
