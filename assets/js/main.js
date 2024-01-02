@@ -77,7 +77,7 @@ function disableDarkTheme() {
 	themeToggle.querySelector('i').classList.add('far');
 	themeToggle.setAttribute('data-switch-theme', 'dark');
 	themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
-	document.cookie = `${COOKIE}=false; expires=Fri, 31 Dec 9999 23:59:59 GMT;"`;
+	document.cookie = `${COOKIE}=false; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/"`;
 }
 
 function enableDarkTheme() {
@@ -87,7 +87,7 @@ function enableDarkTheme() {
 	themeToggle.querySelector('i').classList.add('fas');
 	themeToggle.setAttribute('data-switch-theme', 'light');
 	themeColorOld = document.querySelector('[name="theme-color"]').getAttribute('content');
-	document.cookie = `${COOKIE}=true; expires=Fri, 31 Dec 9999 23:59:59 GMT;"`;
+	document.cookie = `${COOKIE}=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/"`;
 }
 
 if (document.cookie.split(";").some((item) => item.trim().startsWith(`${COOKIE}=true`))) {
