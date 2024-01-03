@@ -56,6 +56,9 @@ webmentions:
   legacy_domains:
     - http://blog.angechierchia.com
     - http://chierchia.fr
+  templates:
+    likes: _includes/webmentions/likes.html
+    reposts: _includes/webmentions/reposts.html
   max_attempts: 5
   bad_uri_policy:
     unsupported:

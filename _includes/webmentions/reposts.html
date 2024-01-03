@@ -1,0 +1,39 @@
+{%- if html_proofer_ignore == "all" -%}
+{%- assign html_proofer_attr = " data-proofer-ignore" -%}
+{%- endif -%}
+<div class="webmentions webmentions--reposts" {{ html_proofer_attr }}>
+    {% if webmentions.size > 0 %}
+    <ol class="webmentions__list">
+        {% for webmention in webmentions %}
+        <li id="webmention-{{ webmention.id }}" class="webmention webmentions__item webmention--{{ webmention.type }}">
+            <article class="h-cite
+            {% unless webmention.author %}webmention--no-author{% endunless %}
+            {% unless webmention.author.photo %}webmention--no-photo{% endunless %}
+            ">
+                {% if webmention.author %}
+                <div class="webmention__author p-author h-card">
+                    {% capture author_id %}
+                        {% if webmention.author.photo %}
+
+                            {% if webmention.uri %}
+                                <a class="webmention__source u-url" href="{{ webmention.uri }}" rel="nofollow">
+                            {% endif %}
+                                <img class="webmention__author__photo u-photo p-name" src="{{ webmention.author.photo }}" alt=""
+                                    {% if webmention.author.name %} title="{{ webmention.author.name }}" {% endif %}>
+                            {% if webmention.uri %}
+                                </a>
+                            {% endif %}
+                        {% endif %}
+                    {% endcapture %}
+
+                    {{ author_id }}
+                </div>
+                {% endif %}
+            </article>
+        </li>
+        {% endfor %}
+    </ol>
+    {% else %}
+    <p class="webmentions__not-found">No reposts were found.</p>
+    {% endif %}
+</div>
