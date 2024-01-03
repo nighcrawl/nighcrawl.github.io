@@ -48,12 +48,12 @@ syndicate_to: [ mastodon ]
     <h1 class="h4">Webmentions</h1>
 
     {% capture likesAndReposts %}{% webmention_count page.url reposts likes %}{% endcapture %}
-    {% capture likesAndRepostsCount %} {% likesAndReposts | to_integer %}{% endcapture %}
+    {% capture likesAndRepostsCount %}{{ likesAndReposts | to_integer }}{% endcapture %}
     {% capture comments %}{% webmention_count page.url replies %}{% endcapture %}
-    {% capture commentsCount %} {% comments | to_integer %}{% endcapture %}
+    {% capture commentsCount %}{{ comments | to_integer }}{% endcapture %}
 
     {% if likesAndRepostsCount > 0 %}
-        <h2 class="h4">Likes/Reposts</h2>
+        <h2 class="h4">Likes et partages</h2>
         {% webmentions page.url reposts likes %}
     {% endif %}
 
