@@ -45,23 +45,8 @@ syndicate_to: [ mastodon ]
 </ul>
 
 <section>
-    <h1 class="h4">Webmentions</h1>
-
-    {% capture likesAndReposts %}{% webmention_count page.url reposts likes %}{% endcapture %}
-    {% capture likesAndRepostsCount %}{{ likesAndReposts | to_integer }}{% endcapture %}
-    {% capture comments %}{% webmention_count page.url replies %}{% endcapture %}
-    {% capture commentsCount %}{{ comments | to_integer }}{% endcapture %}
-
-    {% unless likesAndReposts == "No webmentions were found." %}
-        <h2 class="h4">Likes et partages</h2>
-        {% webmentions page.url reposts likes %}
-    {% endunless %}
-
-    {% unless comments == "No webmentions were found." %}
-        <h2 class="h4">Commentaires</h2>
-        {% webmentions page.url replies %}
-    {% endunless %}
-
+    <h1 class="h4">{% webmention_count page.url %} Webmentions</h1>
+    {% webmentions page.url %}
     {% webmentions_js %}
 
     {% for target in page.syndicate_to %}

@@ -10,6 +10,12 @@
         margin-bottom: 1em;
         padding-bottom: 1em;
 
+        &:last-child {
+            margin-bottom: 0;
+            border-bottom: 0;
+            padding-bottom: 0;
+        }
+
         [data-theme="dark"] & {
           border-bottom-color: getColor('border', 'dark');
         }
