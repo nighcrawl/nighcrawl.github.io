@@ -52,15 +52,15 @@ syndicate_to: [ mastodon ]
     {% capture comments %}{% webmention_count page.url replies %}{% endcapture %}
     {% capture commentsCount %}{{ comments | to_integer }}{% endcapture %}
 
-    {% if likesAndRepostsCount %}
-        <h2 class="h4" data-count="{{ likesAndRepostsCount }}">Likes et partages</h2>
+    {% unless likesAndReposts == "No webmentions were found." %}
+        <h2 class="h4">Likes et partages</h2>
         {% webmentions page.url reposts likes %}
-    {% endif %}
+    {% endunless %}
 
-    {% if commentsCount %}
-        <h2 class="h4" data-count="{{ commentsCount }}">Commentaires</h2>
+    {% unless comments == "No webmentions were found." %}
+        <h2 class="h4">Commentaires</h2>
         {% webmentions page.url replies %}
-    {% endif %}
+    {% endunless %}
 
     {% webmentions_js %}
 
