@@ -7,7 +7,7 @@ sitemap:
     - priority: "1"
 syndicate_to: [ mastodon ]
 ---
-<div class="h-entry post {% if page.format and page.format == "link" and page.link != "" %}post-format--link{% endif %}">
+<section class="h-entry post {% if page.format and page.format == "link" and page.link != "" %}post-format--link{% endif %}">
 
     {% unless page.format and page.format == "status" %}
         {% if page.format and page.format == "link" and page.link != "" %}
@@ -37,17 +37,34 @@ syndicate_to: [ mastodon ]
         <a class="u-syndication" href="{{ url }}">{{ url }}</a>
         {%- endfor -%}
     {% endif %}
-</div>
+</section>
 
 <ul class="share">
         <li><a class="share-icon--twitter" href="https://twitter.com/intent/tweet?text={{ page.title | strip_html }}&url={{ page.url | absolute_url }}&via={{ site.twitter_username }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Twitter">Twitter</a></li>
         <li><a class="share-icon--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" title="Partager “{{ page.title | strip_html }}” sur Facebook">Facebook</a></li>
 </ul>
 
-<p class="h4">Webmentions</p>
-{% webmentions page.url %}
-{% webmentions_js %}
+<section>
+    <h1 class="h4">Webmentions</h1>
 
-{% for target in page.syndicate_to %}
-  <a hidden href="{{ site.webmentions.syndication[target].endpoint }}"></a>
-{% endfor %}
+    {% capture likesAndReposts %}{% webmention_count page.url reposts likes %}{% endcapture %}
+    {% capture likesAndRepostsCount %} {% likesAndReposts | to_integer %}{% endcapture %}
+    {% capture comments %}{% webmention_count page.url replies %}{% endcapture %}
+    {% capture commentsCount %} {% comments | to_integer %}{% endcapture %}
+
+    {% if likesAndRepostsCount > 0 %}
+        <h2 class="h4">Likes/Reposts</h2>
+        {% webmentions page.url reposts likes %}
+    {% endif %}
+
+    {% if commentsCount > 0 %}
+        <h2 class="h4">Commentaires</h2>
+        {% webmentions page.url replies %}
+    {% endif %}
+
+    {% webmentions_js %}
+
+    {% for target in page.syndicate_to %}
+    <a hidden href="{{ site.webmentions.syndication[target].endpoint }}"></a>
+    {% endfor %}
+</section>
