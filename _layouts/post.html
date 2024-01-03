@@ -52,13 +52,13 @@ syndicate_to: [ mastodon ]
     {% capture comments %}{% webmention_count page.url replies %}{% endcapture %}
     {% capture commentsCount %}{{ comments | to_integer }}{% endcapture %}
 
-    {% if likesAndRepostsCount > 0 %}
-        <h2 class="h4">Likes et partages</h2>
+    {% if likesAndRepostsCount %}
+        <h2 class="h4" data-count="{{ likesAndRepostsCount }}">Likes et partages</h2>
         {% webmentions page.url reposts likes %}
     {% endif %}
 
-    {% if commentsCount > 0 %}
-        <h2 class="h4">Commentaires</h2>
+    {% if commentsCount %}
+        <h2 class="h4" data-count="{{ commentsCount }}">Commentaires</h2>
         {% webmentions page.url replies %}
     {% endif %}
 
