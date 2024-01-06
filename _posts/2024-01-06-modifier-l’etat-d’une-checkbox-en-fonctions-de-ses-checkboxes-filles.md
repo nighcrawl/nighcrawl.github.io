@@ -93,7 +93,7 @@ if (input.id === "checkAll") {
   }
 ```
 
-Si la checkbox est cochée, alors on récupères toutes les checkboxes contenues dans la `<div></div>’ dont l’attribut ‘class’ contient « options », puis pour chaque on modifie l’attribut`checked`avec la même valeur (`true`).  
+Si la checkbox est cochée, alors on récupères toutes les checkboxes contenues dans la `<div></div>` dont l’attribut `class` contient « options », puis pour chaque on modifie l’attribut`checked`avec la même valeur (`true`).  
 
 ```
 if (input.checked === true) {
