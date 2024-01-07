@@ -6,7 +6,7 @@ title: Ajuster <code>text-color</code> en fonction de <code>background</code>
   avec Sass
 date: 2015-10-23T18:23:13.456Z
 categories:
-  - Font-End
+  - Front-End
 format: link
 link: https://web.archive.org/web/20201013205223/http://thesassway.com/intermediate/dynamically-change-text-color-based-on-its-background-with-sass
 publish_social: yes
