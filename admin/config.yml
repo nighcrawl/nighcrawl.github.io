@@ -5,6 +5,7 @@ site_url: https://chierchia.fr
 display_url: https://chierchia.fr
 publish_mode: editorial_workflow
 media_folder: 'https://chierchia.fr/contents/uploads'
+public_folder: 'https://chierchia.fr/contents/uploads'
 slug:
   encoding: ascii
   clean_accents: true

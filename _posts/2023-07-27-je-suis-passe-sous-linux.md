@@ -23,7 +23,7 @@ Après plusieurs recherches sur les forums et deux réinstallations plus tard, j
 
 Et franchement, même si il reste quelques petits soucis, comme la reconnaissance de mon clavier, un QWERTY Canadien-Français, n'est pas parfaite (les touches "ù" et "/" sont inversée, par exemple), tout fonctionne à merveille et je n'ai pas encore eu un seul soucis depuis que je l'ai installé il y a maintenant 2 semaines.
 
-![](/contents/uploads/IMG_4875.JPEG)
+![](https://chierchia.fr/contents/uploads/IMG_4875.JPEG)
 
 Après, j'ai toujours dans l'idée de m'acheter un MacBook Air avec une puce M1 pour le remplacer, mais l'envie se fait du coup beaucoup moins pressantes :)
 

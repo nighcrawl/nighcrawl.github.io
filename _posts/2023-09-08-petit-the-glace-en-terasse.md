@@ -11,4 +11,4 @@ publish_social: no
 ---
 Petit thé glacé en terrasse.
 
-![](/contents/uploads/73d4ffce5e.jpg)
+![](https://chierchia.fr/contents/uploads/73d4ffce5e.jpg)

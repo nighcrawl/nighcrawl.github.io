@@ -12,6 +12,6 @@ publish_social: no
 ---
 Lunch avec toute la team Concept Factory. Nous avons mangé au restaurant L'Alma, 5 avenue Rapp, 75005 Paris.
 
-![Carte du restaurant "L'Alma"](/contents/uploads/390e9cb590.jpg)
+![Carte du restaurant "L'Alma"](https://chierchia.fr/contents/uploads/390e9cb590.jpg)
 
-![Suprême de volail rôti, jus corsé à l'estragon, pommes de terre grenailles](/contents/uploads/0893ddf361.jpg)
+![Suprême de volail rôti, jus corsé à l'estragon, pommes de terre grenailles](https://chierchia.fr/contents/uploads/0893ddf361.jpg)
