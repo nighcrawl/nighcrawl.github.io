@@ -14,7 +14,7 @@ permalink: /feed.xml
     {% for post in site.posts limit:20%}
       <item>
       <title>{{ post.title | xml_escape }}</title>
-      <author>{{ site.author }}</author>
+      <author>{{site.email}} ({{ site.author }})</author>
       <description>
         {% if post.image and post.image != "" %}
           {% capture post_thumb %}<img src='{{ post.image | prepend: site.baseurl | prepend: site.url }}' />{% endcapture %}
