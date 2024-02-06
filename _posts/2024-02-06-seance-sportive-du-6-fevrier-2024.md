@@ -18,4 +18,11 @@ On a enchaîné avec des exercices de renforcement/mobilité au sol, dont une pl
 
 Ensuite on a fait des exercices pour la mobilité des chevilles et muscler les mollets, et les triceps. J’ai fait de la marche sur le tapis de course et cette fois j’ai réussi à faire une grosse partie sans me tenir à la barre.
 
+Cette fois-ci, je n’ai pas laissé mon Apple Watch décider ou non si j’étais entrain de faire du sport, je lui ai clairement dit « enregistre, je vais suer ma race ». Du coup j’ai les stats de ma séance et franchement j’en suis assez fier. J’ai brûlé 619 kilocalories en passant une bonne partie de la séance à une fréquence cardiaque de plus de 158 battements par minute.
+
+![Statistiques de ma séance](/contents/uploads/img_5560.jpeg)
+
+![Zones de fréquences cardiaques durant ma séance](/contents/uploads/img_5561.jpeg)
+
+\
 Honnêtement, j’ai transpiré, j’ai senti que mes muscles chauffaient plus que la fois précédente, et j’ai trouvé ça vraiment cool. Je peux dire, sans me mentir, que j’ai hâte d’aller à ma prochaine séance ! 💪
