@@ -24,5 +24,4 @@ Cette fois-ci, je n’ai pas laissé mon Apple Watch décider ou non si j’éta
 
 ![Zones de fréquences cardiaques durant ma séance](/contents/uploads/img_5561.jpeg)
 
-\
 Honnêtement, j’ai transpiré, j’ai senti que mes muscles chauffaient plus que la fois précédente, et j’ai trouvé ça vraiment cool. Je peux dire, sans me mentir, que j’ai hâte d’aller à ma prochaine séance ! 💪
