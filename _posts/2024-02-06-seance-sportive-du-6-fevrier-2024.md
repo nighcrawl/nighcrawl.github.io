@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Séance sportive du 6 février 2024
-date: 2024-02-06T21:12:02.046Z
+date: 2024-02-06T21:15:43.152Z
 image: /contents/uploads/0f4c9367-d9f2-48fb-a740-3bc12440d5c6.jpeg
 categories:
   - Vis ma vie
