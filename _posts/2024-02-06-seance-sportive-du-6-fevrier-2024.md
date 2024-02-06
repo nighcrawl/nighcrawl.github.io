@@ -10,7 +10,7 @@ format: post
 publish_social:
   - yes
 ---
-Ce soir j’avais ma deuxième séance avec la coach. Cette fois-ci j’y suis allé en solo, après le cours collectif de ma chérie. La séance était beaucoup plus intense que la première et c’est tant mieux, c’est ce que je voulais.<!—-more—->
+Ce soir j’avais ma deuxième séance avec la coach. Cette fois-ci j’y suis allé en solo, après le cours collectif de ma chérie. La séance était beaucoup plus intense que la première et c’est tant mieux, c’est ce que je voulais.
 
 Après un échauffement des articulations de tous le corps, j’ai commencé par 10 minutes de rameur en essayant de rester à une allure de 9-10 km/h et une accélération à 12 km/h vers la fin de l’exercice.
 
