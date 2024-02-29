@@ -10,7 +10,7 @@ format:
 publish_social:
   - yes
 ---
-J’aime beaucoup les [Vibe Check de Dave Rupert](https://daverupert.com/tag/vibecheck) et je voulais essayer de mettre ça en place sur mon blog cette année, et puis janvier est passé et je n’ai pas pris le temps de faire mon récap. Du coup je commence cette année en février. J’ai le droit, c’est mon royaume ici.
+J’aime beaucoup les [Vibe Check de Dave Rupert](https://daverupert.com/tag/vibecheck) et je voulais essayer de mettre ça en place sur mon blog cette année, et puis janvier est passé et je n’ai pas pris le temps de faire mon récap. Du coup je commence cette année en février. J’ai le droit, c’est mon royaume ici.<!—-more—->
 
 ## Famille
 
