@@ -18,7 +18,7 @@ On a commencé le mois par un week-end en famille, en allant rendre visite à mo
 
 L’hôtel dans lequel on a dormi et pris nos petits déjeuner était vraiment cool et situé en plein centre de Besançon, ce qui était plutôt chouette puisque qu’on a pu laisser la Kia à l’hôtel pendant qu’on se baladait dans les rues. 
 
-![](/contents/uploads/img_5527.jpeg)
+![](https://chierchia.fr/contents/uploads/img_5527.jpeg)
 
 Le samedi soir mon beau-frère avait réservé une table dans le restaurant La Grange, et je dois avouer que même si j’ai trouvé la note un peu salée (mais ça c’est mon petit côté économe/grippe-sous) le cadre et les plats en valaient la peine. Ma chérie avait partagé une raclette avec mon beau-fils et franchement, de voir la meule de fromage suspendue à la résistance ça donnait envie. De mon côté j’avais pris une plancha trois viandes, je m’étais régalé. Mon fils avait pris des nuggets avec des frites qu’il n’a pas fini, mais le gâchis c’est non donc je me suis sacrifié. 😅
 
@@ -38,15 +38,15 @@ Niveau corporel, je pense que j’ai un peu gagné en endurance, l’essouffleme
 
 En terme de composition corporelle, je n’ai rien perdu, rien gagné, mon poids est resté stable, malgré la prise de poid le mois passé 😭 En tout cas je n’ai pas pris de graisse et c’est déjà bien, vu mon alimentation actuelle. Je vais essayer d’opérer un rééquilibrage alimentaire pour ce mois de mars, histoire de pas gâcher tous les efforts que je fais à la salle.
 
-![](/contents/uploads/img_5658.jpeg)
+![](https://chierchia.fr/contents/uploads/img_5658.jpeg)
 
-![](/contents/uploads/img_5659.jpeg)
+![](https://chierchia.fr/contents/uploads/img_5659.jpeg)
 
 ## Vie personnelle
 
 Ce mois-ci j’ai enfin sauté le pas, j’ai accepté ma calvitie et je me suis rasé le crâne. À 4 millimètres, parce que je ne suis pas encore prêt à faire la boule à zéro.
 
-![](/contents/uploads/img_5578.jpeg)
+![](https://chierchia.fr/contents/uploads/img_5578.jpeg)
 
 J’avais l’habitude de couper très cours sur les côtés et derrière en gardant plus de longueur sur le dessus, là où je suis vraiment bien clairsemé, mais ça fait 2 semaines que je suis tondu à 4 millimètres partout et j’avoue que je trouve ça vraiment beaucoup mieux. 
 
